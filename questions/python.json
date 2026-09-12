@@ -1,0 +1,1715 @@
+{
+  "subject": "Python",
+  "topics": {
+    "Variables": [
+      {
+        "id": "python_variables_01",
+        "question": "Which description best matches Variables?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_02",
+        "question": "In Python, what is Variables mainly concerned with?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_03",
+        "question": "Which statement about Variables is accurate?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_04",
+        "question": "What is the primary purpose of Variables in Python?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_05",
+        "question": "Which idea is most closely associated with Variables?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_variables_06",
+        "question": "What does Variables provide in a typical Python system?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_variables_07",
+        "question": "Which explanation would best introduce Variables to a student?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_variables_08",
+        "question": "What problem does Variables primarily address?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_variables_09",
+        "question": "Which concept is represented by Variables?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_variables_10",
+        "question": "How should Variables be understood in Python?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_variables_11",
+        "question": "Which statement correctly identifies Variables?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_variables_12",
+        "question": "What is a central characteristic of Variables?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_variables_13",
+        "question": "Which definition is most accurate for Variables?",
+        "options": {
+          "A": "names that bind values so programs can read and update state",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Variables means names that bind values so programs can read and update state.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Data Types": [
+      {
+        "id": "python_data_types_01",
+        "question": "Which description best matches Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "names that bind values so programs can read and update state",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_data_types_02",
+        "question": "In Python, what is Data Types mainly concerned with?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_data_types_03",
+        "question": "Which statement about Data Types is accurate?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_data_types_04",
+        "question": "What is the primary purpose of Data Types in Python?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_data_types_05",
+        "question": "Which idea is most closely associated with Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_data_types_06",
+        "question": "What does Data Types provide in a typical Python system?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "names that bind values so programs can read and update state",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_data_types_07",
+        "question": "Which explanation would best introduce Data Types to a student?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "names that bind values so programs can read and update state",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_data_types_08",
+        "question": "What problem does Data Types primarily address?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_data_types_09",
+        "question": "Which concept is represented by Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_data_types_10",
+        "question": "How should Data Types be understood in Python?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_data_types_11",
+        "question": "Which statement correctly identifies Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_data_types_12",
+        "question": "What is a central characteristic of Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "names that bind values so programs can read and update state",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_data_types_13",
+        "question": "Which definition is most accurate for Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "names that bind values so programs can read and update state",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Conditions": [
+      {
+        "id": "python_conditions_01",
+        "question": "Which description best matches Conditions?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_02",
+        "question": "In Python, what is Conditions mainly concerned with?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_03",
+        "question": "Which statement about Conditions is accurate?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_04",
+        "question": "What is the primary purpose of Conditions in Python?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "the categories that determine how values are represented and used",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_05",
+        "question": "Which idea is most closely associated with Conditions?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "the categories that determine how values are represented and used",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_conditions_06",
+        "question": "What does Conditions provide in a typical Python system?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_conditions_07",
+        "question": "Which explanation would best introduce Conditions to a student?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_conditions_08",
+        "question": "What problem does Conditions primarily address?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_conditions_09",
+        "question": "Which concept is represented by Conditions?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "repeated execution controlled by iteration or a stopping condition",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_conditions_10",
+        "question": "How should Conditions be understood in Python?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "the categories that determine how values are represented and used",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_conditions_11",
+        "question": "Which statement correctly identifies Conditions?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "the categories that determine how values are represented and used",
+          "C": "repeated execution controlled by iteration or a stopping condition",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_conditions_12",
+        "question": "What is a central characteristic of Conditions?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_conditions_13",
+        "question": "Which definition is most accurate for Conditions?",
+        "options": {
+          "A": "boolean-controlled branches that choose which code path runs",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "repeated execution controlled by iteration or a stopping condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Conditions means boolean-controlled branches that choose which code path runs.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Loops": [
+      {
+        "id": "python_loops_01",
+        "question": "Which description best matches Loops?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_02",
+        "question": "In Python, what is Loops mainly concerned with?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_03",
+        "question": "Which statement about Loops is accurate?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_04",
+        "question": "What is the primary purpose of Loops in Python?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_05",
+        "question": "Which idea is most closely associated with Loops?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_06",
+        "question": "What does Loops provide in a typical Python system?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_07",
+        "question": "Which explanation would best introduce Loops to a student?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_08",
+        "question": "What problem does Loops primarily address?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_09",
+        "question": "Which concept is represented by Loops?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_loops_10",
+        "question": "How should Loops be understood in Python?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_loops_11",
+        "question": "Which statement correctly identifies Loops?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_loops_12",
+        "question": "What is a central characteristic of Loops?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_loops_13",
+        "question": "Which definition is most accurate for Loops?",
+        "options": {
+          "A": "repeated execution controlled by iteration or a stopping condition",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Loops means repeated execution controlled by iteration or a stopping condition.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Functions": [
+      {
+        "id": "python_functions_01",
+        "question": "Which description best matches Functions?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_02",
+        "question": "In Python, what is Functions mainly concerned with?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_03",
+        "question": "Which statement about Functions is accurate?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_04",
+        "question": "What is the primary purpose of Functions in Python?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_05",
+        "question": "Which idea is most closely associated with Functions?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_06",
+        "question": "What does Functions provide in a typical Python system?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_07",
+        "question": "Which explanation would best introduce Functions to a student?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_08",
+        "question": "What problem does Functions primarily address?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_09",
+        "question": "Which concept is represented by Functions?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_functions_10",
+        "question": "How should Functions be understood in Python?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_functions_11",
+        "question": "Which statement correctly identifies Functions?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_functions_12",
+        "question": "What is a central characteristic of Functions?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_functions_13",
+        "question": "Which definition is most accurate for Functions?",
+        "options": {
+          "A": "reusable blocks of code that accept inputs and may return values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions means reusable blocks of code that accept inputs and may return values.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Lists": [
+      {
+        "id": "python_lists_01",
+        "question": "Which description best matches Lists?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_02",
+        "question": "In Python, what is Lists mainly concerned with?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_03",
+        "question": "Which statement about Lists is accurate?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_04",
+        "question": "What is the primary purpose of Lists in Python?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_05",
+        "question": "Which idea is most closely associated with Lists?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_06",
+        "question": "What does Lists provide in a typical Python system?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_07",
+        "question": "Which explanation would best introduce Lists to a student?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_08",
+        "question": "What problem does Lists primarily address?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_09",
+        "question": "Which concept is represented by Lists?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_lists_10",
+        "question": "How should Lists be understood in Python?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_lists_11",
+        "question": "Which statement correctly identifies Lists?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_lists_12",
+        "question": "What is a central characteristic of Lists?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_lists_13",
+        "question": "Which definition is most accurate for Lists?",
+        "options": {
+          "A": "ordered mutable collections that can contain multiple values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists means ordered mutable collections that can contain multiple values.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Tuples": [
+      {
+        "id": "python_tuples_01",
+        "question": "Which description best matches Tuples?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_02",
+        "question": "In Python, what is Tuples mainly concerned with?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_03",
+        "question": "Which statement about Tuples is accurate?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_04",
+        "question": "What is the primary purpose of Tuples in Python?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_05",
+        "question": "Which idea is most closely associated with Tuples?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_06",
+        "question": "What does Tuples provide in a typical Python system?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_07",
+        "question": "Which explanation would best introduce Tuples to a student?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_08",
+        "question": "What problem does Tuples primarily address?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_09",
+        "question": "Which concept is represented by Tuples?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_tuples_10",
+        "question": "How should Tuples be understood in Python?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_tuples_11",
+        "question": "Which statement correctly identifies Tuples?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_tuples_12",
+        "question": "What is a central characteristic of Tuples?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_tuples_13",
+        "question": "Which definition is most accurate for Tuples?",
+        "options": {
+          "A": "ordered immutable collections of values",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples means ordered immutable collections of values.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Dictionaries": [
+      {
+        "id": "python_dictionaries_01",
+        "question": "Which description best matches Dictionaries?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_02",
+        "question": "In Python, what is Dictionaries mainly concerned with?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_03",
+        "question": "Which statement about Dictionaries is accurate?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_04",
+        "question": "What is the primary purpose of Dictionaries in Python?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_05",
+        "question": "Which idea is most closely associated with Dictionaries?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_06",
+        "question": "What does Dictionaries provide in a typical Python system?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_07",
+        "question": "Which explanation would best introduce Dictionaries to a student?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_08",
+        "question": "What problem does Dictionaries primarily address?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_09",
+        "question": "Which concept is represented by Dictionaries?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_dictionaries_10",
+        "question": "How should Dictionaries be understood in Python?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_dictionaries_11",
+        "question": "Which statement correctly identifies Dictionaries?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_dictionaries_12",
+        "question": "What is a central characteristic of Dictionaries?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_dictionaries_13",
+        "question": "Which definition is most accurate for Dictionaries?",
+        "options": {
+          "A": "key-value mappings used for fast lookup by key",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries means key-value mappings used for fast lookup by key.",
+        "difficulty": "Hard"
+      }
+    ],
+    "OOP": [
+      {
+        "id": "python_oop_01",
+        "question": "Which description best matches OOP?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oop_02",
+        "question": "In Python, what is OOP mainly concerned with?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oop_03",
+        "question": "Which statement about OOP is accurate?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oop_04",
+        "question": "What is the primary purpose of OOP in Python?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oop_05",
+        "question": "Which idea is most closely associated with OOP?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oop_06",
+        "question": "What does OOP provide in a typical Python system?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oop_07",
+        "question": "Which explanation would best introduce OOP to a student?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oop_08",
+        "question": "What problem does OOP primarily address?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oop_09",
+        "question": "Which concept is represented by OOP?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_oop_10",
+        "question": "How should OOP be understood in Python?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_oop_11",
+        "question": "Which statement correctly identifies OOP?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_oop_12",
+        "question": "What is a central characteristic of OOP?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_oop_13",
+        "question": "Which definition is most accurate for OOP?",
+        "options": {
+          "A": "object-oriented organization around classes, objects, and behavior",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means object-oriented organization around classes, objects, and behavior.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Exceptions": [
+      {
+        "id": "python_exceptions_01",
+        "question": "Which description best matches Exceptions?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_02",
+        "question": "In Python, what is Exceptions mainly concerned with?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_03",
+        "question": "Which statement about Exceptions is accurate?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_04",
+        "question": "What is the primary purpose of Exceptions in Python?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_05",
+        "question": "Which idea is most closely associated with Exceptions?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_06",
+        "question": "What does Exceptions provide in a typical Python system?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_07",
+        "question": "Which explanation would best introduce Exceptions to a student?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_08",
+        "question": "What problem does Exceptions primarily address?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_09",
+        "question": "Which concept is represented by Exceptions?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "boolean-controlled branches that choose which code path runs",
+          "C": "names that bind values so programs can read and update state",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_exceptions_10",
+        "question": "How should Exceptions be understood in Python?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_exceptions_11",
+        "question": "Which statement correctly identifies Exceptions?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "the categories that determine how values are represented and used",
+          "C": "boolean-controlled branches that choose which code path runs",
+          "D": "names that bind values so programs can read and update state"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_exceptions_12",
+        "question": "What is a central characteristic of Exceptions?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_exceptions_13",
+        "question": "Which definition is most accurate for Exceptions?",
+        "options": {
+          "A": "runtime events that can be handled to prevent abrupt failure",
+          "B": "names that bind values so programs can read and update state",
+          "C": "the categories that determine how values are represented and used",
+          "D": "boolean-controlled branches that choose which code path runs"
+        },
+        "correct_answer": "A",
+        "explanation": "Exceptions means runtime events that can be handled to prevent abrupt failure.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

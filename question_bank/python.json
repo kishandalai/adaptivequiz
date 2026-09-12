@@ -1,0 +1,1715 @@
+{
+  "subject": "Python",
+  "topics": {
+    "Variables": [
+      {
+        "id": "python_variables_01",
+        "question": "Which symbol is used to assign a value to a variable in Python?",
+        "options": {
+          "A": "=",
+          "B": "==",
+          "C": ":=",
+          "D": "=>"
+        },
+        "correct_answer": "A",
+        "explanation": "The equals sign assigns the value on the right to the variable on the left.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_02",
+        "question": "What is the value of x after x = 10?",
+        "options": {
+          "A": "10",
+          "B": "0",
+          "C": "None",
+          "D": "True"
+        },
+        "correct_answer": "A",
+        "explanation": "The integer 10 is assigned to x.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_03",
+        "question": "Which statement creates two variables with the same value?",
+        "options": {
+          "A": "x = y = 5",
+          "B": "x == y == 5",
+          "C": "x, y == 5",
+          "D": "x := y := 5"
+        },
+        "correct_answer": "A",
+        "explanation": "Chained assignment allows the same value to be assigned to multiple variables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_04",
+        "question": "What is the result of x = 5; x = 8?",
+        "options": {
+          "A": "x is 8",
+          "B": "x is 5",
+          "C": "x is None",
+          "D": "An error occurs"
+        },
+        "correct_answer": "A",
+        "explanation": "The second assignment replaces the earlier value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_05",
+        "question": "Which is a valid Python variable name?",
+        "options": {
+          "A": "student_name",
+          "B": "student-name",
+          "C": "2student",
+          "D": "class"
+        },
+        "correct_answer": "A",
+        "explanation": "Underscores are allowed, while hyphens, leading digits, and reserved keywords are not.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_06",
+        "question": "What happens when a variable is assigned a new value?",
+        "options": {
+          "A": "Its previous value is replaced",
+          "B": "Both values are permanently stored in the variable",
+          "C": "The program always stops",
+          "D": "The variable becomes a constant"
+        },
+        "correct_answer": "A",
+        "explanation": "A new assignment binds the variable name to the new value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_07",
+        "question": "What is the value of a after a = 3; a += 2?",
+        "options": {
+          "A": "5",
+          "B": "1",
+          "C": "6",
+          "D": "32"
+        },
+        "correct_answer": "A",
+        "explanation": "The += operator adds 2 to the current value 3.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_08",
+        "question": "Which statement swaps the values of x and y in Python?",
+        "options": {
+          "A": "x, y = y, x",
+          "B": "x = y; y = x",
+          "C": "swap(x, y)",
+          "D": "x == y"
+        },
+        "correct_answer": "A",
+        "explanation": "Python tuple unpacking can swap two variable values in one statement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_variables_09",
+        "question": "What does type(x) return when x = 12?",
+        "options": {
+          "A": "The type of x",
+          "B": "The value of x as text",
+          "C": "The memory address only",
+          "D": "The variable name"
+        },
+        "correct_answer": "A",
+        "explanation": "type() returns the object's type.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_10",
+        "question": "What is the value of x after x = 2; x *= 4?",
+        "options": {
+          "A": "8",
+          "B": "6",
+          "C": "4",
+          "D": "24"
+        },
+        "correct_answer": "A",
+        "explanation": "The *= operator multiplies the current value by 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_11",
+        "question": "Which statement correctly assigns different values to three variables?",
+        "options": {
+          "A": "a, b, c = 1, 2, 3",
+          "B": "a = b = c = 1, 2, 3",
+          "C": "a:b:c = 1:2:3",
+          "D": "a,b,c == 1,2,3"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple assignment can unpack the three values into three variables.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_variables_12",
+        "question": "What is the value of name after name = 'Alex'; name = 'Sam'?",
+        "options": {
+          "A": "Sam",
+          "B": "Alex",
+          "C": "AlexSam",
+          "D": "None"
+        },
+        "correct_answer": "A",
+        "explanation": "The second assignment rebinds name to 'Sam'.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_variables_13",
+        "question": "Which statement removes a variable binding named x?",
+        "options": {
+          "A": "del x",
+          "B": "remove x",
+          "C": "delete(x)",
+          "D": "clear x"
+        },
+        "correct_answer": "A",
+        "explanation": "The del statement removes the binding for x.",
+        "difficulty": "Medium"
+      }
+    ],
+    "Datatypes": [
+      {
+        "id": "python_datatypes_01",
+        "question": "Which data type represents whole numbers in Python?",
+        "options": {
+          "A": "int",
+          "B": "float",
+          "C": "str",
+          "D": "list"
+        },
+        "correct_answer": "A",
+        "explanation": "int represents integers such as 10 and -3.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_02",
+        "question": "Which data type stores decimal numbers?",
+        "options": {
+          "A": "float",
+          "B": "int",
+          "C": "bool",
+          "D": "tuple"
+        },
+        "correct_answer": "A",
+        "explanation": "float represents numbers with a fractional component.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_03",
+        "question": "Which value is a Boolean?",
+        "options": {
+          "A": "True",
+          "B": "10",
+          "C": "'True'",
+          "D": "1.0"
+        },
+        "correct_answer": "A",
+        "explanation": "True is a Boolean value; the quoted version is a string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_04",
+        "question": "What is the type of 'Python'?",
+        "options": {
+          "A": "str",
+          "B": "list",
+          "C": "char",
+          "D": "text"
+        },
+        "correct_answer": "A",
+        "explanation": "Text enclosed in quotes is a string (str).",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_05",
+        "question": "Which data type stores an ordered collection that can be changed?",
+        "options": {
+          "A": "list",
+          "B": "tuple",
+          "C": "set",
+          "D": "int"
+        },
+        "correct_answer": "A",
+        "explanation": "Lists are ordered and mutable collections.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_06",
+        "question": "Which collection is immutable and ordered?",
+        "options": {
+          "A": "tuple",
+          "B": "list",
+          "C": "set",
+          "D": "dict"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples preserve order and cannot be modified after creation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_07",
+        "question": "Which data type stores unique unordered values?",
+        "options": {
+          "A": "set",
+          "B": "list",
+          "C": "tuple",
+          "D": "str"
+        },
+        "correct_answer": "A",
+        "explanation": "A set stores unique elements without relying on positional order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_08",
+        "question": "Which data type stores key-value pairs?",
+        "options": {
+          "A": "dict",
+          "B": "list",
+          "C": "set",
+          "D": "tuple"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionaries map keys to values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_09",
+        "question": "What does type(3.5) return?",
+        "options": {
+          "A": "float",
+          "B": "int",
+          "C": "decimal",
+          "D": "number"
+        },
+        "correct_answer": "A",
+        "explanation": "3.5 is represented by Python's float type.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_10",
+        "question": "What does bool(0) return?",
+        "options": {
+          "A": "False",
+          "B": "True",
+          "C": "0",
+          "D": "None"
+        },
+        "correct_answer": "A",
+        "explanation": "Zero is a falsy value in Python.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_datatypes_11",
+        "question": "What does int('25') produce?",
+        "options": {
+          "A": "25 as an integer",
+          "B": "'25' as a string",
+          "C": "2.5",
+          "D": "An empty value"
+        },
+        "correct_answer": "A",
+        "explanation": "int() converts the numeric string '25' to an integer.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_12",
+        "question": "What does str(100) produce?",
+        "options": {
+          "A": "'100'",
+          "B": "100.0",
+          "C": "True",
+          "D": "An error"
+        },
+        "correct_answer": "A",
+        "explanation": "str() converts the integer 100 into the string '100'.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_datatypes_13",
+        "question": "Which value represents the absence of a value?",
+        "options": {
+          "A": "None",
+          "B": "False",
+          "C": "0",
+          "D": "''"
+        },
+        "correct_answer": "A",
+        "explanation": "None is Python's singleton representing no value.",
+        "difficulty": "Medium"
+      }
+    ],
+    "Conditions": [
+      {
+        "id": "python_conditions_01",
+        "question": "Which keyword starts a conditional statement in Python?",
+        "options": {
+          "A": "if",
+          "B": "when",
+          "C": "check",
+          "D": "condition"
+        },
+        "correct_answer": "A",
+        "explanation": "Python uses if to test a condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_02",
+        "question": "Which keyword provides an alternative when an if condition is false?",
+        "options": {
+          "A": "else",
+          "B": "otherwise",
+          "C": "default",
+          "D": "elif"
+        },
+        "correct_answer": "A",
+        "explanation": "else executes when the preceding if condition is false.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_03",
+        "question": "Which keyword checks another condition after if?",
+        "options": {
+          "A": "elif",
+          "B": "elseif",
+          "C": "then",
+          "D": "case"
+        },
+        "correct_answer": "A",
+        "explanation": "elif means else-if and checks another condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_04",
+        "question": "What is the result of 5 > 3?",
+        "options": {
+          "A": "True",
+          "B": "False",
+          "C": "5",
+          "D": "3"
+        },
+        "correct_answer": "A",
+        "explanation": "Five is greater than three, so the comparison is True.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_05",
+        "question": "Which operator checks equality?",
+        "options": {
+          "A": "==",
+          "B": "=",
+          "C": "!=",
+          "D": "=>"
+        },
+        "correct_answer": "A",
+        "explanation": "== compares two values for equality.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_06",
+        "question": "Which operator means not equal?",
+        "options": {
+          "A": "!=",
+          "B": "==",
+          "C": "<>",
+          "D": "not="
+        },
+        "correct_answer": "A",
+        "explanation": "!= evaluates whether two values are different.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_07",
+        "question": "What does `if x:` test?",
+        "options": {
+          "A": "Whether x is truthy",
+          "B": "Whether x equals 1",
+          "C": "Whether x is a string",
+          "D": "Whether x is positive"
+        },
+        "correct_answer": "A",
+        "explanation": "Python converts x to a Boolean context and checks its truthiness.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_conditions_08",
+        "question": "What is the result of 10 >= 10?",
+        "options": {
+          "A": "True",
+          "B": "False",
+          "C": "10",
+          "D": "None"
+        },
+        "correct_answer": "A",
+        "explanation": "The >= operator includes equality, so 10 is greater than or equal to 10.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_09",
+        "question": "Which operator requires both conditions to be true?",
+        "options": {
+          "A": "and",
+          "B": "or",
+          "C": "not",
+          "D": "xor"
+        },
+        "correct_answer": "A",
+        "explanation": "The and operator is true only when both operands are truthy.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_10",
+        "question": "Which operator requires at least one condition to be true?",
+        "options": {
+          "A": "or",
+          "B": "and",
+          "C": "not",
+          "D": "only"
+        },
+        "correct_answer": "A",
+        "explanation": "The or operator is true when at least one operand is truthy.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_11",
+        "question": "What does `not True` evaluate to?",
+        "options": {
+          "A": "False",
+          "B": "True",
+          "C": "None",
+          "D": "0"
+        },
+        "correct_answer": "A",
+        "explanation": "not reverses the Boolean value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_12",
+        "question": "What is printed by `if 2 < 5: print('Yes')`?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "2 < 5",
+          "D": "Nothing"
+        },
+        "correct_answer": "A",
+        "explanation": "The condition is true, so the indented print statement executes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_conditions_13",
+        "question": "What happens if none of an if/elif conditions is true and there is an else block?",
+        "options": {
+          "A": "The else block runs",
+          "B": "The first block runs",
+          "C": "All blocks run",
+          "D": "Python raises SyntaxError"
+        },
+        "correct_answer": "A",
+        "explanation": "The else block handles the case where all previous conditions are false.",
+        "difficulty": "Medium"
+      }
+    ],
+    "Loops": [
+      {
+        "id": "python_loops_01",
+        "question": "Which loop is commonly used to iterate over a sequence?",
+        "options": {
+          "A": "for",
+          "B": "repeat",
+          "C": "loop",
+          "D": "iterate"
+        },
+        "correct_answer": "A",
+        "explanation": "A for loop iterates over items in an iterable.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_02",
+        "question": "Which loop repeats while a condition is true?",
+        "options": {
+          "A": "while",
+          "B": "for",
+          "C": "until",
+          "D": "repeat"
+        },
+        "correct_answer": "A",
+        "explanation": "A while loop continues as long as its condition is true.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_03",
+        "question": "What does `range(5)` generate?",
+        "options": {
+          "A": "0 through 4",
+          "B": "1 through 5",
+          "C": "0 through 5",
+          "D": "5 through 10"
+        },
+        "correct_answer": "A",
+        "explanation": "The stop value is excluded, so range(5) represents 0, 1, 2, 3, and 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_04",
+        "question": "Which keyword stops a loop immediately?",
+        "options": {
+          "A": "break",
+          "B": "stop",
+          "C": "exit",
+          "D": "end"
+        },
+        "correct_answer": "A",
+        "explanation": "break terminates the nearest enclosing loop.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_05",
+        "question": "Which keyword skips the rest of the current iteration?",
+        "options": {
+          "A": "continue",
+          "B": "skip",
+          "C": "pass",
+          "D": "next"
+        },
+        "correct_answer": "A",
+        "explanation": "continue moves execution to the next loop iteration.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_06",
+        "question": "What does `for x in [1,2,3]` iterate over?",
+        "options": {
+          "A": "The list's elements",
+          "B": "Only the indexes",
+          "C": "The list type",
+          "D": "The length only"
+        },
+        "correct_answer": "A",
+        "explanation": "The loop variable receives each element of the list.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_07",
+        "question": "How many times does `for i in range(3)` execute?",
+        "options": {
+          "A": "3",
+          "B": "2",
+          "C": "4",
+          "D": "0"
+        },
+        "correct_answer": "A",
+        "explanation": "range(3) contains 0, 1, and 2, giving three iterations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_08",
+        "question": "What is the output of `for i in range(2): print(i)`?",
+        "options": {
+          "A": "0 then 1",
+          "B": "1 then 2",
+          "C": "0 then 2",
+          "D": "2 then 1"
+        },
+        "correct_answer": "A",
+        "explanation": "range(2) produces 0 and 1 in order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_loops_09",
+        "question": "What is a nested loop?",
+        "options": {
+          "A": "A loop inside another loop",
+          "B": "A loop without a condition",
+          "C": "A loop with no body",
+          "D": "A loop that runs once"
+        },
+        "correct_answer": "A",
+        "explanation": "A nested loop is placed inside the body of another loop.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_10",
+        "question": "What happens if `break` executes inside an inner loop?",
+        "options": {
+          "A": "Only the inner loop ends",
+          "B": "All loops end",
+          "C": "The program always ends",
+          "D": "The outer loop restarts"
+        },
+        "correct_answer": "A",
+        "explanation": "break affects the nearest enclosing loop.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_11",
+        "question": "Which keyword can create a loop that intentionally does nothing for an iteration?",
+        "options": {
+          "A": "pass",
+          "B": "continue",
+          "C": "break",
+          "D": "empty"
+        },
+        "correct_answer": "A",
+        "explanation": "pass is a no-operation statement and can serve as a placeholder.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_12",
+        "question": "What is a common way to loop through dictionary keys and values together?",
+        "options": {
+          "A": "items()",
+          "B": "pairs()",
+          "C": "values_keys()",
+          "D": "all()"
+        },
+        "correct_answer": "A",
+        "explanation": "dict.items() yields key-value pairs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_loops_13",
+        "question": "What can cause a while loop to never end?",
+        "options": {
+          "A": "Its condition never becomes false",
+          "B": "It contains a variable",
+          "C": "It uses indentation",
+          "D": "It starts with False"
+        },
+        "correct_answer": "A",
+        "explanation": "If the condition remains true indefinitely, the loop can be infinite.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Lists": [
+      {
+        "id": "python_lists_01",
+        "question": "Which brackets create a list?",
+        "options": {
+          "A": "[]",
+          "B": "{}",
+          "C": "()",
+          "D": "<>"
+        },
+        "correct_answer": "A",
+        "explanation": "Square brackets are used to create list literals.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_02",
+        "question": "Are Python lists mutable?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only when empty",
+          "D": "Only for strings"
+        },
+        "correct_answer": "A",
+        "explanation": "List elements can be changed after the list is created.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_03",
+        "question": "What is the index of the first list element?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "-1",
+          "D": "None"
+        },
+        "correct_answer": "A",
+        "explanation": "Python uses zero-based indexing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_04",
+        "question": "What does `len([10,20,30])` return?",
+        "options": {
+          "A": "3",
+          "B": "2",
+          "C": "30",
+          "D": "0"
+        },
+        "correct_answer": "A",
+        "explanation": "The list contains three elements.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_05",
+        "question": "Which method adds one element to the end of a list?",
+        "options": {
+          "A": "append()",
+          "B": "add()",
+          "C": "insert_end()",
+          "D": "push()"
+        },
+        "correct_answer": "A",
+        "explanation": "append() adds a single element at the end.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_06",
+        "question": "Which method removes and returns the last list element by default?",
+        "options": {
+          "A": "pop()",
+          "B": "remove()",
+          "C": "delete()",
+          "D": "discard()"
+        },
+        "correct_answer": "A",
+        "explanation": "pop() removes and returns the final element when no index is supplied.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_07",
+        "question": "What does `my_list[1]` access?",
+        "options": {
+          "A": "The second element",
+          "B": "The first element",
+          "C": "The last element",
+          "D": "The list length"
+        },
+        "correct_answer": "A",
+        "explanation": "Index 1 refers to the second element.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_08",
+        "question": "What does `my_list[-1]` access?",
+        "options": {
+          "A": "The last element",
+          "B": "The first element",
+          "C": "The second element",
+          "D": "No element"
+        },
+        "correct_answer": "A",
+        "explanation": "Negative index -1 refers to the last element.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_09",
+        "question": "Which method inserts an element at a specific index?",
+        "options": {
+          "A": "insert()",
+          "B": "append()",
+          "C": "place()",
+          "D": "add_at()"
+        },
+        "correct_answer": "A",
+        "explanation": "insert(index, value) places a value at the specified position.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_10",
+        "question": "Which method removes the first matching value?",
+        "options": {
+          "A": "remove()",
+          "B": "pop()",
+          "C": "delete()",
+          "D": "discard_index()"
+        },
+        "correct_answer": "A",
+        "explanation": "remove(value) deletes the first matching occurrence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_11",
+        "question": "What does `[1,2,3][0:2]` produce?",
+        "options": {
+          "A": "[1, 2]",
+          "B": "[2, 3]",
+          "C": "[1, 2, 3]",
+          "D": "[0, 1]"
+        },
+        "correct_answer": "A",
+        "explanation": "The slice starts at index 0 and stops before index 2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_lists_12",
+        "question": "Which operator checks whether an item exists in a list?",
+        "options": {
+          "A": "in",
+          "B": "has",
+          "C": "contains",
+          "D": "exists"
+        },
+        "correct_answer": "A",
+        "explanation": "The in operator tests membership.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_lists_13",
+        "question": "What happens when you assign `b = a` for a list a?",
+        "options": {
+          "A": "Both names refer to the same list",
+          "B": "A deep copy is always made",
+          "C": "b becomes a string",
+          "D": "a is deleted"
+        },
+        "correct_answer": "A",
+        "explanation": "Simple assignment creates another reference to the same list object.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Tuples": [
+      {
+        "id": "python_tuples_01",
+        "question": "Which brackets are commonly used to create a tuple?",
+        "options": {
+          "A": "()",
+          "B": "[]",
+          "C": "{}",
+          "D": "<>"
+        },
+        "correct_answer": "A",
+        "explanation": "Parentheses are commonly used for tuple literals.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_02",
+        "question": "Are tuples mutable?",
+        "options": {
+          "A": "No",
+          "B": "Yes",
+          "C": "Only when nested",
+          "D": "Only when empty"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuple elements cannot be changed after creation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_03",
+        "question": "How do you create a one-element tuple?",
+        "options": {
+          "A": "(5,)",
+          "B": "(5)",
+          "C": "[5]",
+          "D": "{5}"
+        },
+        "correct_answer": "A",
+        "explanation": "The trailing comma makes (5,) a tuple.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_04",
+        "question": "What is the index of the first tuple element?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "-1",
+          "D": "None"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples use zero-based indexing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_05",
+        "question": "What does `len((1,2,3))` return?",
+        "options": {
+          "A": "3",
+          "B": "2",
+          "C": "1",
+          "D": "0"
+        },
+        "correct_answer": "A",
+        "explanation": "There are three elements in the tuple.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_06",
+        "question": "Can a tuple contain a list?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only strings",
+          "D": "Only integers"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples can contain objects of any type, including lists.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_07",
+        "question": "Which method returns the number of occurrences of a value in a tuple?",
+        "options": {
+          "A": "count()",
+          "B": "find()",
+          "C": "occurs()",
+          "D": "number()"
+        },
+        "correct_answer": "A",
+        "explanation": "tuple.count(value) counts matching occurrences.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_08",
+        "question": "Which method returns the index of the first matching value?",
+        "options": {
+          "A": "index()",
+          "B": "position()",
+          "C": "find_index()",
+          "D": "locate()"
+        },
+        "correct_answer": "A",
+        "explanation": "tuple.index(value) returns the first matching index.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_09",
+        "question": "What does `(1, 2) + (3, 4)` produce?",
+        "options": {
+          "A": "(1, 2, 3, 4)",
+          "B": "(4, 6)",
+          "C": "[1, 2, 3, 4]",
+          "D": "(1, 2)"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuple concatenation combines the elements in order.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_10",
+        "question": "What does tuple unpacking allow?",
+        "options": {
+          "A": "Assigning tuple elements to multiple variables",
+          "B": "Changing tuple elements",
+          "C": "Sorting a tuple in place",
+          "D": "Deleting all tuple values"
+        },
+        "correct_answer": "A",
+        "explanation": "Unpacking assigns individual tuple elements to separate variables.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_tuples_11",
+        "question": "Which statement is valid tuple unpacking?",
+        "options": {
+          "A": "a, b = (10, 20)",
+          "B": "a:b = (10,20)",
+          "C": "a == b = (10,20)",
+          "D": "unpack a,b (10,20)"
+        },
+        "correct_answer": "A",
+        "explanation": "The two tuple elements are unpacked into a and b.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_tuples_12",
+        "question": "What happens if you try `(1,2)[0] = 5`?",
+        "options": {
+          "A": "TypeError",
+          "B": "The tuple changes",
+          "C": "The value becomes 5",
+          "D": "IndexError"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples are immutable, so item assignment raises TypeError.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_tuples_13",
+        "question": "Which is generally safer for fixed records that should not change?",
+        "options": {
+          "A": "tuple",
+          "B": "list",
+          "C": "set",
+          "D": "dict"
+        },
+        "correct_answer": "A",
+        "explanation": "Tuples prevent accidental reassignment of their elements.",
+        "difficulty": "Medium"
+      }
+    ],
+    "Dictionaries": [
+      {
+        "id": "python_dictionaries_01",
+        "question": "Which brackets create a dictionary literal?",
+        "options": {
+          "A": "{}",
+          "B": "[]",
+          "C": "()",
+          "D": "<>"
+        },
+        "correct_answer": "A",
+        "explanation": "Curly braces are used for dictionary literals containing key-value pairs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_02",
+        "question": "What does a dictionary store?",
+        "options": {
+          "A": "Key-value pairs",
+          "B": "Only values",
+          "C": "Only indexes",
+          "D": "Ordered characters only"
+        },
+        "correct_answer": "A",
+        "explanation": "Each dictionary entry associates a key with a value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_03",
+        "question": "How do you access the value for key 'name' in d?",
+        "options": {
+          "A": "d['name']",
+          "B": "d(name)",
+          "C": "d.name",
+          "D": "d->name"
+        },
+        "correct_answer": "A",
+        "explanation": "Square brackets with a key retrieve the associated value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_04",
+        "question": "Which method safely retrieves a value and can provide a default?",
+        "options": {
+          "A": "get()",
+          "B": "fetch()",
+          "C": "find()",
+          "D": "value()"
+        },
+        "correct_answer": "A",
+        "explanation": "dict.get(key, default) returns a value or the specified default.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_05",
+        "question": "Which method returns dictionary keys?",
+        "options": {
+          "A": "keys()",
+          "B": "keyset()",
+          "C": "allkeys()",
+          "D": "indexes()"
+        },
+        "correct_answer": "A",
+        "explanation": "keys() provides a view of the dictionary's keys.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_06",
+        "question": "Which method returns dictionary values?",
+        "options": {
+          "A": "values()",
+          "B": "vals()",
+          "C": "items_only()",
+          "D": "contents()"
+        },
+        "correct_answer": "A",
+        "explanation": "values() provides a view of the dictionary's values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_07",
+        "question": "Which method returns key-value pairs?",
+        "options": {
+          "A": "items()",
+          "B": "pairs()",
+          "C": "entries_only()",
+          "D": "both()"
+        },
+        "correct_answer": "A",
+        "explanation": "items() yields key-value pairs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_08",
+        "question": "Can dictionary values be lists?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only if keys are numbers",
+          "D": "Only in Python 2"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionary values can be objects of any type, including lists.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_09",
+        "question": "Can a list normally be used as a dictionary key?",
+        "options": {
+          "A": "No",
+          "B": "Yes, always",
+          "C": "Only when empty",
+          "D": "Only with integers"
+        },
+        "correct_answer": "A",
+        "explanation": "List objects are mutable and unhashable, so they cannot normally be dictionary keys.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_dictionaries_10",
+        "question": "What happens when assigning an existing dictionary key a new value?",
+        "options": {
+          "A": "The old value is replaced",
+          "B": "A duplicate key is created",
+          "C": "The dictionary is cleared",
+          "D": "An error always occurs"
+        },
+        "correct_answer": "A",
+        "explanation": "Dictionary keys are unique, so assignment updates the existing entry.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_11",
+        "question": "Which keyword checks whether a key exists in a dictionary?",
+        "options": {
+          "A": "in",
+          "B": "has",
+          "C": "contains_key",
+          "D": "exists"
+        },
+        "correct_answer": "A",
+        "explanation": "The in operator tests membership among dictionary keys.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_dictionaries_12",
+        "question": "What does `d.pop('x')` normally do?",
+        "options": {
+          "A": "Removes and returns the value for x",
+          "B": "Copies x",
+          "C": "Adds x",
+          "D": "Sorts the dictionary"
+        },
+        "correct_answer": "A",
+        "explanation": "pop(key) removes the key and returns its associated value.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_dictionaries_13",
+        "question": "What happens when `d['missing']` accesses a nonexistent key?",
+        "options": {
+          "A": "KeyError",
+          "B": "None",
+          "C": "False",
+          "D": "IndexError"
+        },
+        "correct_answer": "A",
+        "explanation": "Direct key access raises KeyError when the key is absent.",
+        "difficulty": "Medium"
+      }
+    ],
+    "OOPS": [
+      {
+        "id": "python_oops_01",
+        "question": "What does OOP stand for?",
+        "options": {
+          "A": "Object-Oriented Programming",
+          "B": "Object-Only Processing",
+          "C": "Ordered Operation Programming",
+          "D": "Open Object Protocol"
+        },
+        "correct_answer": "A",
+        "explanation": "OOP means Object-Oriented Programming.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oops_02",
+        "question": "What is a class?",
+        "options": {
+          "A": "A blueprint for creating objects",
+          "B": "A loop",
+          "C": "A database",
+          "D": "A Python package only"
+        },
+        "correct_answer": "A",
+        "explanation": "A class defines attributes and behavior that objects can have.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oops_03",
+        "question": "What is an object?",
+        "options": {
+          "A": "An instance of a class",
+          "B": "A function definition",
+          "C": "A module name",
+          "D": "A comment"
+        },
+        "correct_answer": "A",
+        "explanation": "An object is an instance created from a class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oops_04",
+        "question": "Which method is commonly used to initialize a new object?",
+        "options": {
+          "A": "__init__()",
+          "B": "__start__()",
+          "C": "init()",
+          "D": "constructor()"
+        },
+        "correct_answer": "A",
+        "explanation": "__init__() is called to initialize an instance after it is created.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oops_05",
+        "question": "What does `self` usually refer to?",
+        "options": {
+          "A": "The current instance",
+          "B": "The parent class only",
+          "C": "The module",
+          "D": "The Python interpreter"
+        },
+        "correct_answer": "A",
+        "explanation": "self refers to the current object instance in an instance method.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oops_06",
+        "question": "What is inheritance?",
+        "options": {
+          "A": "Creating a class based on another class",
+          "B": "Copying a file",
+          "C": "Running two loops",
+          "D": "Hiding all methods"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance allows a class to derive attributes and behavior from another class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oops_07",
+        "question": "What is encapsulation?",
+        "options": {
+          "A": "Bundling data and methods within a class",
+          "B": "Creating many loops",
+          "C": "Converting code to JSON",
+          "D": "Removing all attributes"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation groups related data and behavior and controls access to implementation details.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oops_08",
+        "question": "What is polymorphism?",
+        "options": {
+          "A": "Using a common interface for different implementations",
+          "B": "Having only one object",
+          "C": "Preventing inheritance",
+          "D": "Creating private variables only"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism allows different object types to respond to the same operation in their own way.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_oops_09",
+        "question": "What does method overriding mean?",
+        "options": {
+          "A": "A subclass provides its own version of an inherited method",
+          "B": "Deleting a method",
+          "C": "Calling a method twice",
+          "D": "Changing a variable type"
+        },
+        "correct_answer": "A",
+        "explanation": "A subclass can redefine an inherited method.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oops_10",
+        "question": "Which function creates an object from a class?",
+        "options": {
+          "A": "Calling the class",
+          "B": "Calling print()",
+          "C": "Calling import()",
+          "D": "Calling type() only"
+        },
+        "correct_answer": "A",
+        "explanation": "Using the class name like Person() creates an instance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_oops_11",
+        "question": "What does `super()` commonly provide?",
+        "options": {
+          "A": "Access to parent-class behavior",
+          "B": "A new database",
+          "C": "A loop controller",
+          "D": "A list copy only"
+        },
+        "correct_answer": "A",
+        "explanation": "super() can be used to call methods or access attributes from a parent class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_oops_12",
+        "question": "Which concept hides unnecessary implementation details from users?",
+        "options": {
+          "A": "Abstraction",
+          "B": "Iteration",
+          "C": "Indexing",
+          "D": "Slicing"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction exposes essential behavior while hiding unnecessary implementation details.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "python_oops_13",
+        "question": "Can a Python class contain both attributes and methods?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only attributes",
+          "D": "Only methods"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes can define data attributes and methods together.",
+        "difficulty": "Easy"
+      }
+    ],
+    "Exceptions": [
+      {
+        "id": "python_exceptions_01",
+        "question": "What is an exception?",
+        "options": {
+          "A": "An error or unusual event raised during program execution",
+          "B": "A variable",
+          "C": "A loop",
+          "D": "A comment"
+        },
+        "correct_answer": "A",
+        "explanation": "An exception signals an abnormal condition during execution.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_02",
+        "question": "Which block is used to test code that may raise an exception?",
+        "options": {
+          "A": "try",
+          "B": "test",
+          "C": "check",
+          "D": "attempt"
+        },
+        "correct_answer": "A",
+        "explanation": "The try block contains code that may raise an exception.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_03",
+        "question": "Which block handles an exception?",
+        "options": {
+          "A": "except",
+          "B": "catch",
+          "C": "handle",
+          "D": "error"
+        },
+        "correct_answer": "A",
+        "explanation": "Python uses except blocks to handle matching exceptions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_04",
+        "question": "Which block runs whether an exception occurs or not?",
+        "options": {
+          "A": "finally",
+          "B": "always",
+          "C": "end",
+          "D": "last"
+        },
+        "correct_answer": "A",
+        "explanation": "finally executes after try/except processing whether or not an exception occurred.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_05",
+        "question": "Which keyword explicitly raises an exception?",
+        "options": {
+          "A": "raise",
+          "B": "throw",
+          "C": "error",
+          "D": "except"
+        },
+        "correct_answer": "A",
+        "explanation": "The raise statement explicitly raises an exception.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_06",
+        "question": "What exception occurs when dividing an integer by zero?",
+        "options": {
+          "A": "ZeroDivisionError",
+          "B": "ValueError",
+          "C": "TypeError",
+          "D": "ArithmeticErrorOnly"
+        },
+        "correct_answer": "A",
+        "explanation": "Integer division by zero raises ZeroDivisionError.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_07",
+        "question": "What exception can occur when converting 'abc' to int?",
+        "options": {
+          "A": "ValueError",
+          "B": "TypeError",
+          "C": "KeyError",
+          "D": "IndexError"
+        },
+        "correct_answer": "A",
+        "explanation": "The string has an invalid numeric value, causing ValueError.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_08",
+        "question": "What exception occurs when accessing a missing dictionary key with brackets?",
+        "options": {
+          "A": "KeyError",
+          "B": "IndexError",
+          "C": "NameError",
+          "D": "ValueError"
+        },
+        "correct_answer": "A",
+        "explanation": "Direct access to an absent dictionary key raises KeyError.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_09",
+        "question": "What exception occurs when using an undefined variable name?",
+        "options": {
+          "A": "NameError",
+          "B": "KeyError",
+          "C": "ValueError",
+          "D": "TypeError"
+        },
+        "correct_answer": "A",
+        "explanation": "Python raises NameError when a referenced name is not defined.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_exceptions_10",
+        "question": "Can one try block have multiple except blocks?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only two",
+          "D": "Only with finally"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple except blocks can handle different exception types.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_11",
+        "question": "What is the purpose of `except Exception as e`?",
+        "options": {
+          "A": "Store the caught exception object in e",
+          "B": "Create a new exception",
+          "C": "Ignore every error permanently",
+          "D": "Stop Python"
+        },
+        "correct_answer": "A",
+        "explanation": "The as clause binds the caught exception object to a variable.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_12",
+        "question": "What happens if an exception is not handled?",
+        "options": {
+          "A": "It propagates and may terminate the program",
+          "B": "It is always ignored",
+          "C": "It becomes a comment",
+          "D": "It converts to None"
+        },
+        "correct_answer": "A",
+        "explanation": "An unhandled exception propagates and normally terminates the current program flow.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_exceptions_13",
+        "question": "Why is catching overly broad exceptions often discouraged?",
+        "options": {
+          "A": "It can hide unexpected programming errors",
+          "B": "It always makes code slower",
+          "C": "It prevents all functions",
+          "D": "It deletes exceptions"
+        },
+        "correct_answer": "A",
+        "explanation": "Broad catches can conceal bugs that should instead be diagnosed or handled specifically.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Functions": [
+      {
+        "id": "python_functions_01",
+        "question": "Which keyword defines a function in Python?",
+        "options": {
+          "A": "def",
+          "B": "function",
+          "C": "func",
+          "D": "define"
+        },
+        "correct_answer": "A",
+        "explanation": "Python uses the def keyword to define functions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_02",
+        "question": "What is a parameter?",
+        "options": {
+          "A": "A variable listed in a function definition",
+          "B": "A returned value only",
+          "C": "A module",
+          "D": "A loop"
+        },
+        "correct_answer": "A",
+        "explanation": "Parameters receive values passed into a function.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_03",
+        "question": "What is an argument?",
+        "options": {
+          "A": "A value passed to a function call",
+          "B": "A variable defined only globally",
+          "C": "A return statement",
+          "D": "A class"
+        },
+        "correct_answer": "A",
+        "explanation": "An argument is the actual value supplied to a function parameter.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_04",
+        "question": "Which keyword sends a value back from a function?",
+        "options": {
+          "A": "return",
+          "B": "send",
+          "C": "yield_value",
+          "D": "output"
+        },
+        "correct_answer": "A",
+        "explanation": "return ends the function call and can provide a result.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_05",
+        "question": "What does a function return if it has no return statement?",
+        "options": {
+          "A": "None",
+          "B": "0",
+          "C": "False",
+          "D": "An empty string"
+        },
+        "correct_answer": "A",
+        "explanation": "Python implicitly returns None when execution reaches the end without return.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_06",
+        "question": "Can a Python function have default parameter values?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only for strings",
+          "D": "Only for integers"
+        },
+        "correct_answer": "A",
+        "explanation": "Parameters can have defaults such as def greet(name='User').",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_07",
+        "question": "What does `*args` collect?",
+        "options": {
+          "A": "Extra positional arguments",
+          "B": "Extra keyword arguments",
+          "C": "Only strings",
+          "D": "Return values"
+        },
+        "correct_answer": "A",
+        "explanation": "*args collects additional positional arguments into a tuple.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_08",
+        "question": "What does `**kwargs` collect?",
+        "options": {
+          "A": "Extra keyword arguments",
+          "B": "Extra positional arguments",
+          "C": "Only lists",
+          "D": "Function names"
+        },
+        "correct_answer": "A",
+        "explanation": "**kwargs collects additional keyword arguments into a dictionary.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_09",
+        "question": "What is a local variable?",
+        "options": {
+          "A": "A variable defined inside a function",
+          "B": "A variable available in every module",
+          "C": "A constant",
+          "D": "A class"
+        },
+        "correct_answer": "A",
+        "explanation": "A local variable is defined within a function and normally has local scope.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_10",
+        "question": "What is a global variable?",
+        "options": {
+          "A": "A variable defined outside functions and accessible according to global scope rules",
+          "B": "A variable that only exists inside a loop",
+          "C": "A function parameter",
+          "D": "A class method"
+        },
+        "correct_answer": "A",
+        "explanation": "Global variables are defined at module level and can be referenced from functions subject to Python's scope rules.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_11",
+        "question": "Can a function call another function?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only built-in functions",
+          "D": "Only recursive functions"
+        },
+        "correct_answer": "A",
+        "explanation": "Functions are objects and can call other functions normally.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "python_functions_12",
+        "question": "What is recursion?",
+        "options": {
+          "A": "A function calling itself",
+          "B": "A function with many parameters",
+          "C": "A loop inside a class",
+          "D": "A function without return"
+        },
+        "correct_answer": "A",
+        "explanation": "Recursion occurs when a function directly or indirectly calls itself.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "python_functions_13",
+        "question": "What is a lambda function?",
+        "options": {
+          "A": "A small anonymous function expression",
+          "B": "A class constructor",
+          "C": "A loop statement",
+          "D": "A module importer"
+        },
+        "correct_answer": "A",
+        "explanation": "lambda creates a small anonymous function, usually for simple expressions.",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

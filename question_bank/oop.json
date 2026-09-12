@@ -1,0 +1,864 @@
+{
+  "subject": "OOP",
+  "topics": {
+    "Classes": [
+      {
+        "id": "oops_classes_01",
+        "question": "What is a class in object-oriented programming?",
+        "options": {
+          "A": "A blueprint for creating objects",
+          "B": "A loop used to repeat statements",
+          "C": "A function used only for calculations",
+          "D": "A database used to store objects"
+        },
+        "correct_answer": "A",
+        "explanation": "A class is a blueprint or template that defines the attributes and behaviors of objects.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_classes_02",
+        "question": "What is an object?",
+        "options": {
+          "A": "A variable that stores only numbers",
+          "B": "An instance of a class",
+          "C": "A type of loop",
+          "D": "A programming language"
+        },
+        "correct_answer": "B",
+        "explanation": "An object is an instance created from a class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_classes_03",
+        "question": "Which keyword is commonly used to define a class in Python?",
+        "options": {
+          "A": "object",
+          "B": "define",
+          "C": "class",
+          "D": "struct"
+        },
+        "correct_answer": "C",
+        "explanation": "The class keyword is used in Python to define a class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_classes_04",
+        "question": "What is an attribute of a class?",
+        "options": {
+          "A": "A property or data associated with an object",
+          "B": "A loop inside a method",
+          "C": "A condition used in inheritance",
+          "D": "A program execution error"
+        },
+        "correct_answer": "A",
+        "explanation": "An attribute represents data or a property associated with a class or its objects.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_classes_05",
+        "question": "What is a method in a class?",
+        "options": {
+          "A": "A variable that stores an object",
+          "B": "A function defined inside a class",
+          "C": "A class without an object",
+          "D": "A data type used for inheritance"
+        },
+        "correct_answer": "B",
+        "explanation": "A method is a function defined within a class that describes behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_classes_06",
+        "question": "Which method is automatically called when an object is created in Python?",
+        "options": {
+          "A": "__init__()",
+          "B": "__start__()",
+          "C": "__create__()",
+          "D": "__object__()"
+        },
+        "correct_answer": "A",
+        "explanation": "The __init__() method is commonly used as the initializer and is called when an object is created.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_classes_07",
+        "question": "What does self represent in a Python instance method?",
+        "options": {
+          "A": "The parent class",
+          "B": "The current object instance",
+          "C": "The class name only",
+          "D": "The Python interpreter"
+        },
+        "correct_answer": "B",
+        "explanation": "self refers to the current instance of the class inside an instance method.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_classes_08",
+        "question": "Which statement creates an object from a class named Student?",
+        "options": {
+          "A": "Student = object",
+          "B": "Student.create()",
+          "C": "s = Student()",
+          "D": "object Student = s"
+        },
+        "correct_answer": "C",
+        "explanation": "Calling Student() creates an instance of the Student class and assigns it to s.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_classes_09",
+        "question": "What is the main benefit of defining methods inside a class?",
+        "options": {
+          "A": "It groups related behavior with the data it operates on",
+          "B": "It prevents all objects from being created",
+          "C": "It removes the need for variables",
+          "D": "It converts methods into databases"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes group related data and behavior together, which improves organization and reuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_classes_10",
+        "question": "What is a class variable?",
+        "options": {
+          "A": "A variable shared by instances of a class unless shadowed",
+          "B": "A variable that can exist only inside a loop",
+          "C": "A variable that belongs only to a function parameter",
+          "D": "A variable that cannot store data"
+        },
+        "correct_answer": "A",
+        "explanation": "A class variable is associated with the class and can be shared by its instances.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_classes_11",
+        "question": "What is an instance variable?",
+        "options": {
+          "A": "A variable associated with a particular object instance",
+          "B": "A variable shared by every unrelated class",
+          "C": "A variable used only for inheritance",
+          "D": "A variable that cannot be modified"
+        },
+        "correct_answer": "A",
+        "explanation": "An instance variable stores data specific to an individual object.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_classes_12",
+        "question": "If two objects are created from the same class, what can they have?",
+        "options": {
+          "A": "Different instance attribute values",
+          "B": "Only identical attribute values",
+          "C": "No methods",
+          "D": "Different class definitions automatically"
+        },
+        "correct_answer": "A",
+        "explanation": "Objects created from the same class can have different values for their instance attributes.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_classes_13",
+        "question": "Why are classes useful in large software projects?",
+        "options": {
+          "A": "They help organize related data and behavior into reusable structures",
+          "B": "They eliminate every programming error",
+          "C": "They prevent code reuse",
+          "D": "They remove the need for program design"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes support organization, modularity, reuse, and maintainability in larger programs.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Inheritance": [
+      {
+        "id": "oops_inheritance_01",
+        "question": "What is inheritance in OOP?",
+        "options": {
+          "A": "A mechanism where a class derives properties and behavior from another class",
+          "B": "A method for deleting objects",
+          "C": "A process of hiding every variable",
+          "D": "A technique for writing SQL queries"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance allows a child class to reuse and extend features of a parent class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_02",
+        "question": "What is the class being inherited from called?",
+        "options": {
+          "A": "Child class",
+          "B": "Parent class",
+          "C": "Object class",
+          "D": "Method class"
+        },
+        "correct_answer": "B",
+        "explanation": "The class whose properties and methods are inherited is called the parent or base class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_03",
+        "question": "What is the class that inherits from another class called?",
+        "options": {
+          "A": "Base class",
+          "B": "Parent class",
+          "C": "Child class",
+          "D": "Root class"
+        },
+        "correct_answer": "C",
+        "explanation": "The class that inherits from another class is called a child, derived, or subclass.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_04",
+        "question": "Which type of inheritance has one child class inheriting from one parent class?",
+        "options": {
+          "A": "Multiple inheritance",
+          "B": "Multilevel inheritance",
+          "C": "Single inheritance",
+          "D": "Hierarchical inheritance"
+        },
+        "correct_answer": "C",
+        "explanation": "Single inheritance occurs when one child class inherits from one parent class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_05",
+        "question": "Which inheritance involves a chain of classes?",
+        "options": {
+          "A": "Single inheritance",
+          "B": "Multilevel inheritance",
+          "C": "Multiple inheritance",
+          "D": "Hybrid inheritance"
+        },
+        "correct_answer": "B",
+        "explanation": "Multilevel inheritance forms a chain such as Grandparent → Parent → Child.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_06",
+        "question": "What is multiple inheritance?",
+        "options": {
+          "A": "One class inherits from more than one parent class",
+          "B": "One parent has many child classes",
+          "C": "A class has no parent",
+          "D": "A class inherits from itself"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple inheritance occurs when one child class inherits from multiple parent classes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_07",
+        "question": "What is hierarchical inheritance?",
+        "options": {
+          "A": "Multiple child classes inherit from the same parent class",
+          "B": "One child inherits from multiple parents",
+          "C": "Classes form a single chain",
+          "D": "A class inherits from itself"
+        },
+        "correct_answer": "A",
+        "explanation": "Hierarchical inheritance occurs when multiple child classes inherit from the same parent class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_inheritance_08",
+        "question": "Which Python syntax correctly defines a child class Dog inheriting from Animal?",
+        "options": {
+          "A": "class Dog -> Animal:",
+          "B": "class Dog(Animal):",
+          "C": "class Dog inherits Animal:",
+          "D": "Dog extends Animal:"
+        },
+        "correct_answer": "B",
+        "explanation": "In Python, the parent class is placed inside parentheses after the child class name.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_09",
+        "question": "Which function can be used to call a parent class implementation in Python?",
+        "options": {
+          "A": "parent()",
+          "B": "base()",
+          "C": "super()",
+          "D": "inherit()"
+        },
+        "correct_answer": "C",
+        "explanation": "The super() function provides access to methods and initialization behavior from a parent class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_inheritance_10",
+        "question": "What is method overriding in inheritance?",
+        "options": {
+          "A": "Defining a child class method with the same name to provide different behavior",
+          "B": "Deleting a parent class method permanently",
+          "C": "Creating an unrelated function",
+          "D": "Changing the name of the parent class"
+        },
+        "correct_answer": "A",
+        "explanation": "Method overriding allows a child class to provide its own implementation of an inherited method.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_inheritance_11",
+        "question": "What is one major benefit of inheritance?",
+        "options": {
+          "A": "Code reuse",
+          "B": "Removing all objects",
+          "C": "Preventing methods from executing",
+          "D": "Eliminating class relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance promotes code reuse by allowing child classes to reuse functionality from parent classes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_inheritance_12",
+        "question": "What is hybrid inheritance?",
+        "options": {
+          "A": "A combination of two or more types of inheritance",
+          "B": "Inheritance with no parent class",
+          "C": "Inheritance involving only one object",
+          "D": "Inheritance that cannot contain methods"
+        },
+        "correct_answer": "A",
+        "explanation": "Hybrid inheritance combines multiple inheritance patterns in a class hierarchy.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oops_inheritance_13",
+        "question": "What problem can arise with multiple inheritance when parent classes provide the same method?",
+        "options": {
+          "A": "Method resolution ambiguity",
+          "B": "Automatic database deletion",
+          "C": "Loss of all variables",
+          "D": "Objects cannot be created"
+        },
+        "correct_answer": "A",
+        "explanation": "When multiple parents define the same method, the language needs a method resolution order to determine which implementation is used.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Polymorphism": [
+      {
+        "id": "oops_polymorphism_01",
+        "question": "What does polymorphism mean in OOP?",
+        "options": {
+          "A": "One interface or operation can work with different object types",
+          "B": "Every class must have one object",
+          "C": "A class cannot have methods",
+          "D": "All objects must have identical behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism allows the same operation or interface to behave differently depending on the object involved.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_polymorphism_02",
+        "question": "Which concept allows a child class to provide its own implementation of a parent method?",
+        "options": {
+          "A": "Encapsulation",
+          "B": "Method overriding",
+          "C": "Abstraction",
+          "D": "Composition"
+        },
+        "correct_answer": "B",
+        "explanation": "Method overriding allows a child class to redefine an inherited method.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_polymorphism_03",
+        "question": "Which example best demonstrates polymorphism?",
+        "options": {
+          "A": "Different classes implement the same method name with class-specific behavior",
+          "B": "A class contains only variables",
+          "C": "A program contains no objects",
+          "D": "A method is deleted from a class"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism is demonstrated when the same method interface produces different behavior for different object types.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_polymorphism_04",
+        "question": "What is operator overloading?",
+        "options": {
+          "A": "Giving an operator behavior appropriate for user-defined objects",
+          "B": "Removing operators from a programming language",
+          "C": "Using operators only with strings",
+          "D": "Preventing arithmetic operations"
+        },
+        "correct_answer": "A",
+        "explanation": "Operator overloading allows operators such as + or == to work with custom objects in defined ways.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_polymorphism_05",
+        "question": "Which special method can define the behavior of + between Python objects?",
+        "options": {
+          "A": "__add__()",
+          "B": "__plus__()",
+          "C": "__sum__()",
+          "D": "__operator__()"
+        },
+        "correct_answer": "A",
+        "explanation": "Python uses the __add__() special method to implement addition behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_polymorphism_06",
+        "question": "What is runtime polymorphism commonly associated with?",
+        "options": {
+          "A": "Method overriding and dynamic method selection",
+          "B": "Database normalization",
+          "C": "Variable declaration only",
+          "D": "File compression"
+        },
+        "correct_answer": "A",
+        "explanation": "Runtime polymorphism commonly occurs when the method implementation is selected based on the actual object at runtime.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_polymorphism_07",
+        "question": "What is duck typing in Python?",
+        "options": {
+          "A": "Objects are considered based on supported behavior rather than their declared type",
+          "B": "Objects must always inherit from the same class",
+          "C": "Only numeric objects can be used",
+          "D": "Classes cannot define methods"
+        },
+        "correct_answer": "A",
+        "explanation": "Python's duck typing focuses on whether an object supports the required operations or methods.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_polymorphism_08",
+        "question": "If Circle and Rectangle both define an area() method, what can a common function do?",
+        "options": {
+          "A": "Call area() on either object without needing separate function names",
+          "B": "Prevent both objects from being created",
+          "C": "Convert both objects into strings automatically",
+          "D": "Delete one of the classes"
+        },
+        "correct_answer": "A",
+        "explanation": "A common interface such as area() allows different objects to be handled polymorphically.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_polymorphism_09",
+        "question": "Which OOP principle is most directly demonstrated by method overriding?",
+        "options": {
+          "A": "Polymorphism",
+          "B": "Normalization",
+          "C": "Indexing",
+          "D": "Data persistence"
+        },
+        "correct_answer": "A",
+        "explanation": "Method overriding allows different classes to respond differently to the same method call, demonstrating polymorphism.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_polymorphism_10",
+        "question": "What is compile-time polymorphism commonly associated with in languages that support it?",
+        "options": {
+          "A": "Method or operator overloading",
+          "B": "Method overriding only",
+          "C": "Object destruction",
+          "D": "Data hiding"
+        },
+        "correct_answer": "A",
+        "explanation": "In languages that support it, compile-time polymorphism is commonly implemented using overloading.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oops_polymorphism_11",
+        "question": "Why is polymorphism useful in software design?",
+        "options": {
+          "A": "It allows common interfaces to work with different implementations",
+          "B": "It forces every class to behave identically",
+          "C": "It eliminates the need for methods",
+          "D": "It prevents code reuse"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism makes code more flexible because common interfaces can operate on different implementations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_polymorphism_12",
+        "question": "Which principle allows a parent reference or interface to represent different child object types?",
+        "options": {
+          "A": "Polymorphism",
+          "B": "Encapsulation",
+          "C": "Abstraction",
+          "D": "Instantiation"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism allows a common parent type or interface to work with different child object types.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oops_polymorphism_13",
+        "question": "Consider Dog and Cat classes that both implement speak(). What does calling animal.speak() demonstrate when animal can refer to either object?",
+        "options": {
+          "A": "Runtime polymorphism",
+          "B": "Data normalization",
+          "C": "Static variable declaration",
+          "D": "Constructor overloading only"
+        },
+        "correct_answer": "A",
+        "explanation": "The actual object's implementation of speak() is used at runtime, demonstrating runtime polymorphism.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Encapsulation": [
+      {
+        "id": "oops_encapsulation_01",
+        "question": "What is encapsulation in OOP?",
+        "options": {
+          "A": "Bundling data and methods together while controlling access to the data",
+          "B": "Creating multiple unrelated programs",
+          "C": "Deleting all class methods",
+          "D": "Converting objects into databases"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation combines data and related behavior and controls how internal state is accessed or modified.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_encapsulation_02",
+        "question": "What is the main purpose of data hiding?",
+        "options": {
+          "A": "To restrict direct access to internal implementation details",
+          "B": "To remove all data from an object",
+          "C": "To prevent objects from having methods",
+          "D": "To make every variable public"
+        },
+        "correct_answer": "A",
+        "explanation": "Data hiding protects internal state from inappropriate direct access.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_encapsulation_03",
+        "question": "Which access level generally allows members to be accessed from anywhere?",
+        "options": {
+          "A": "Private",
+          "B": "Protected",
+          "C": "Public",
+          "D": "Hidden"
+        },
+        "correct_answer": "C",
+        "explanation": "Public members are generally accessible from outside the class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_encapsulation_04",
+        "question": "In Python, what naming convention is commonly used for a strongly private-by-name-mangling attribute?",
+        "options": {
+          "A": "name",
+          "B": "_name",
+          "C": "__name",
+          "D": "private.name"
+        },
+        "correct_answer": "C",
+        "explanation": "A name beginning with two underscores triggers name mangling in Python, helping avoid accidental direct access.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_encapsulation_05",
+        "question": "What does a single leading underscore commonly indicate in Python?",
+        "options": {
+          "A": "An internal-use convention",
+          "B": "A mandatory public variable",
+          "C": "A database connection",
+          "D": "A constant that cannot change"
+        },
+        "correct_answer": "A",
+        "explanation": "A single leading underscore conventionally indicates that a member is intended for internal use.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_encapsulation_06",
+        "question": "Why are getter and setter methods used?",
+        "options": {
+          "A": "To control access to object attributes",
+          "B": "To delete classes",
+          "C": "To create database tables",
+          "D": "To prevent method calls"
+        },
+        "correct_answer": "A",
+        "explanation": "Getters and setters provide controlled ways to read and modify internal data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_encapsulation_07",
+        "question": "Which OOP principle helps protect an object's internal state?",
+        "options": {
+          "A": "Encapsulation",
+          "B": "Inheritance",
+          "C": "Polymorphism",
+          "D": "Compilation"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation helps protect internal state by controlling how data is accessed and modified.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_encapsulation_08",
+        "question": "What is one advantage of encapsulation?",
+        "options": {
+          "A": "It makes implementation changes less likely to affect outside code",
+          "B": "It forces all attributes to be public",
+          "C": "It prevents object creation",
+          "D": "It removes class relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation reduces coupling because external code interacts with controlled interfaces rather than internal implementation details.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_encapsulation_09",
+        "question": "What can a setter method do before changing an attribute?",
+        "options": {
+          "A": "Validate the supplied value",
+          "B": "Delete the class",
+          "C": "Create an unrelated database",
+          "D": "Disable all methods"
+        },
+        "correct_answer": "A",
+        "explanation": "A setter can validate or transform input before updating an object's internal state.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_encapsulation_10",
+        "question": "If a BankAccount class prevents direct modification of balance and provides deposit() and withdraw() methods, which concept is demonstrated?",
+        "options": {
+          "A": "Encapsulation",
+          "B": "Multiple inheritance",
+          "C": "Method overloading",
+          "D": "Recursion"
+        },
+        "correct_answer": "A",
+        "explanation": "The class controls access to its balance through methods, which demonstrates encapsulation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_encapsulation_11",
+        "question": "How does encapsulation improve maintainability?",
+        "options": {
+          "A": "It separates internal implementation from the public interface",
+          "B": "It requires every variable to be global",
+          "C": "It prevents code modification",
+          "D": "It removes the need for testing"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation allows internal implementation to change while keeping the external interface stable.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oops_encapsulation_12",
+        "question": "What is the relationship between encapsulation and abstraction?",
+        "options": {
+          "A": "Encapsulation controls access to implementation details, while abstraction focuses on exposing essential features",
+          "B": "They are exactly the same concept",
+          "C": "Encapsulation removes all interfaces",
+          "D": "Abstraction requires every attribute to be public"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation focuses on bundling and access control, while abstraction focuses on hiding unnecessary complexity and exposing essential behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oops_encapsulation_13",
+        "question": "Why should internal object data often be modified through methods instead of direct access?",
+        "options": {
+          "A": "Methods can enforce validation and maintain object invariants",
+          "B": "Direct access always causes a syntax error",
+          "C": "Methods cannot change object data",
+          "D": "It makes inheritance impossible"
+        },
+        "correct_answer": "A",
+        "explanation": "Controlled methods can validate changes and ensure that the object's state remains valid.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Abstraction": [
+      {
+        "id": "oops_abstraction_01",
+        "question": "What is abstraction in OOP?",
+        "options": {
+          "A": "Hiding unnecessary implementation details and exposing essential features",
+          "B": "Making every implementation detail public",
+          "C": "Deleting all methods from a class",
+          "D": "Creating duplicate objects"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction focuses on essential behavior while hiding unnecessary implementation details.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_abstraction_02",
+        "question": "Which real-world example best represents abstraction?",
+        "options": {
+          "A": "Driving a car using pedals and a steering wheel without knowing the engine's internal implementation",
+          "B": "Opening every engine component before driving",
+          "C": "Removing the car's controls",
+          "D": "Building a new engine for every drive"
+        },
+        "correct_answer": "A",
+        "explanation": "A driver uses essential controls without needing to understand the internal engine mechanisms.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_abstraction_03",
+        "question": "Which Python module provides tools for defining abstract base classes?",
+        "options": {
+          "A": "math",
+          "B": "abc",
+          "C": "random",
+          "D": "os"
+        },
+        "correct_answer": "B",
+        "explanation": "Python's abc module provides Abstract Base Class support.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_abstraction_04",
+        "question": "Which decorator is commonly used to declare an abstract method in Python?",
+        "options": {
+          "A": "@abstractmethod",
+          "B": "@abstract",
+          "C": "@method",
+          "D": "@hide"
+        },
+        "correct_answer": "A",
+        "explanation": "The @abstractmethod decorator from the abc module marks a method as abstract.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_abstraction_05",
+        "question": "What is an abstract class?",
+        "options": {
+          "A": "A class intended to provide a common interface and that may contain abstract methods",
+          "B": "A class that can never contain methods",
+          "C": "A class containing only variables",
+          "D": "A class that automatically creates databases"
+        },
+        "correct_answer": "A",
+        "explanation": "An abstract class defines a common interface and may require subclasses to implement certain methods.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_abstraction_06",
+        "question": "Can a Python class containing an unimplemented abstract method be instantiated when it remains abstract?",
+        "options": {
+          "A": "Yes, always",
+          "B": "No, not until required abstract methods are implemented",
+          "C": "Only when it has no attributes",
+          "D": "Only when inheritance is disabled"
+        },
+        "correct_answer": "B",
+        "explanation": "A class with unimplemented abstract methods remains abstract and cannot normally be instantiated.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_abstraction_07",
+        "question": "What is the main benefit of abstraction?",
+        "options": {
+          "A": "It reduces complexity by exposing only necessary functionality",
+          "B": "It exposes every internal detail",
+          "C": "It removes the need for interfaces",
+          "D": "It prevents code reuse"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction reduces complexity by allowing users to work with essential operations without knowing internal details.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_abstraction_08",
+        "question": "What is an abstract method?",
+        "options": {
+          "A": "A method that defines required behavior for subclasses but may not provide a complete implementation",
+          "B": "A method that can never be called",
+          "C": "A method that exists only outside classes",
+          "D": "A method used only for deleting objects"
+        },
+        "correct_answer": "A",
+        "explanation": "An abstract method specifies behavior that concrete subclasses are expected to implement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_abstraction_09",
+        "question": "Which OOP principle is primarily concerned with exposing essential behavior while hiding implementation details?",
+        "options": {
+          "A": "Abstraction",
+          "B": "Inheritance",
+          "C": "Polymorphism",
+          "D": "Instantiation"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction hides unnecessary implementation details and exposes essential behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oops_abstraction_10",
+        "question": "If an abstract Shape class requires subclasses to implement area(), what is the purpose of area()?",
+        "options": {
+          "A": "It defines required behavior for concrete shape classes",
+          "B": "It prevents subclasses from being created",
+          "C": "It deletes the Shape class",
+          "D": "It stores database records"
+        },
+        "correct_answer": "A",
+        "explanation": "The abstract area() method defines a common requirement that concrete shape subclasses must fulfill.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_abstraction_11",
+        "question": "How does abstraction help software design?",
+        "options": {
+          "A": "It allows programmers to focus on what an object does rather than how it internally works",
+          "B": "It requires programmers to understand every implementation detail",
+          "C": "It prevents interfaces from being defined",
+          "D": "It removes all relationships between classes"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction separates the essential interface from implementation details, making systems easier to understand and use.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oops_abstraction_12",
+        "question": "What is the difference between an abstract class and a concrete class?",
+        "options": {
+          "A": "A concrete class can normally be instantiated, while an abstract class may define requirements that subclasses must implement",
+          "B": "A concrete class cannot contain methods",
+          "C": "An abstract class must always have more objects",
+          "D": "There is no difference between them"
+        },
+        "correct_answer": "A",
+        "explanation": "Concrete classes can normally create objects, while abstract classes are designed to provide common abstractions and may require subclass implementations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oops_abstraction_13",
+        "question": "Why can abstraction make a system easier to maintain?",
+        "options": {
+          "A": "Internal implementation can change without requiring users of the abstraction to understand those changes",
+          "B": "It forces all internal code to remain unchanged",
+          "C": "It removes all methods from the system",
+          "D": "It requires every class to expose its internal data"
+        },
+        "correct_answer": "A",
+        "explanation": "A stable abstraction allows implementation details to evolve while the external interface remains consistent.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

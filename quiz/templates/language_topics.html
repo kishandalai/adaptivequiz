@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | {{ language.name }} Notes{% endblock %}
+
+{% block content %}
+<section class="container page-section notes-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{% url 'technical_languages' %}">Technical Languages</a><span>/</span><strong>{{ language.name }}</strong></nav>
+    <div class="topic-list-header">
+        <div><p class="eyebrow">Learning track</p><h1>{{ language.name }} Notes</h1><p>{{ language.description }}</p></div>
+        <div class="progress-summary"><strong>{{ completed_count }}/{{ language.topics|length }}</strong><span>topics completed</span><div class="notes-progress"><span style="width: {% widthratio completed_count language.topics|length 100 %}%;"></span></div></div>
+    </div>
+
+    <div class="topic-list-layout">
+        <aside class="topic-list-aside card"><span class="aside-label">On this track</span><strong>{{ language.topics|length }} study topics</strong><p>Read each note, mark it complete, and practise supported topics with an adaptive quiz.</p></aside>
+        <div class="topic-list card">
+            {% for row in topic_rows %}
+                <a class="topic-row {% if row.completed %}is-complete{% endif %}" href="{% url 'topic_notes' language.slug forloop.counter0 %}">
+                    <span class="topic-number">{{ forloop.counter|stringformat:'02d' }}</span>
+                    <span class="topic-row-copy"><strong>{{ row.title }}</strong><small>{% if row.completed %}Completed{% else %}Read study notes{% endif %}</small></span>
+                    <span class="topic-row-action">{% if row.completed %}✓{% else %}Read Notes{% endif %}</span>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

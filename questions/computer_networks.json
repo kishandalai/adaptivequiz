@@ -1,0 +1,860 @@
+{
+  "subject": "Computer Networks",
+  "topics": {
+    "TCP/IP": [
+      {
+        "id": "computer_networks_tcp_ip_01",
+        "question": "Which description best matches TCP/IP?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_02",
+        "question": "In Computer Networks, what is TCP/IP mainly concerned with?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_03",
+        "question": "Which statement about TCP/IP is accurate?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_04",
+        "question": "What is the primary purpose of TCP/IP in Computer Networks?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_05",
+        "question": "Which idea is most closely associated with TCP/IP?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_06",
+        "question": "What does TCP/IP provide in a typical Computer Networks system?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_07",
+        "question": "Which explanation would best introduce TCP/IP to a student?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_08",
+        "question": "What problem does TCP/IP primarily address?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_09",
+        "question": "Which concept is represented by TCP/IP?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_tcp_ip_10",
+        "question": "How should TCP/IP be understood in Computer Networks?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_tcp_ip_11",
+        "question": "Which statement correctly identifies TCP/IP?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_tcp_ip_12",
+        "question": "What is a central characteristic of TCP/IP?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_tcp_ip_13",
+        "question": "Which definition is most accurate for TCP/IP?",
+        "options": {
+          "A": "the layered protocol suite used for communication across networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP means the layered protocol suite used for communication across networks.",
+        "difficulty": "Hard"
+      }
+    ],
+    "DNS": [
+      {
+        "id": "computer_networks_dns_01",
+        "question": "Which description best matches DNS?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_02",
+        "question": "In Computer Networks, what is DNS mainly concerned with?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_03",
+        "question": "Which statement about DNS is accurate?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_04",
+        "question": "What is the primary purpose of DNS in Computer Networks?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_05",
+        "question": "Which idea is most closely associated with DNS?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_06",
+        "question": "What does DNS provide in a typical Computer Networks system?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_07",
+        "question": "Which explanation would best introduce DNS to a student?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_08",
+        "question": "What problem does DNS primarily address?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_09",
+        "question": "Which concept is represented by DNS?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_dns_10",
+        "question": "How should DNS be understood in Computer Networks?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_dns_11",
+        "question": "Which statement correctly identifies DNS?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "selecting paths for packets between networks",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_dns_12",
+        "question": "What is a central characteristic of DNS?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_dns_13",
+        "question": "Which definition is most accurate for DNS?",
+        "options": {
+          "A": "the naming system that maps domain names to network addresses",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "selecting paths for packets between networks",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS means the naming system that maps domain names to network addresses.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Routing": [
+      {
+        "id": "computer_networks_routing_01",
+        "question": "Which description best matches Routing?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_02",
+        "question": "In Computer Networks, what is Routing mainly concerned with?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_03",
+        "question": "Which statement about Routing is accurate?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_04",
+        "question": "What is the primary purpose of Routing in Computer Networks?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_05",
+        "question": "Which idea is most closely associated with Routing?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_06",
+        "question": "What does Routing provide in a typical Computer Networks system?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_07",
+        "question": "Which explanation would best introduce Routing to a student?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_08",
+        "question": "What problem does Routing primarily address?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_09",
+        "question": "Which concept is represented by Routing?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "endpoints used by applications to exchange network data",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_routing_10",
+        "question": "How should Routing be understood in Computer Networks?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_routing_11",
+        "question": "Which statement correctly identifies Routing?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "endpoints used by applications to exchange network data",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_routing_12",
+        "question": "What is a central characteristic of Routing?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_routing_13",
+        "question": "Which definition is most accurate for Routing?",
+        "options": {
+          "A": "selecting paths for packets between networks",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "endpoints used by applications to exchange network data"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing means selecting paths for packets between networks.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Sockets": [
+      {
+        "id": "computer_networks_sockets_01",
+        "question": "Which description best matches Sockets?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_02",
+        "question": "In Computer Networks, what is Sockets mainly concerned with?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_03",
+        "question": "Which statement about Sockets is accurate?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_04",
+        "question": "What is the primary purpose of Sockets in Computer Networks?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_05",
+        "question": "Which idea is most closely associated with Sockets?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_06",
+        "question": "What does Sockets provide in a typical Computer Networks system?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_07",
+        "question": "Which explanation would best introduce Sockets to a student?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_08",
+        "question": "What problem does Sockets primarily address?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_09",
+        "question": "Which concept is represented by Sockets?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_sockets_10",
+        "question": "How should Sockets be understood in Computer Networks?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_sockets_11",
+        "question": "Which statement correctly identifies Sockets?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_sockets_12",
+        "question": "What is a central characteristic of Sockets?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_sockets_13",
+        "question": "Which definition is most accurate for Sockets?",
+        "options": {
+          "A": "endpoints used by applications to exchange network data",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Sockets means endpoints used by applications to exchange network data.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Security": [
+      {
+        "id": "computer_networks_security_01",
+        "question": "Which description best matches Security?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_02",
+        "question": "In Computer Networks, what is Security mainly concerned with?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_03",
+        "question": "Which statement about Security is accurate?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_04",
+        "question": "What is the primary purpose of Security in Computer Networks?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_05",
+        "question": "Which idea is most closely associated with Security?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_06",
+        "question": "What does Security provide in a typical Computer Networks system?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_07",
+        "question": "Which explanation would best introduce Security to a student?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_08",
+        "question": "What problem does Security primarily address?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_09",
+        "question": "Which concept is represented by Security?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "selecting paths for packets between networks",
+          "C": "the layered protocol suite used for communication across networks",
+          "D": "the naming system that maps domain names to network addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_security_10",
+        "question": "How should Security be understood in Computer Networks?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_security_11",
+        "question": "Which statement correctly identifies Security?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the naming system that maps domain names to network addresses",
+          "C": "selecting paths for packets between networks",
+          "D": "the layered protocol suite used for communication across networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_security_12",
+        "question": "What is a central characteristic of Security?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_security_13",
+        "question": "Which definition is most accurate for Security?",
+        "options": {
+          "A": "protecting systems and communication from unauthorized access and abuse",
+          "B": "the layered protocol suite used for communication across networks",
+          "C": "the naming system that maps domain names to network addresses",
+          "D": "selecting paths for packets between networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Security means protecting systems and communication from unauthorized access and abuse.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

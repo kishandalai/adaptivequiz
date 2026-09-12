@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Select Quiz{% endblock %}
+
+{% block content %}
+<section class="container page-section start-quiz-page">
+    <div class="start-quiz-layout">
+        <div class="start-quiz-intro">
+            <p class="eyebrow">Ready to begin</p>
+            <h2>Choose your next challenge</h2>
+            <p>Pick a subject and topic to begin a new adaptive quiz session built around your current learning level.</p>
+
+            <div class="start-quiz-highlights">
+                <div class="highlight-card">
+                    <span class="highlight-label">Question count</span>
+                    <strong>10</strong>
+                </div>
+                <div class="highlight-card">
+                    <span class="highlight-label">Difficulty</span>
+                    <strong>Adaptive</strong>
+                </div>
+                <div class="highlight-card">
+                    <span class="highlight-label">Coverage</span>
+                    <strong>8 subjects</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-box wide-form auth-card quiz-picker-card">
+            <p class="eyebrow">Choose a subject</p>
+            <h2>Select your quiz</h2>
+            <form method="post" class="auth-form">
+                {% csrf_token %}
+                <div class="field">
+                    <label for="id_subject">Subject</label>
+                    {{ form.subject }}
+                </div>
+                <div class="field">
+                    <label for="id_topic">Topic</label>
+                    <input type="text" name="topic" id="id_topic" list="topic-options" placeholder="Type or choose a topic" required>
+                    <datalist id="topic-options"></datalist>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Start Quiz</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const topicMap = {{ topics_by_subject|safe }};
+    const subjectSelect = document.getElementById('id_subject');
+    const topicInput = document.getElementById('id_topic');
+    const topicList = document.getElementById('topic-options');
+
+    function updateTopics() {
+        const subject = subjectSelect.value;
+        const topics = topicMap[subject] || [];
+        topicList.innerHTML = '';
+        topics.forEach(function (topic) {
+            const option = document.createElement('option');
+            option.value = topic;
+            topicList.appendChild(option);
+        });
+    }
+
+    subjectSelect.addEventListener('change', updateTopics);
+    updateTopics();
+</script>
+{% endblock %}

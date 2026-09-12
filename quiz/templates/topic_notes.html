@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | {{ topic }}{% endblock %}
+
+{% block content %}
+<section class="container page-section notes-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{% url 'technical_languages' %}">Technical Languages</a><span>/</span><a href="{% url 'language_topics' language.slug %}">{{ language.name }}</a><span>/</span><strong>{{ topic }}</strong></nav>
+    <div class="reader-progress-line"><span style="width: {% widthratio topic_index|add:1 topic_count 100 %}%;"></span></div>
+    <div class="reader-layout">
+        <aside class="reader-sidebar card">
+            <div class="reader-sidebar-heading"><span>{{ language.name }}</span><strong>{{ topic_index|add:1 }}/{{ topic_count }}</strong></div>
+            <nav class="reader-page-links" aria-label="On this page">
+                <span>On this page</span>
+                <a href="#overview">Overview</a><a href="#concepts">Core concepts</a><a href="#syntax">Syntax</a><a href="#examples">Examples</a><a href="#mistakes">Mistakes</a><a href="#interview">Interview</a><a href="#revision">Revision</a><a href="#practice">Practice</a>
+            </nav>
+            <div class="reader-topic-links">
+                {% for item in language.topics %}<a class="{% if forloop.counter0 == topic_index %}active{% endif %}" href="{% url 'topic_notes' language.slug forloop.counter0 %}"><span>{{ forloop.counter|stringformat:'02d' }}</span>{{ item }}</a>{% endfor %}
+            </div>
+        </aside>
+        <article class="note-reader">
+            <header class="note-header"><p class="eyebrow">{{ language.name }} · Topic {{ topic_index|add:1 }}</p><h1>{{ topic }}</h1><p>A complete study chapter with explanations, working examples, interview preparation, and practice.</p></header>
+            <section class="note-section" id="overview"><h2>Overview</h2><p>{{ note.overview }}</p></section>
+            <section class="note-section" id="concepts"><h2>Core Concepts</h2><ol>{% for item in note.core_concepts %}<li>{{ item }}</li>{% endfor %}</ol></section>
+            <section class="note-section" id="syntax"><h2>Syntax / Rules</h2><pre><code>{{ note.syntax }}</code></pre></section>
+            <section class="note-section" id="examples"><h2>Examples</h2>{% for example in note.examples %}<div class="note-example"><h3>{{ example.title }}</h3><p>{{ example.description }}</p><pre><code>{{ example.code }}</code></pre><p><strong>Explanation:</strong> {{ example.explanation }}</p><p><strong>Expected result:</strong> {{ example.output }}</p></div>{% endfor %}</section>
+            <section class="note-section" id="important"><h2>Important Concepts</h2><ul>{% for item in note.important %}<li>{{ item }}</li>{% endfor %}</ul></section>
+            <section class="note-section" id="mistakes"><h2>Common Mistakes</h2><ul>{% for item in note.mistakes %}<li>{{ item }}</li>{% endfor %}</ul></section>
+            <section class="note-section" id="interview"><h2>Interview Preparation</h2>{% for item in note.interview %}<div class="interview-item"><h3>{{ item.question }}</h3><p>{{ item.answer }}</p></div>{% endfor %}</section>
+            <section class="note-section" id="exam"><h2>Exam Points</h2><ul>{% for item in note.exam_points %}<li>{{ item }}</li>{% endfor %}</ul></section>
+            <section class="note-section revision-box" id="revision"><h2>Quick Revision</h2><p>{{ note.revision }}</p></section>
+            <section class="note-section" id="practice"><h2>Practice Questions</h2><ol>{% for item in note.practice %}<li>{{ item }}</li>{% endfor %}</ol></section>
+            <div class="reader-actions">
+                <form method="post">{% csrf_token %}<input type="hidden" name="action" value="toggle_complete"><button class="btn {% if completed %}btn-complete{% else %}btn-primary{% endif %}" type="submit">{% if completed %}✓ Completed{% else %}Mark Complete{% endif %}</button></form>
+                <a class="btn btn-secondary" href="{% url 'practice_topic' language.slug topic_index %}">Practice This Topic</a>
+            </div>
+            <nav class="reader-nav" aria-label="Topic navigation"><a href="{% if previous_index is not None %}{% url 'topic_notes' language.slug previous_index %}{% else %}{% url 'language_topics' language.slug %}{% endif %}">← Previous</a><a href="{% url 'language_topics' language.slug %}">Back to Topics</a>{% if next_index is not None %}<a href="{% url 'topic_notes' language.slug next_index %}">Next →</a>{% else %}<span class="reader-nav-muted">End of track</span>{% endif %}</nav>
+        </article>
+    </div>
+</section>
+{% endblock %}

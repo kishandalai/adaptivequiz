@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Home{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-copy">
+            <p class="eyebrow">Smart learning platform</p>
+            <h1>Practice smarter, learn faster.</h1>
+            <p class="lead">AdaptiveQuiz delivers topic-based quizzes that respond to your progress, helping you build confidence with every round.</p>
+            <div class="hero-actions">
+                {% if user.is_authenticated %}
+                    <a href="{% url 'dashboard' %}" class="btn btn-primary">Dashboard</a>
+                    <a href="{% url 'technical_languages' %}" class="btn btn-secondary">Technical Notes</a>
+                {% else %}
+                    <a href="{% url 'login' %}" class="btn btn-primary">My Account!</a>
+                    <a href="{% url 'register' %}" class="btn btn-secondary">Get Started</a>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="hero-card card">
+            <div class="card-badge">Learning overview</div>
+            <div class="mini-metrics">
+                <div class="mini-metric">
+                    <span>Accuracy</span>
+                    <strong>87%</strong>
+                </div>
+                <div class="mini-metric">
+                    <span>Topics</span>
+                    <strong>08</strong>
+                </div>
+                <div class="mini-metric">
+                    <span>Adaptive</span>
+                    <strong>Live</strong>
+                </div>
+            </div>
+            <ul class="feature-list">
+                <li>AI-generated multiple-choice questions</li>
+                <li>Adaptive difficulty based on performance</li>
+                <li>Clear topic-level insights and progress</li>
+                <li>Simple review of prior quiz attempts</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="features container">
+    <div class="section-heading">
+        <p class="eyebrow">Learning workflow</p>
+        <h2>Built for focused practice</h2>
+    </div>
+    <div class="feature-cards">
+        <div class="card feature-card">
+            <div class="icon-wrap">AI</div>
+            <h3>AI Questions</h3>
+            <p>Generate fresh, relevant MCQs using your selected subject and topic.</p>
+        </div>
+        <div class="card feature-card">
+            <div class="icon-wrap">⚙</div>
+            <h3>Adaptive Difficulty</h3>
+            <p>Challenge levels evolve with your results to maintain a balanced learning rhythm.</p>
+        </div>
+        <div class="card feature-card">
+            <div class="icon-wrap">📊</div>
+            <h3>Performance Insights</h3>
+            <p>Track accuracy, identify stronger areas, and focus on topics that need extra practice.</p>
+        </div>
+        <div class="card feature-card">
+            <div class="icon-wrap">🕘</div>
+            <h3>History Tracking</h3>
+            <p>Review past attempts and monitor how your understanding develops over time.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

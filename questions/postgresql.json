@@ -1,0 +1,1886 @@
+{
+  "subject": "PostgreSQL",
+  "topics": {
+    "Data Types": [
+      {
+        "id": "postgresql_data_types_01",
+        "question": "Which description best matches Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_02",
+        "question": "In PostgreSQL, what is Data Types mainly concerned with?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_03",
+        "question": "Which statement about Data Types is accurate?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_04",
+        "question": "What is the primary purpose of Data Types in PostgreSQL?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_05",
+        "question": "Which idea is most closely associated with Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_data_types_06",
+        "question": "What does Data Types provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_data_types_07",
+        "question": "Which explanation would best introduce Data Types to a student?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_data_types_08",
+        "question": "What problem does Data Types primarily address?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_data_types_09",
+        "question": "Which concept is represented by Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_data_types_10",
+        "question": "How should Data Types be understood in PostgreSQL?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_data_types_11",
+        "question": "Which statement correctly identifies Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_data_types_12",
+        "question": "What is a central characteristic of Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_data_types_13",
+        "question": "Which definition is most accurate for Data Types?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types means the categories that determine how values are represented and used.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Constraints": [
+      {
+        "id": "postgresql_constraints_01",
+        "question": "Which description best matches Constraints?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the categories that determine how values are represented and used",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_02",
+        "question": "In PostgreSQL, what is Constraints mainly concerned with?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_03",
+        "question": "Which statement about Constraints is accurate?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_04",
+        "question": "What is the primary purpose of Constraints in PostgreSQL?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_05",
+        "question": "Which idea is most closely associated with Constraints?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_06",
+        "question": "What does Constraints provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the categories that determine how values are represented and used",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_07",
+        "question": "Which explanation would best introduce Constraints to a student?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the categories that determine how values are represented and used",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_08",
+        "question": "What problem does Constraints primarily address?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_09",
+        "question": "Which concept is represented by Constraints?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_constraints_10",
+        "question": "How should Constraints be understood in PostgreSQL?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_constraints_11",
+        "question": "Which statement correctly identifies Constraints?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_constraints_12",
+        "question": "What is a central characteristic of Constraints?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the categories that determine how values are represented and used",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_constraints_13",
+        "question": "Which definition is most accurate for Constraints?",
+        "options": {
+          "A": "rules that restrict which values and relationships a table accepts",
+          "B": "the categories that determine how values are represented and used",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints means rules that restrict which values and relationships a table accepts.",
+        "difficulty": "Hard"
+      }
+    ],
+    "SELECT": [
+      {
+        "id": "postgresql_select_01",
+        "question": "Which description best matches SELECT?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_02",
+        "question": "In PostgreSQL, what is SELECT mainly concerned with?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_03",
+        "question": "Which statement about SELECT is accurate?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_04",
+        "question": "What is the primary purpose of SELECT in PostgreSQL?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_05",
+        "question": "Which idea is most closely associated with SELECT?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_06",
+        "question": "What does SELECT provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_07",
+        "question": "Which explanation would best introduce SELECT to a student?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_08",
+        "question": "What problem does SELECT primarily address?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_09",
+        "question": "Which concept is represented by SELECT?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the SQL clause that filters rows before later query processing",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_select_10",
+        "question": "How should SELECT be understood in PostgreSQL?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_select_11",
+        "question": "Which statement correctly identifies SELECT?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_select_12",
+        "question": "What is a central characteristic of SELECT?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_select_13",
+        "question": "Which definition is most accurate for SELECT?",
+        "options": {
+          "A": "the SQL operation that retrieves columns and rows from relations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL clause that filters rows before later query processing"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT means the SQL operation that retrieves columns and rows from relations.",
+        "difficulty": "Hard"
+      }
+    ],
+    "WHERE": [
+      {
+        "id": "postgresql_where_01",
+        "question": "Which description best matches WHERE?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_02",
+        "question": "In PostgreSQL, what is WHERE mainly concerned with?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_03",
+        "question": "Which statement about WHERE is accurate?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_04",
+        "question": "What is the primary purpose of WHERE in PostgreSQL?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_05",
+        "question": "Which idea is most closely associated with WHERE?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_where_06",
+        "question": "What does WHERE provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_where_07",
+        "question": "Which explanation would best introduce WHERE to a student?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_where_08",
+        "question": "What problem does WHERE primarily address?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_where_09",
+        "question": "Which concept is represented by WHERE?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_where_10",
+        "question": "How should WHERE be understood in PostgreSQL?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_where_11",
+        "question": "Which statement correctly identifies WHERE?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_where_12",
+        "question": "What is a central characteristic of WHERE?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_where_13",
+        "question": "Which definition is most accurate for WHERE?",
+        "options": {
+          "A": "the SQL clause that filters rows before later query processing",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE means the SQL clause that filters rows before later query processing.",
+        "difficulty": "Hard"
+      }
+    ],
+    "UPDATE": [
+      {
+        "id": "postgresql_update_01",
+        "question": "Which description best matches UPDATE?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_02",
+        "question": "In PostgreSQL, what is UPDATE mainly concerned with?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_03",
+        "question": "Which statement about UPDATE is accurate?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_04",
+        "question": "What is the primary purpose of UPDATE in PostgreSQL?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_05",
+        "question": "Which idea is most closely associated with UPDATE?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_06",
+        "question": "What does UPDATE provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_07",
+        "question": "Which explanation would best introduce UPDATE to a student?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_08",
+        "question": "What problem does UPDATE primarily address?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_09",
+        "question": "Which concept is represented by UPDATE?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_update_10",
+        "question": "How should UPDATE be understood in PostgreSQL?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_update_11",
+        "question": "Which statement correctly identifies UPDATE?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_update_12",
+        "question": "What is a central characteristic of UPDATE?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_update_13",
+        "question": "Which definition is most accurate for UPDATE?",
+        "options": {
+          "A": "the SQL command that changes values in existing rows",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE means the SQL command that changes values in existing rows.",
+        "difficulty": "Hard"
+      }
+    ],
+    "DELETE": [
+      {
+        "id": "postgresql_delete_01",
+        "question": "Which description best matches DELETE?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_02",
+        "question": "In PostgreSQL, what is DELETE mainly concerned with?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_03",
+        "question": "Which statement about DELETE is accurate?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_04",
+        "question": "What is the primary purpose of DELETE in PostgreSQL?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_05",
+        "question": "Which idea is most closely associated with DELETE?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_06",
+        "question": "What does DELETE provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_07",
+        "question": "Which explanation would best introduce DELETE to a student?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_08",
+        "question": "What problem does DELETE primarily address?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_09",
+        "question": "Which concept is represented by DELETE?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_delete_10",
+        "question": "How should DELETE be understood in PostgreSQL?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_delete_11",
+        "question": "Which statement correctly identifies DELETE?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_delete_12",
+        "question": "What is a central characteristic of DELETE?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_delete_13",
+        "question": "Which definition is most accurate for DELETE?",
+        "options": {
+          "A": "the SQL command that removes rows matching a condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE means the SQL command that removes rows matching a condition.",
+        "difficulty": "Hard"
+      }
+    ],
+    "JOIN": [
+      {
+        "id": "postgresql_join_01",
+        "question": "Which description best matches JOIN?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_02",
+        "question": "In PostgreSQL, what is JOIN mainly concerned with?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_03",
+        "question": "Which statement about JOIN is accurate?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_04",
+        "question": "What is the primary purpose of JOIN in PostgreSQL?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_05",
+        "question": "Which idea is most closely associated with JOIN?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_join_06",
+        "question": "What does JOIN provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_join_07",
+        "question": "Which explanation would best introduce JOIN to a student?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_join_08",
+        "question": "What problem does JOIN primarily address?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_join_09",
+        "question": "Which concept is represented by JOIN?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_join_10",
+        "question": "How should JOIN be understood in PostgreSQL?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_join_11",
+        "question": "Which statement correctly identifies JOIN?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_join_12",
+        "question": "What is a central characteristic of JOIN?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_join_13",
+        "question": "Which definition is most accurate for JOIN?",
+        "options": {
+          "A": "combining rows from related tables using a matching condition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN means combining rows from related tables using a matching condition.",
+        "difficulty": "Hard"
+      }
+    ],
+    "GROUP BY": [
+      {
+        "id": "postgresql_group_by_01",
+        "question": "Which description best matches GROUP BY?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_02",
+        "question": "In PostgreSQL, what is GROUP BY mainly concerned with?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_03",
+        "question": "Which statement about GROUP BY is accurate?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_04",
+        "question": "What is the primary purpose of GROUP BY in PostgreSQL?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_05",
+        "question": "Which idea is most closely associated with GROUP BY?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_06",
+        "question": "What does GROUP BY provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_07",
+        "question": "Which explanation would best introduce GROUP BY to a student?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_08",
+        "question": "What problem does GROUP BY primarily address?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_09",
+        "question": "Which concept is represented by GROUP BY?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_group_by_10",
+        "question": "How should GROUP BY be understood in PostgreSQL?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_group_by_11",
+        "question": "Which statement correctly identifies GROUP BY?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_group_by_12",
+        "question": "What is a central characteristic of GROUP BY?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_group_by_13",
+        "question": "Which definition is most accurate for GROUP BY?",
+        "options": {
+          "A": "the SQL clause that forms groups for aggregate calculations",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY means the SQL clause that forms groups for aggregate calculations.",
+        "difficulty": "Hard"
+      }
+    ],
+    "ORDER BY": [
+      {
+        "id": "postgresql_order_by_01",
+        "question": "Which description best matches ORDER BY?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_02",
+        "question": "In PostgreSQL, what is ORDER BY mainly concerned with?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_03",
+        "question": "Which statement about ORDER BY is accurate?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_04",
+        "question": "What is the primary purpose of ORDER BY in PostgreSQL?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_05",
+        "question": "Which idea is most closely associated with ORDER BY?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_06",
+        "question": "What does ORDER BY provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_07",
+        "question": "Which explanation would best introduce ORDER BY to a student?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_08",
+        "question": "What problem does ORDER BY primarily address?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_09",
+        "question": "Which concept is represented by ORDER BY?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_order_by_10",
+        "question": "How should ORDER BY be understood in PostgreSQL?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_order_by_11",
+        "question": "Which statement correctly identifies ORDER BY?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_order_by_12",
+        "question": "What is a central characteristic of ORDER BY?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_order_by_13",
+        "question": "Which definition is most accurate for ORDER BY?",
+        "options": {
+          "A": "the SQL clause that sorts a result set by one or more expressions",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY means the SQL clause that sorts a result set by one or more expressions.",
+        "difficulty": "Hard"
+      }
+    ],
+    "ALTER TABLE": [
+      {
+        "id": "postgresql_alter_table_01",
+        "question": "Which description best matches ALTER TABLE?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_02",
+        "question": "In PostgreSQL, what is ALTER TABLE mainly concerned with?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_03",
+        "question": "Which statement about ALTER TABLE is accurate?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_04",
+        "question": "What is the primary purpose of ALTER TABLE in PostgreSQL?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_05",
+        "question": "Which idea is most closely associated with ALTER TABLE?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_06",
+        "question": "What does ALTER TABLE provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_07",
+        "question": "Which explanation would best introduce ALTER TABLE to a student?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_08",
+        "question": "What problem does ALTER TABLE primarily address?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_09",
+        "question": "Which concept is represented by ALTER TABLE?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_alter_table_10",
+        "question": "How should ALTER TABLE be understood in PostgreSQL?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_alter_table_11",
+        "question": "Which statement correctly identifies ALTER TABLE?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_alter_table_12",
+        "question": "What is a central characteristic of ALTER TABLE?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_alter_table_13",
+        "question": "Which definition is most accurate for ALTER TABLE?",
+        "options": {
+          "A": "the SQL command used to change a table definition",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE means the SQL command used to change a table definition.",
+        "difficulty": "Hard"
+      }
+    ],
+    "String Functions": [
+      {
+        "id": "postgresql_string_functions_01",
+        "question": "Which description best matches String Functions?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_02",
+        "question": "In PostgreSQL, what is String Functions mainly concerned with?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_03",
+        "question": "Which statement about String Functions is accurate?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_04",
+        "question": "What is the primary purpose of String Functions in PostgreSQL?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_05",
+        "question": "Which idea is most closely associated with String Functions?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_06",
+        "question": "What does String Functions provide in a typical PostgreSQL system?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_07",
+        "question": "Which explanation would best introduce String Functions to a student?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_08",
+        "question": "What problem does String Functions primarily address?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_09",
+        "question": "Which concept is represented by String Functions?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the categories that determine how values are represented and used",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_string_functions_10",
+        "question": "How should String Functions be understood in PostgreSQL?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_string_functions_11",
+        "question": "Which statement correctly identifies String Functions?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "rules that restrict which values and relationships a table accepts",
+          "C": "the SQL operation that retrieves columns and rows from relations",
+          "D": "the categories that determine how values are represented and used"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_string_functions_12",
+        "question": "What is a central characteristic of String Functions?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_string_functions_13",
+        "question": "Which definition is most accurate for String Functions?",
+        "options": {
+          "A": "operations that transform, measure, or inspect text values",
+          "B": "the categories that determine how values are represented and used",
+          "C": "rules that restrict which values and relationships a table accepts",
+          "D": "the SQL operation that retrieves columns and rows from relations"
+        },
+        "correct_answer": "A",
+        "explanation": "String Functions means operations that transform, measure, or inspect text values.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

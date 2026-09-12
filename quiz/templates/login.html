@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Login{% endblock %}
+
+{% block content %}
+<section class="auth-page container">
+    <div class="form-box auth-card">
+        <p class="eyebrow">Welcome back</p>
+        <h2>Login to AdaptiveQuiz</h2>
+        <form method="post" class="auth-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary full-width">Login</button>
+        </form>
+        <p class="auth-switch">Need an account? <a href="{% url 'register' %}">Register</a></p>
+    </div>
+</section>
+{% endblock %}

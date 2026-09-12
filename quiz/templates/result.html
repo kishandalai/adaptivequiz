@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Result{% endblock %}
+
+{% block content %}
+<section class="container page-section">
+    <div class="result-summary card">
+        <div class="page-header result-header">
+            <div>
+                <p class="eyebrow">Assessment complete</p>
+                <h1>Quiz Result</h1>
+            </div>
+        </div>
+
+        {% if score is not None %}
+        <div class="score-grid">
+            <div class="score-box">
+                <span>Final score</span>
+                <strong>{{ score }}/{{ total_questions }}</strong>
+            </div>
+            <div class="score-box">
+                <span>Correct answers</span>
+                <strong>{{ correct_answers }}</strong>
+            </div>
+            <div class="score-box">
+                <span>Wrong answers</span>
+                <strong>{{ wrong_answers }}</strong>
+            </div>
+            <div class="score-box">
+                <span>Accuracy</span>
+                <strong>{{ accuracy }}%</strong>
+            </div>
+        </div>
+
+        <div class="result-meta">
+            <p><strong>Highest difficulty reached:</strong> {{ highest_difficulty }}</p>
+            <p><strong>Strong topics:</strong>
+                {% if strong_topics %}
+                    {% for item in strong_topics %}{{ item.subject }} - {{ item.topic }}{% if not forloop.last %}, {% endif %}{% endfor %}
+                {% else %}
+                    None yet
+                {% endif %}
+            </p>
+            <p><strong>Weak topics:</strong>
+                {% if weak_topics %}
+                    {% for item in weak_topics %}{{ item.subject }} - {{ item.topic }}{% if not forloop.last %}, {% endif %}{% endfor %}
+                {% else %}
+                    None yet
+                {% endif %}
+            </p>
+        </div>
+
+        <div class="result-actions">
+            <a href="{% url 'select_quiz' %}" class="btn btn-primary">Retry Quiz</a>
+            <a href="{% url 'dashboard' %}" class="btn btn-secondary">Dashboard</a>
+            <a href="{% url 'history' %}" class="btn btn-secondary">Quiz History</a>
+        </div>
+        {% else %}
+        <p class="empty-state">No quiz result available yet.</p>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

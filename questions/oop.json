@@ -1,0 +1,860 @@
+{
+  "subject": "OOP",
+  "topics": {
+    "Classes": [
+      {
+        "id": "oop_classes_01",
+        "question": "Which description best matches Classes?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_classes_02",
+        "question": "In OOP, what is Classes mainly concerned with?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_classes_03",
+        "question": "Which statement about Classes is accurate?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_classes_04",
+        "question": "What is the primary purpose of Classes in OOP?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_classes_05",
+        "question": "Which idea is most closely associated with Classes?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_classes_06",
+        "question": "What does Classes provide in a typical OOP system?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_classes_07",
+        "question": "Which explanation would best introduce Classes to a student?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_classes_08",
+        "question": "What problem does Classes primarily address?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_classes_09",
+        "question": "Which concept is represented by Classes?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_classes_10",
+        "question": "How should Classes be understood in OOP?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_classes_11",
+        "question": "Which statement correctly identifies Classes?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_classes_12",
+        "question": "What is a central characteristic of Classes?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_classes_13",
+        "question": "Which definition is most accurate for Classes?",
+        "options": {
+          "A": "blueprints that define object state and behavior",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Classes means blueprints that define object state and behavior.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Inheritance": [
+      {
+        "id": "oop_inheritance_01",
+        "question": "Which description best matches Inheritance?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "blueprints that define object state and behavior",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_inheritance_02",
+        "question": "In OOP, what is Inheritance mainly concerned with?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_inheritance_03",
+        "question": "Which statement about Inheritance is accurate?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_inheritance_04",
+        "question": "What is the primary purpose of Inheritance in OOP?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_inheritance_05",
+        "question": "Which idea is most closely associated with Inheritance?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_inheritance_06",
+        "question": "What does Inheritance provide in a typical OOP system?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "blueprints that define object state and behavior",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_inheritance_07",
+        "question": "Which explanation would best introduce Inheritance to a student?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "blueprints that define object state and behavior",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_inheritance_08",
+        "question": "What problem does Inheritance primarily address?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_inheritance_09",
+        "question": "Which concept is represented by Inheritance?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_inheritance_10",
+        "question": "How should Inheritance be understood in OOP?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_inheritance_11",
+        "question": "Which statement correctly identifies Inheritance?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_inheritance_12",
+        "question": "What is a central characteristic of Inheritance?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "blueprints that define object state and behavior",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_inheritance_13",
+        "question": "Which definition is most accurate for Inheritance?",
+        "options": {
+          "A": "deriving a class that reuses or extends another class",
+          "B": "blueprints that define object state and behavior",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Inheritance means deriving a class that reuses or extends another class.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Polymorphism": [
+      {
+        "id": "oop_polymorphism_01",
+        "question": "Which description best matches Polymorphism?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_polymorphism_02",
+        "question": "In OOP, what is Polymorphism mainly concerned with?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_polymorphism_03",
+        "question": "Which statement about Polymorphism is accurate?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_polymorphism_04",
+        "question": "What is the primary purpose of Polymorphism in OOP?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_polymorphism_05",
+        "question": "Which idea is most closely associated with Polymorphism?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_polymorphism_06",
+        "question": "What does Polymorphism provide in a typical OOP system?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_polymorphism_07",
+        "question": "Which explanation would best introduce Polymorphism to a student?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_polymorphism_08",
+        "question": "What problem does Polymorphism primarily address?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_polymorphism_09",
+        "question": "Which concept is represented by Polymorphism?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "bundling state with controlled access to its implementation",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_polymorphism_10",
+        "question": "How should Polymorphism be understood in OOP?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_polymorphism_11",
+        "question": "Which statement correctly identifies Polymorphism?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "bundling state with controlled access to its implementation",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_polymorphism_12",
+        "question": "What is a central characteristic of Polymorphism?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_polymorphism_13",
+        "question": "Which definition is most accurate for Polymorphism?",
+        "options": {
+          "A": "using a common interface with behavior that varies by object type",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "bundling state with controlled access to its implementation"
+        },
+        "correct_answer": "A",
+        "explanation": "Polymorphism means using a common interface with behavior that varies by object type.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Encapsulation": [
+      {
+        "id": "oop_encapsulation_01",
+        "question": "Which description best matches Encapsulation?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_encapsulation_02",
+        "question": "In OOP, what is Encapsulation mainly concerned with?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_encapsulation_03",
+        "question": "Which statement about Encapsulation is accurate?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_encapsulation_04",
+        "question": "What is the primary purpose of Encapsulation in OOP?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_encapsulation_05",
+        "question": "Which idea is most closely associated with Encapsulation?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_encapsulation_06",
+        "question": "What does Encapsulation provide in a typical OOP system?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_encapsulation_07",
+        "question": "Which explanation would best introduce Encapsulation to a student?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_encapsulation_08",
+        "question": "What problem does Encapsulation primarily address?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_encapsulation_09",
+        "question": "Which concept is represented by Encapsulation?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_encapsulation_10",
+        "question": "How should Encapsulation be understood in OOP?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_encapsulation_11",
+        "question": "Which statement correctly identifies Encapsulation?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_encapsulation_12",
+        "question": "What is a central characteristic of Encapsulation?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_encapsulation_13",
+        "question": "Which definition is most accurate for Encapsulation?",
+        "options": {
+          "A": "bundling state with controlled access to its implementation",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Encapsulation means bundling state with controlled access to its implementation.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Abstraction": [
+      {
+        "id": "oop_abstraction_01",
+        "question": "Which description best matches Abstraction?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_abstraction_02",
+        "question": "In OOP, what is Abstraction mainly concerned with?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_abstraction_03",
+        "question": "Which statement about Abstraction is accurate?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_abstraction_04",
+        "question": "What is the primary purpose of Abstraction in OOP?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "oop_abstraction_05",
+        "question": "Which idea is most closely associated with Abstraction?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_abstraction_06",
+        "question": "What does Abstraction provide in a typical OOP system?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_abstraction_07",
+        "question": "Which explanation would best introduce Abstraction to a student?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_abstraction_08",
+        "question": "What problem does Abstraction primarily address?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "oop_abstraction_09",
+        "question": "Which concept is represented by Abstraction?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "using a common interface with behavior that varies by object type",
+          "C": "blueprints that define object state and behavior",
+          "D": "deriving a class that reuses or extends another class"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_abstraction_10",
+        "question": "How should Abstraction be understood in OOP?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_abstraction_11",
+        "question": "Which statement correctly identifies Abstraction?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "deriving a class that reuses or extends another class",
+          "C": "using a common interface with behavior that varies by object type",
+          "D": "blueprints that define object state and behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_abstraction_12",
+        "question": "What is a central characteristic of Abstraction?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "oop_abstraction_13",
+        "question": "Which definition is most accurate for Abstraction?",
+        "options": {
+          "A": "exposing essential behavior while hiding unnecessary detail",
+          "B": "blueprints that define object state and behavior",
+          "C": "deriving a class that reuses or extends another class",
+          "D": "using a common interface with behavior that varies by object type"
+        },
+        "correct_answer": "A",
+        "explanation": "Abstraction means exposing essential behavior while hiding unnecessary detail.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

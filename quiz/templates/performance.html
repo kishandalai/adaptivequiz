@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Performance{% endblock %}
+
+{% block content %}
+<section class="container page-section performance-page">
+    <div class="performance-hero">
+        <div>
+            <p class="eyebrow">Learning analytics</p>
+            <h1>See how your knowledge is growing.</h1>
+            <p>Review your topic accuracy, spot patterns, and choose what to practise next.</p>
+        </div>
+        <div class="performance-hero-mark" aria-hidden="true">
+            <span class="bar bar-one"></span>
+            <span class="bar bar-two"></span>
+            <span class="bar bar-three"></span>
+            <span class="bar bar-four"></span>
+        </div>
+    </div>
+
+    <div class="performance-signals">
+        <div class="signal-card">
+            <span class="signal-icon">01</span>
+            <div>
+                <strong>Topic view</strong>
+                <small>Compare every subject in one place</small>
+            </div>
+        </div>
+        <div class="signal-card">
+            <span class="signal-icon signal-icon-teal">02</span>
+            <div>
+                <strong>Accuracy first</strong>
+                <small>Use your score to guide revision</small>
+            </div>
+        </div>
+        <div class="signal-card">
+            <span class="signal-icon signal-icon-amber">03</span>
+            <div>
+                <strong>Keep improving</strong>
+                <small>Small gains add up over time</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="table-panel card performance-table-card">
+        <div class="panel-header">
+            <div>
+                <h2>Performance by topic</h2>
+                <span>Your current learning snapshot</span>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="performance-table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Topic</th>
+                        <th>Total</th>
+                        <th>Correct</th>
+                        <th>Accuracy</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for topic in topics %}
+                    <tr>
+                        <td>{{ topic.subject }}</td>
+                        <td class="topic-name">{{ topic.topic }}</td>
+                        <td>{{ topic.total_questions }}</td>
+                        <td>{{ topic.correct_answers }}</td>
+                        <td class="accuracy-cell">
+                            <div class="accuracy-value"><strong>{{ topic.accuracy }}%</strong></div>
+                            <div class="accuracy-track" aria-label="{{ topic.accuracy }}% accuracy">
+                                <span style="width: {{ topic.accuracy }}%;"></span>
+                            </div>
+                        </td>
+                        <td><span class="level-pill">{{ topic.current_level }}</span></td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="6">No topic performance data yet.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,1886 @@
+{
+  "subject": "PostgreSQL",
+  "topics": {
+    "Data Types": [
+      {
+        "id": "postgresql_data_types_01",
+        "question": "Which statement correctly describes Data Types in PostgreSQL?",
+        "options": {
+          "A": "the categories that determine how values are represented and used",
+          "B": "the SQL operation that retrieves columns and rows from relations",
+          "C": "the SQL clause that filters rows before later query processing",
+          "D": "rules that restrict which values and relationships a table accepts"
+        },
+        "correct_answer": "A",
+        "explanation": "Data Types determine what kind of values a column can store and how those values are represented and used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_02",
+        "question": "Which PostgreSQL data type is commonly used to store whole numbers?",
+        "options": {
+          "A": "VARCHAR",
+          "B": "INTEGER",
+          "C": "BOOLEAN",
+          "D": "DATE"
+        },
+        "correct_answer": "B",
+        "explanation": "INTEGER is used to store whole-number values without a fractional component.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_03",
+        "question": "Which data type is appropriate for storing variable-length character strings?",
+        "options": {
+          "A": "INTEGER",
+          "B": "BOOLEAN",
+          "C": "VARCHAR",
+          "D": "DATE"
+        },
+        "correct_answer": "C",
+        "explanation": "VARCHAR stores variable-length character strings and can optionally specify a maximum length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_04",
+        "question": "Which PostgreSQL data type stores true or false values?",
+        "options": {
+          "A": "TEXT",
+          "B": "INTEGER",
+          "C": "BOOLEAN",
+          "D": "NUMERIC"
+        },
+        "correct_answer": "C",
+        "explanation": "BOOLEAN is PostgreSQL's data type for logical true and false values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_05",
+        "question": "Which data type is most suitable for storing monetary values when exact decimal precision is required?",
+        "options": {
+          "A": "NUMERIC",
+          "B": "REAL",
+          "C": "BOOLEAN",
+          "D": "TEXT"
+        },
+        "correct_answer": "A",
+        "explanation": "NUMERIC provides exact decimal arithmetic and is commonly used when precise values are required.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_06",
+        "question": "Which PostgreSQL data type stores a calendar date without a time of day?",
+        "options": {
+          "A": "TIME",
+          "B": "DATE",
+          "C": "TIMESTAMP",
+          "D": "INTERVAL"
+        },
+        "correct_answer": "B",
+        "explanation": "DATE stores calendar dates such as 2026-09-11 without a time component.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_07",
+        "question": "Which data type can store both date and time information?",
+        "options": {
+          "A": "DATE",
+          "B": "INTEGER",
+          "C": "TIMESTAMP",
+          "D": "INTERVAL"
+        },
+        "correct_answer": "C",
+        "explanation": "TIMESTAMP stores both date and time information.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_08",
+        "question": "Which PostgreSQL type is designed to store an arbitrary amount of text?",
+        "options": {
+          "A": "TEXT",
+          "B": "INTEGER",
+          "C": "DATE",
+          "D": "BOOLEAN"
+        },
+        "correct_answer": "A",
+        "explanation": "TEXT stores variable-length character data without requiring a declared maximum length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_09",
+        "question": "What does the PostgreSQL SERIAL pseudo-type traditionally provide?",
+        "options": {
+          "A": "automatic sequence-based integer values",
+          "B": "automatic encrypted text values",
+          "C": "automatic date formatting",
+          "D": "automatic Boolean conversion"
+        },
+        "correct_answer": "A",
+        "explanation": "SERIAL traditionally creates an integer column backed by a sequence for automatically generated values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_data_types_10",
+        "question": "Which data type is used to represent a period of time such as '2 days'?",
+        "options": {
+          "A": "DATE",
+          "B": "TIMESTAMP",
+          "C": "INTERVAL",
+          "D": "TIME"
+        },
+        "correct_answer": "C",
+        "explanation": "INTERVAL represents a duration or period of time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_data_types_11",
+        "question": "Which PostgreSQL type can store multiple values of the same type in one column?",
+        "options": {
+          "A": "ARRAY",
+          "B": "BOOLEAN",
+          "C": "SERIAL",
+          "D": "DATE"
+        },
+        "correct_answer": "A",
+        "explanation": "PostgreSQL supports ARRAY types that can store multiple values of a specified element type.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_data_types_12",
+        "question": "What is the main difference between VARCHAR(50) and TEXT in PostgreSQL?",
+        "options": {
+          "A": "VARCHAR(50) limits the string length while TEXT does not impose a declared length limit",
+          "B": "TEXT can store only numbers while VARCHAR stores characters",
+          "C": "VARCHAR(50) stores dates while TEXT stores timestamps",
+          "D": "TEXT automatically converts strings to uppercase"
+        },
+        "correct_answer": "A",
+        "explanation": "VARCHAR(50) enforces a maximum character length of 50, whereas TEXT has no declared maximum length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_data_types_13",
+        "question": "Which data type is most appropriate for storing an exact value such as 12345.6789?",
+        "options": {
+          "A": "BOOLEAN",
+          "B": "NUMERIC",
+          "C": "DATE",
+          "D": "INTEGER"
+        },
+        "correct_answer": "B",
+        "explanation": "NUMERIC is designed for exact decimal values and allows precision and scale to be controlled.",
+        "difficulty": "Medium"
+      }
+    ],
+    "Constraints": [
+      {
+        "id": "postgresql_constraints_01",
+        "question": "What is the main purpose of constraints in PostgreSQL?",
+        "options": {
+          "A": "to enforce rules on data stored in tables",
+          "B": "to sort query results alphabetically",
+          "C": "to create database backups",
+          "D": "to display database metadata"
+        },
+        "correct_answer": "A",
+        "explanation": "Constraints enforce rules that help maintain valid and consistent data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_02",
+        "question": "Which constraint prevents a column from containing NULL values?",
+        "options": {
+          "A": "UNIQUE",
+          "B": "CHECK",
+          "C": "NOT NULL",
+          "D": "FOREIGN KEY"
+        },
+        "correct_answer": "C",
+        "explanation": "NOT NULL requires every row to contain a value for that column.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_03",
+        "question": "Which constraint ensures that values in a column are not duplicated?",
+        "options": {
+          "A": "UNIQUE",
+          "B": "DEFAULT",
+          "C": "CHECK",
+          "D": "NOT NULL"
+        },
+        "correct_answer": "A",
+        "explanation": "UNIQUE prevents duplicate non-null values in a column or group of columns.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_04",
+        "question": "Which constraint uniquely identifies each row in a table?",
+        "options": {
+          "A": "FOREIGN KEY",
+          "B": "PRIMARY KEY",
+          "C": "CHECK",
+          "D": "DEFAULT"
+        },
+        "correct_answer": "B",
+        "explanation": "A PRIMARY KEY uniquely identifies each row and does not allow NULL values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_05",
+        "question": "Which constraint establishes a relationship between columns in two tables?",
+        "options": {
+          "A": "CHECK",
+          "B": "UNIQUE",
+          "C": "FOREIGN KEY",
+          "D": "NOT NULL"
+        },
+        "correct_answer": "C",
+        "explanation": "A FOREIGN KEY references a key in another table and helps maintain referential integrity.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_06",
+        "question": "Which constraint is used to ensure that a salary value is greater than zero?",
+        "options": {
+          "A": "CHECK",
+          "B": "PRIMARY KEY",
+          "C": "FOREIGN KEY",
+          "D": "UNIQUE"
+        },
+        "correct_answer": "A",
+        "explanation": "A CHECK constraint can enforce conditions such as salary > 0.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_07",
+        "question": "Which constraint can be used to automatically provide a value when no value is supplied?",
+        "options": {
+          "A": "UNIQUE",
+          "B": "DEFAULT",
+          "C": "CHECK",
+          "D": "FOREIGN KEY"
+        },
+        "correct_answer": "B",
+        "explanation": "DEFAULT specifies a value that PostgreSQL uses when an INSERT does not provide one.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_constraints_08",
+        "question": "What happens when an INSERT violates a CHECK constraint?",
+        "options": {
+          "A": "The invalid row is automatically corrected",
+          "B": "The constraint is temporarily disabled",
+          "C": "PostgreSQL rejects the operation",
+          "D": "The table is deleted"
+        },
+        "correct_answer": "C",
+        "explanation": "PostgreSQL rejects an INSERT or UPDATE that violates a CHECK constraint.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_09",
+        "question": "What is a composite primary key?",
+        "options": {
+          "A": "a primary key containing multiple columns",
+          "B": "a primary key containing only text",
+          "C": "a primary key generated from a sequence only",
+          "D": "a primary key that allows duplicate rows"
+        },
+        "correct_answer": "A",
+        "explanation": "A composite primary key uses two or more columns together to uniquely identify a row.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_10",
+        "question": "What does ON DELETE CASCADE do on a foreign key?",
+        "options": {
+          "A": "prevents all DELETE operations",
+          "B": "deletes related child rows when the referenced parent row is deleted",
+          "C": "changes deleted rows into NULL values",
+          "D": "copies deleted rows to another table"
+        },
+        "correct_answer": "B",
+        "explanation": "ON DELETE CASCADE automatically removes dependent child rows when the referenced parent row is deleted.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_11",
+        "question": "Why can a primary key not contain NULL values?",
+        "options": {
+          "A": "because every row must have an identifiable key value",
+          "B": "because PostgreSQL converts NULL to zero",
+          "C": "because NULL is treated as a duplicate number",
+          "D": "because primary keys accept only text"
+        },
+        "correct_answer": "A",
+        "explanation": "A primary key must uniquely identify every row, so it cannot contain NULL values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_12",
+        "question": "Which statement correctly describes referential integrity?",
+        "options": {
+          "A": "it ensures foreign key values correspond to valid referenced rows",
+          "B": "it sorts foreign key values in ascending order",
+          "C": "it converts all foreign keys into primary keys",
+          "D": "it prevents a table from having any NULL values"
+        },
+        "correct_answer": "A",
+        "explanation": "Referential integrity ensures relationships between related tables remain valid.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_constraints_13",
+        "question": "In PostgreSQL, what is normally allowed for a UNIQUE column regarding NULL values?",
+        "options": {
+          "A": "Only one NULL is allowed",
+          "B": "Multiple NULL values can normally be stored",
+          "C": "NULL values are converted to empty strings",
+          "D": "NULL values cause the table to be dropped"
+        },
+        "correct_answer": "B",
+        "explanation": "PostgreSQL normally allows multiple NULL values in a UNIQUE column because NULL values are not considered equal for ordinary uniqueness checks.",
+        "difficulty": "Hard"
+      }
+    ],
+    "SELECT": [
+      {
+        "id": "postgresql_select_01",
+        "question": "What is the primary purpose of the SELECT statement?",
+        "options": {
+          "A": "to retrieve data from database tables",
+          "B": "to permanently delete a table",
+          "C": "to modify table structure",
+          "D": "to create a database user"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT is used to retrieve rows and columns from tables or other query sources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_02",
+        "question": "What does SELECT * FROM employees return?",
+        "options": {
+          "A": "only the first row",
+          "B": "all columns from employees for the selected rows",
+          "C": "only numeric columns",
+          "D": "only the primary key"
+        },
+        "correct_answer": "B",
+        "explanation": "The asterisk represents all columns from the employees table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_03",
+        "question": "Which query retrieves only the name and salary columns from employees?",
+        "options": {
+          "A": "SELECT name, salary FROM employees;",
+          "B": "GET name, salary FROM employees;",
+          "C": "SELECT employees WHERE name, salary;",
+          "D": "SHOW name AND salary FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT followed by a comma-separated list of columns retrieves only those columns.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_04",
+        "question": "Which keyword removes duplicate rows from a SELECT result?",
+        "options": {
+          "A": "UNIQUE",
+          "B": "DISTINCT",
+          "C": "DIFFERENT",
+          "D": "REMOVE"
+        },
+        "correct_answer": "B",
+        "explanation": "DISTINCT eliminates duplicate result rows based on the selected expressions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_05",
+        "question": "Which query creates the alias employee_name for the name column?",
+        "options": {
+          "A": "SELECT name AS employee_name FROM employees;",
+          "B": "SELECT name TO employee_name FROM employees;",
+          "C": "SELECT employee_name = name FROM employees;",
+          "D": "SELECT ALIAS name employee_name FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "The AS keyword assigns an alias to a selected column.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_06",
+        "question": "Which expression calculates a salary increased by 10 percent?",
+        "options": {
+          "A": "salary + 10",
+          "B": "salary * 1.10",
+          "C": "salary / 10",
+          "D": "salary * 10"
+        },
+        "correct_answer": "B",
+        "explanation": "Multiplying salary by 1.10 increases the value by 10 percent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_07",
+        "question": "Which SELECT query returns the total number of rows in employees?",
+        "options": {
+          "A": "SELECT TOTAL(*) FROM employees;",
+          "B": "SELECT COUNT(*) FROM employees;",
+          "C": "SELECT ROWS(*) FROM employees;",
+          "D": "SELECT SUM(*) FROM employees;"
+        },
+        "correct_answer": "B",
+        "explanation": "COUNT(*) counts all rows returned from the employees table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_08",
+        "question": "Which function returns the average value of a numeric column?",
+        "options": {
+          "A": "MEAN()",
+          "B": "AVERAGE()",
+          "C": "AVG()",
+          "D": "MID()"
+        },
+        "correct_answer": "C",
+        "explanation": "AVG() calculates the arithmetic average of non-null numeric values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_09",
+        "question": "Which query returns the highest salary from employees?",
+        "options": {
+          "A": "SELECT HIGH(salary) FROM employees;",
+          "B": "SELECT MAX(salary) FROM employees;",
+          "C": "SELECT TOP(salary) FROM employees;",
+          "D": "SELECT HIGHEST(salary) FROM employees;"
+        },
+        "correct_answer": "B",
+        "explanation": "MAX() returns the largest non-null value in a column.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_select_10",
+        "question": "Which query returns only unique department values?",
+        "options": {
+          "A": "SELECT department FROM employees;",
+          "B": "SELECT DISTINCT department FROM employees;",
+          "C": "SELECT UNIQUE department FROM employees;",
+          "D": "SELECT ONLY department FROM employees;"
+        },
+        "correct_answer": "B",
+        "explanation": "DISTINCT removes duplicate department values from the result.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_11",
+        "question": "What does COUNT(column_name) do when some rows contain NULL in that column?",
+        "options": {
+          "A": "It counts all rows including NULL values",
+          "B": "It counts only rows where the column is not NULL",
+          "C": "It converts NULL values to zero before counting",
+          "D": "It counts only duplicate values"
+        },
+        "correct_answer": "B",
+        "explanation": "COUNT(column_name) ignores NULL values and counts only non-null values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_12",
+        "question": "Which query calculates the difference between the maximum and minimum salary?",
+        "options": {
+          "A": "SELECT MAX(salary) - MIN(salary) FROM employees;",
+          "B": "SELECT MAX(salary) + MIN(salary) FROM employees;",
+          "C": "SELECT DIFFERENCE(salary) FROM employees;",
+          "D": "SELECT RANGE(salary) FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "Subtracting MIN(salary) from MAX(salary) gives the salary range.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_select_13",
+        "question": "Which SELECT expression returns 'High' when salary is at least 50000 and 'Low' otherwise?",
+        "options": {
+          "A": "IF salary >= 50000 THEN 'High' ELSE 'Low'",
+          "B": "CASE WHEN salary >= 50000 THEN 'High' ELSE 'Low' END",
+          "C": "CHECK salary >= 50000 RETURN 'High'",
+          "D": "SWITCH salary >= 50000 TO 'High'"
+        },
+        "correct_answer": "B",
+        "explanation": "The CASE expression performs conditional logic inside a SELECT statement.",
+        "difficulty": "Medium"
+      }
+    ],
+    "WHERE": [
+      {
+        "id": "postgresql_where_01",
+        "question": "What is the primary purpose of the WHERE clause?",
+        "options": {
+          "A": "to filter rows based on a condition",
+          "B": "to rename a table",
+          "C": "to create a new database",
+          "D": "to define a column data type"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE filters rows according to a specified condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_02",
+        "question": "Which query returns employees whose salary is greater than 50000?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE salary > 50000;",
+          "B": "SELECT * FROM employees FILTER salary > 50000;",
+          "C": "SELECT * FROM employees IF salary > 50000;",
+          "D": "SELECT * FROM employees CHECK salary > 50000;"
+        },
+        "correct_answer": "A",
+        "explanation": "The greater-than operator inside WHERE filters rows with salary values above 50000.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_03",
+        "question": "Which operator checks whether two values are equal?",
+        "options": {
+          "A": "<>",
+          "B": "=",
+          "C": ">",
+          "D": "<"
+        },
+        "correct_answer": "B",
+        "explanation": "The equals operator = tests whether two expressions have equal values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_04",
+        "question": "Which operator means 'not equal' in PostgreSQL?",
+        "options": {
+          "A": "!=",
+          "B": "<>",
+          "C": "Both A and B",
+          "D": "><"
+        },
+        "correct_answer": "C",
+        "explanation": "PostgreSQL supports both <> and != as not-equal operators.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_05",
+        "question": "Which operator checks whether a value belongs to a specified list?",
+        "options": {
+          "A": "BETWEEN",
+          "B": "IN",
+          "C": "LIKE",
+          "D": "WITHIN"
+        },
+        "correct_answer": "B",
+        "explanation": "IN checks whether an expression matches any value in a specified list.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_06",
+        "question": "Which condition finds salaries between 30000 and 60000 inclusive?",
+        "options": {
+          "A": "salary IN 30000 TO 60000",
+          "B": "salary BETWEEN 30000 AND 60000",
+          "C": "salary RANGE 30000, 60000",
+          "D": "salary FROM 30000 UNTIL 60000"
+        },
+        "correct_answer": "B",
+        "explanation": "BETWEEN includes both boundary values in PostgreSQL.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_07",
+        "question": "Which operator performs case-sensitive pattern matching?",
+        "options": {
+          "A": "LIKE",
+          "B": "ILIKE",
+          "C": "MATCH",
+          "D": "PATTERN"
+        },
+        "correct_answer": "A",
+        "explanation": "LIKE performs pattern matching and is case-sensitive for ordinary text comparisons in PostgreSQL.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_where_08",
+        "question": "Which PostgreSQL operator performs case-insensitive pattern matching?",
+        "options": {
+          "A": "LIKE",
+          "B": "ILIKE",
+          "C": "LOWERLIKE",
+          "D": "CASELIKE"
+        },
+        "correct_answer": "B",
+        "explanation": "ILIKE performs case-insensitive pattern matching in PostgreSQL.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_09",
+        "question": "Which condition correctly checks whether city is NULL?",
+        "options": {
+          "A": "city = NULL",
+          "B": "city == NULL",
+          "C": "city IS NULL",
+          "D": "city EQUALS NULL"
+        },
+        "correct_answer": "C",
+        "explanation": "IS NULL must be used to test whether a value is NULL.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_10",
+        "question": "Which condition returns employees from either the IT or HR department?",
+        "options": {
+          "A": "department IN ('IT', 'HR')",
+          "B": "department BETWEEN ('IT', 'HR')",
+          "C": "department LIKE ('IT', 'HR')",
+          "D": "department FROM ('IT', 'HR')"
+        },
+        "correct_answer": "A",
+        "explanation": "IN is convenient when checking a column against multiple specified values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_11",
+        "question": "Which logical operator requires both conditions to be true?",
+        "options": {
+          "A": "OR",
+          "B": "NOT",
+          "C": "AND",
+          "D": "XOR"
+        },
+        "correct_answer": "C",
+        "explanation": "AND returns true only when both combined conditions are true.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_where_12",
+        "question": "Which condition finds names beginning with the letter 'A'?",
+        "options": {
+          "A": "name LIKE '%A'",
+          "B": "name LIKE 'A%'",
+          "C": "name LIKE '_A%'",
+          "D": "name LIKE '%A%'"
+        },
+        "correct_answer": "B",
+        "explanation": "The percent wildcard after A matches any sequence of characters following A.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_where_13",
+        "question": "Which condition finds employees whose salary is greater than 50000 and age is less than 30?",
+        "options": {
+          "A": "salary > 50000 OR age < 30",
+          "B": "salary > 50000 AND age < 30",
+          "C": "salary > 50000 NOT age < 30",
+          "D": "salary BETWEEN 50000 AND age 30"
+        },
+        "correct_answer": "B",
+        "explanation": "AND requires both salary > 50000 and age < 30 to be true.",
+        "difficulty": "Medium"
+      }
+    ],
+    "UPDATE": [
+      {
+        "id": "postgresql_update_01",
+        "question": "What is the primary purpose of the UPDATE statement?",
+        "options": {
+          "A": "to modify existing rows",
+          "B": "to retrieve rows",
+          "C": "to create a database",
+          "D": "to remove a table structure"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE changes existing values in one or more rows of a table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_02",
+        "question": "Which keyword specifies the new values in an UPDATE statement?",
+        "options": {
+          "A": "CHANGE",
+          "B": "SET",
+          "C": "VALUE",
+          "D": "MODIFY"
+        },
+        "correct_answer": "B",
+        "explanation": "SET specifies which columns should receive new values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_03",
+        "question": "Which query changes the salary of employee 5 to 60000?",
+        "options": {
+          "A": "UPDATE employees SET salary = 60000 WHERE id = 5;",
+          "B": "CHANGE employees salary TO 60000 WHERE id = 5;",
+          "C": "UPDATE employees salary = 60000 IF id = 5;",
+          "D": "MODIFY employees SET salary 60000 FOR id 5;"
+        },
+        "correct_answer": "A",
+        "explanation": "UPDATE uses SET for the new value and WHERE to identify the target row.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_04",
+        "question": "What can happen if an UPDATE statement has no WHERE clause?",
+        "options": {
+          "A": "Only the first row is updated",
+          "B": "All rows may be updated",
+          "C": "The database automatically adds a WHERE clause",
+          "D": "The table becomes read-only"
+        },
+        "correct_answer": "B",
+        "explanation": "Without WHERE, UPDATE applies the SET changes to every row in the table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_05",
+        "question": "Which statement increases every employee's salary by 10 percent?",
+        "options": {
+          "A": "UPDATE employees SET salary = salary + 10;",
+          "B": "UPDATE employees SET salary = salary * 1.10;",
+          "C": "UPDATE employees SET salary = 10%;",
+          "D": "UPDATE employees INCREASE salary BY 10;"
+        },
+        "correct_answer": "B",
+        "explanation": "Multiplying every salary by 1.10 increases it by 10 percent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_06",
+        "question": "Which clause can restrict an UPDATE to specific rows?",
+        "options": {
+          "A": "GROUP BY",
+          "B": "ORDER BY",
+          "C": "WHERE",
+          "D": "HAVING"
+        },
+        "correct_answer": "C",
+        "explanation": "WHERE identifies which rows should be updated.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_07",
+        "question": "Can an UPDATE statement modify more than one column?",
+        "options": {
+          "A": "No, only one column can be changed",
+          "B": "Yes, multiple columns can be assigned in SET",
+          "C": "Only primary key columns can be changed",
+          "D": "Only text columns can be changed"
+        },
+        "correct_answer": "B",
+        "explanation": "Multiple column assignments can be included in the SET clause.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_08",
+        "question": "Which query updates both department and salary for employee 10?",
+        "options": {
+          "A": "UPDATE employees SET department = 'IT', salary = 70000 WHERE id = 10;",
+          "B": "UPDATE employees SET department AND salary = 'IT', 70000 WHERE id = 10;",
+          "C": "UPDATE employees CHANGE department, salary WHERE id = 10;",
+          "D": "UPDATE employees VALUES ('IT', 70000) WHERE id = 10;"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple column assignments are separated by commas in the SET clause.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_09",
+        "question": "Which UPDATE condition changes salaries only for employees in the HR department?",
+        "options": {
+          "A": "WHERE department = 'HR'",
+          "B": "HAVING department = 'HR'",
+          "C": "GROUP BY department = 'HR'",
+          "D": "ORDER BY department = 'HR'"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE department = 'HR' restricts the update to HR employees.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_update_10",
+        "question": "Which PostgreSQL feature can return updated rows directly from an UPDATE statement?",
+        "options": {
+          "A": "RETURNING",
+          "B": "OUTPUT",
+          "C": "RESULT",
+          "D": "SHOW"
+        },
+        "correct_answer": "A",
+        "explanation": "PostgreSQL supports RETURNING to return values from rows affected by UPDATE.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_11",
+        "question": "Which expression sets bonus to zero when bonus is currently NULL?",
+        "options": {
+          "A": "COALESCE(bonus, 0)",
+          "B": "NULLTOZERO(bonus)",
+          "C": "IFNULLONLY(bonus, 0)",
+          "D": "REPLACE_NULL(bonus, 0)"
+        },
+        "correct_answer": "A",
+        "explanation": "COALESCE returns the first non-null expression, so it can replace NULL bonus values with zero.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_12",
+        "question": "Which statement safely updates employees older than 40 by increasing salary by 5 percent?",
+        "options": {
+          "A": "UPDATE employees SET salary = salary * 1.05 WHERE age > 40;",
+          "B": "UPDATE employees SET salary = salary + 5 WHERE age > 40;",
+          "C": "UPDATE employees SET salary = 5% WHERE age > 40;",
+          "D": "UPDATE employees INCREASE salary 5 WHERE age > 40;"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiplication by 1.05 increases salary by 5 percent while WHERE limits the affected rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_update_13",
+        "question": "Why should a WHERE clause usually be checked carefully before executing UPDATE?",
+        "options": {
+          "A": "because an incorrect WHERE condition can modify unintended rows",
+          "B": "because UPDATE cannot work with numeric columns",
+          "C": "because WHERE automatically deletes rows",
+          "D": "because UPDATE always changes the table structure"
+        },
+        "correct_answer": "A",
+        "explanation": "A poorly written WHERE condition can cause more rows than intended to be modified.",
+        "difficulty": "Hard"
+      }
+    ],
+    "DELETE": [
+      {
+        "id": "postgresql_delete_01",
+        "question": "What is the primary purpose of the DELETE statement?",
+        "options": {
+          "A": "to remove rows from a table",
+          "B": "to rename a table",
+          "C": "to retrieve records",
+          "D": "to add columns"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE removes existing rows from a table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_02",
+        "question": "Which clause identifies the rows to be deleted?",
+        "options": {
+          "A": "WHERE",
+          "B": "GROUP BY",
+          "C": "ORDER BY",
+          "D": "HAVING"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE specifies which rows should be removed.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_03",
+        "question": "Which query deletes employee number 7?",
+        "options": {
+          "A": "DELETE employees WHERE id = 7;",
+          "B": "DELETE FROM employees WHERE id = 7;",
+          "C": "REMOVE employees WHERE id = 7;",
+          "D": "DROP ROW employees WHERE id = 7;"
+        },
+        "correct_answer": "B",
+        "explanation": "The correct PostgreSQL syntax is DELETE FROM table WHERE condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_04",
+        "question": "What happens when DELETE FROM employees is executed without a WHERE clause?",
+        "options": {
+          "A": "Only one employee is deleted",
+          "B": "All rows in employees are deleted",
+          "C": "The employees table structure is deleted",
+          "D": "The command automatically fails"
+        },
+        "correct_answer": "B",
+        "explanation": "Without WHERE, DELETE removes every row from the table while leaving the table itself.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_05",
+        "question": "Which statement deletes employees whose salary is below 20000?",
+        "options": {
+          "A": "DELETE FROM employees WHERE salary < 20000;",
+          "B": "DELETE employees IF salary < 20000;",
+          "C": "REMOVE FROM employees salary < 20000;",
+          "D": "DROP employees WHERE salary < 20000;"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE salary < 20000 limits the DELETE operation to matching rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_06",
+        "question": "Does DELETE FROM employees remove the employees table itself?",
+        "options": {
+          "A": "Yes, DELETE always removes the table",
+          "B": "No, DELETE removes rows but keeps the table structure",
+          "C": "Only if the table has a primary key",
+          "D": "Only when the table is empty"
+        },
+        "correct_answer": "B",
+        "explanation": "DELETE removes rows; the table definition remains.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_07",
+        "question": "Which PostgreSQL clause can return deleted rows?",
+        "options": {
+          "A": "RETURNING",
+          "B": "OUTPUT",
+          "C": "SHOW",
+          "D": "RESULT"
+        },
+        "correct_answer": "A",
+        "explanation": "PostgreSQL supports RETURNING with DELETE to return values from deleted rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_08",
+        "question": "Which condition deletes rows where city is NULL?",
+        "options": {
+          "A": "WHERE city = NULL",
+          "B": "WHERE city IS NULL",
+          "C": "WHERE city == NULL",
+          "D": "WHERE city EQUALS NULL"
+        },
+        "correct_answer": "B",
+        "explanation": "IS NULL is the correct SQL condition for testing NULL values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_delete_09",
+        "question": "What is the main difference between DELETE and DROP TABLE?",
+        "options": {
+          "A": "DELETE removes rows while DROP TABLE removes the table structure",
+          "B": "DELETE changes column types while DROP TABLE changes values",
+          "C": "DELETE creates tables while DROP TABLE inserts rows",
+          "D": "There is no difference"
+        },
+        "correct_answer": "A",
+        "explanation": "DELETE removes rows from a table, while DROP TABLE removes the table definition and its data.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_10",
+        "question": "Which condition deletes employees from both IT and HR departments?",
+        "options": {
+          "A": "WHERE department IN ('IT', 'HR')",
+          "B": "WHERE department BETWEEN ('IT', 'HR')",
+          "C": "WHERE department LIKE ('IT', 'HR')",
+          "D": "WHERE department HAS ('IT', 'HR')"
+        },
+        "correct_answer": "A",
+        "explanation": "IN checks whether department matches one of the specified values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_11",
+        "question": "What effect can ON DELETE CASCADE have when a parent row is deleted?",
+        "options": {
+          "A": "Related child rows can also be automatically deleted",
+          "B": "The parent row is automatically restored",
+          "C": "All tables in the database are deleted",
+          "D": "The foreign key is automatically removed"
+        },
+        "correct_answer": "A",
+        "explanation": "ON DELETE CASCADE removes dependent child rows associated with the deleted parent row.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_12",
+        "question": "Which query deletes employees whose names start with 'Test'?",
+        "options": {
+          "A": "DELETE FROM employees WHERE name LIKE 'Test%';",
+          "B": "DELETE FROM employees WHERE name = 'Test%';",
+          "C": "DELETE employees WHERE name STARTS 'Test';",
+          "D": "REMOVE FROM employees WHERE name PREFIX 'Test';"
+        },
+        "correct_answer": "A",
+        "explanation": "LIKE 'Test%' matches strings beginning with Test.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_delete_13",
+        "question": "Why is DELETE without a WHERE clause considered risky?",
+        "options": {
+          "A": "because it can remove every row in the table",
+          "B": "because it automatically drops the database",
+          "C": "because it changes every column type",
+          "D": "because it prevents future SELECT statements"
+        },
+        "correct_answer": "A",
+        "explanation": "A DELETE statement without WHERE affects every row in the target table.",
+        "difficulty": "Hard"
+      }
+    ],
+    "JOIN": [
+      {
+        "id": "postgresql_join_01",
+        "question": "What is the main purpose of a JOIN in PostgreSQL?",
+        "options": {
+          "A": "to combine related rows from multiple tables",
+          "B": "to delete duplicate tables",
+          "C": "to rename database columns",
+          "D": "to change a column data type"
+        },
+        "correct_answer": "A",
+        "explanation": "JOINs combine rows from two or more tables based on related columns or conditions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_02",
+        "question": "Which JOIN returns only rows that have matching values in both tables?",
+        "options": {
+          "A": "LEFT JOIN",
+          "B": "FULL JOIN",
+          "C": "INNER JOIN",
+          "D": "CROSS JOIN"
+        },
+        "correct_answer": "C",
+        "explanation": "INNER JOIN returns rows where the join condition matches in both tables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_03",
+        "question": "Which JOIN keeps all rows from the left table even when there is no match?",
+        "options": {
+          "A": "RIGHT JOIN",
+          "B": "LEFT JOIN",
+          "C": "INNER JOIN",
+          "D": "CROSS JOIN"
+        },
+        "correct_answer": "B",
+        "explanation": "LEFT JOIN returns all rows from the left table and matching rows from the right table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_04",
+        "question": "Which JOIN keeps all rows from the right table?",
+        "options": {
+          "A": "LEFT JOIN",
+          "B": "RIGHT JOIN",
+          "C": "INNER JOIN",
+          "D": "SELF JOIN"
+        },
+        "correct_answer": "B",
+        "explanation": "RIGHT JOIN preserves all rows from the right-side table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_05",
+        "question": "Which JOIN can return unmatched rows from both tables?",
+        "options": {
+          "A": "INNER JOIN",
+          "B": "LEFT JOIN",
+          "C": "FULL OUTER JOIN",
+          "D": "CROSS JOIN"
+        },
+        "correct_answer": "C",
+        "explanation": "FULL OUTER JOIN returns matching rows plus unmatched rows from both sides.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_06",
+        "question": "What does a CROSS JOIN produce?",
+        "options": {
+          "A": "only matching rows",
+          "B": "the Cartesian product of both tables",
+          "C": "only unmatched rows",
+          "D": "only duplicate rows"
+        },
+        "correct_answer": "B",
+        "explanation": "CROSS JOIN combines every row from the first table with every row from the second table.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_join_07",
+        "question": "Which clause normally specifies the relationship between joined tables?",
+        "options": {
+          "A": "ON",
+          "B": "WITH",
+          "C": "USING ONLY",
+          "D": "MATCH"
+        },
+        "correct_answer": "A",
+        "explanation": "The ON clause specifies the condition used to match rows between tables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_08",
+        "question": "What is a SELF JOIN?",
+        "options": {
+          "A": "joining a table with itself",
+          "B": "joining only primary keys",
+          "C": "joining two databases",
+          "D": "joining without a condition"
+        },
+        "correct_answer": "A",
+        "explanation": "A SELF JOIN uses a table more than once in the same query, usually with different aliases.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_09",
+        "question": "In a LEFT JOIN, what is returned for a right-table column when no matching row exists?",
+        "options": {
+          "A": "0",
+          "B": "an empty string",
+          "C": "NULL",
+          "D": "the left-table value"
+        },
+        "correct_answer": "C",
+        "explanation": "Unmatched columns from the right table are represented as NULL in a LEFT JOIN.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_join_10",
+        "question": "Which query correctly joins employees with departments using department_id?",
+        "options": {
+          "A": "SELECT * FROM employees e INNER JOIN departments d ON e.department_id = d.id;",
+          "B": "SELECT * FROM employees e JOIN departments d WHERE e.department_id;",
+          "C": "SELECT * FROM employees WITH departments ON department_id;",
+          "D": "SELECT * FROM employees CONNECT departments USING salary;"
+        },
+        "correct_answer": "A",
+        "explanation": "The ON condition compares the foreign key department_id with the department table's id.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_join_11",
+        "question": "What is the purpose of table aliases in JOIN queries?",
+        "options": {
+          "A": "to give tables shorter temporary names within the query",
+          "B": "to permanently rename tables",
+          "C": "to delete duplicate columns",
+          "D": "to change table ownership"
+        },
+        "correct_answer": "A",
+        "explanation": "Aliases make JOIN queries shorter and can distinguish multiple references to the same table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_join_12",
+        "question": "Which JOIN is useful for finding employees who have no matching department?",
+        "options": {
+          "A": "LEFT JOIN combined with a NULL check",
+          "B": "INNER JOIN without a condition",
+          "C": "CROSS JOIN with GROUP BY",
+          "D": "RIGHT JOIN without any columns"
+        },
+        "correct_answer": "A",
+        "explanation": "A LEFT JOIN followed by a condition such as WHERE d.id IS NULL can identify unmatched employees.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "postgresql_join_13",
+        "question": "If table A has 3 rows and table B has 4 rows, how many rows can a CROSS JOIN produce?",
+        "options": {
+          "A": "7",
+          "B": "12",
+          "C": "4",
+          "D": "1"
+        },
+        "correct_answer": "B",
+        "explanation": "A CROSS JOIN produces the Cartesian product, so 3 multiplied by 4 gives 12 rows.",
+        "difficulty": "Medium"
+      }
+    ],
+    "GROUP BY": [
+      {
+        "id": "postgresql_group_by_01",
+        "question": "What is the primary purpose of GROUP BY?",
+        "options": {
+          "A": "to group rows with the same values for aggregate calculations",
+          "B": "to permanently sort a table",
+          "C": "to remove a column",
+          "D": "to update every row"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY forms groups of rows so aggregate functions can calculate results for each group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_02",
+        "question": "Which aggregate function counts rows in each group?",
+        "options": {
+          "A": "SUM()",
+          "B": "COUNT()",
+          "C": "AVG()",
+          "D": "MAX()"
+        },
+        "correct_answer": "B",
+        "explanation": "COUNT() counts rows or non-null values depending on how it is used.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_03",
+        "question": "Which query counts employees in each department?",
+        "options": {
+          "A": "SELECT department, COUNT(*) FROM employees GROUP BY department;",
+          "B": "SELECT department, COUNT(*) FROM employees ORDER BY department;",
+          "C": "SELECT department FROM employees COUNT BY department;",
+          "D": "SELECT COUNT(department) GROUP employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY department creates one group for each department and COUNT(*) counts rows in each group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_04",
+        "question": "Which function calculates the total of a numeric column for each group?",
+        "options": {
+          "A": "TOTAL()",
+          "B": "SUM()",
+          "C": "ADD()",
+          "D": "COUNT()"
+        },
+        "correct_answer": "B",
+        "explanation": "SUM() calculates the total of numeric values within each group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_05",
+        "question": "Which function calculates the average salary for each department?",
+        "options": {
+          "A": "AVG()",
+          "B": "MEAN()",
+          "C": "AVERAGE_VALUE()",
+          "D": "MID()"
+        },
+        "correct_answer": "A",
+        "explanation": "AVG(salary) calculates the average salary for each group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_06",
+        "question": "Which clause filters groups after GROUP BY aggregation?",
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "FILTER TABLE",
+          "D": "GROUP WHERE"
+        },
+        "correct_answer": "B",
+        "explanation": "HAVING filters grouped results after aggregation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_07",
+        "question": "Which query returns departments having more than five employees?",
+        "options": {
+          "A": "SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 5;",
+          "B": "SELECT department, COUNT(*) FROM employees WHERE COUNT(*) > 5 GROUP BY department;",
+          "C": "SELECT department FROM employees GROUP BY COUNT(*) > 5;",
+          "D": "SELECT department FROM employees HAVING employees > 5;"
+        },
+        "correct_answer": "A",
+        "explanation": "HAVING COUNT(*) > 5 filters the groups created by GROUP BY.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_08",
+        "question": "Why is a non-aggregated selected column generally required in GROUP BY?",
+        "options": {
+          "A": "because PostgreSQL needs to know how rows should be grouped for that column",
+          "B": "because GROUP BY automatically creates indexes",
+          "C": "because aggregate functions work only with text",
+          "D": "because SELECT cannot contain numeric columns"
+        },
+        "correct_answer": "A",
+        "explanation": "A selected non-aggregated column generally needs to be part of the grouping criteria.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_09",
+        "question": "Which query finds the highest salary in each department?",
+        "options": {
+          "A": "SELECT department, MAX(salary) FROM employees GROUP BY department;",
+          "B": "SELECT department, MAX(salary) FROM employees ORDER BY department;",
+          "C": "SELECT MAX(department), salary FROM employees GROUP BY salary;",
+          "D": "SELECT department FROM employees WHERE MAX(salary);"
+        },
+        "correct_answer": "A",
+        "explanation": "MAX(salary) calculates the highest salary separately for every department group.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_10",
+        "question": "What does GROUP BY department, city create?",
+        "options": {
+          "A": "one group for each unique department-city combination",
+          "B": "one group for each employee",
+          "C": "one group for each salary only",
+          "D": "one group containing all cities"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple GROUP BY columns create groups based on unique combinations of their values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_11",
+        "question": "Which clause is normally processed before GROUP BY to filter individual rows?",
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ORDER BY",
+          "D": "LIMIT"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE filters individual rows before grouping and aggregation occur.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_group_by_12",
+        "question": "Which query calculates the total salary for employees in each department?",
+        "options": {
+          "A": "SELECT department, SUM(salary) FROM employees GROUP BY department;",
+          "B": "SELECT department, TOTAL(salary) FROM employees ORDER BY department;",
+          "C": "SELECT SUM(department), salary FROM employees GROUP BY salary;",
+          "D": "SELECT department FROM employees WHERE SUM(salary);"
+        },
+        "correct_answer": "A",
+        "explanation": "SUM(salary) calculates the total salary within each department group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_group_by_13",
+        "question": "Which query finds departments whose average salary is greater than 60000?",
+        "options": {
+          "A": "SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 60000;",
+          "B": "SELECT department, AVG(salary) FROM employees WHERE AVG(salary) > 60000 GROUP BY department;",
+          "C": "SELECT department FROM employees GROUP BY AVG(salary) > 60000;",
+          "D": "SELECT AVG(department) FROM employees HAVING salary > 60000;"
+        },
+        "correct_answer": "A",
+        "explanation": "HAVING is used because the condition applies to the aggregate result for each group.",
+        "difficulty": "Hard"
+      }
+    ],
+    "ORDER BY": [
+      {
+        "id": "postgresql_order_by_01",
+        "question": "What is the purpose of ORDER BY?",
+        "options": {
+          "A": "to sort query results",
+          "B": "to delete rows",
+          "C": "to group rows for aggregation",
+          "D": "to modify table structure"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY sorts the rows returned by a query according to one or more expressions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_02",
+        "question": "What is the default sorting direction of ORDER BY?",
+        "options": {
+          "A": "DESC",
+          "B": "ASC",
+          "C": "RANDOM",
+          "D": "NONE"
+        },
+        "correct_answer": "B",
+        "explanation": "ASC is the default ordering direction when no direction is specified.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_03",
+        "question": "Which keyword sorts values from highest to lowest?",
+        "options": {
+          "A": "ASC",
+          "B": "DESC",
+          "C": "HIGH",
+          "D": "REVERSE"
+        },
+        "correct_answer": "B",
+        "explanation": "DESC sorts values in descending order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_04",
+        "question": "Which query sorts employees by salary from highest to lowest?",
+        "options": {
+          "A": "SELECT * FROM employees ORDER BY salary DESC;",
+          "B": "SELECT * FROM employees SORT salary HIGH;",
+          "C": "SELECT * FROM employees ORDER salary REVERSE;",
+          "D": "SELECT * FROM employees GROUP BY salary DESC;"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY salary DESC sorts salary values from highest to lowest.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_05",
+        "question": "Which query sorts employees by department alphabetically?",
+        "options": {
+          "A": "SELECT * FROM employees ORDER BY department ASC;",
+          "B": "SELECT * FROM employees SORT department;",
+          "C": "SELECT * FROM employees GROUP department ASC;",
+          "D": "SELECT * FROM employees ORDER department ALPHABET;"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY department ASC sorts department values in ascending order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_06",
+        "question": "Can ORDER BY sort using more than one column?",
+        "options": {
+          "A": "No, only one column is allowed",
+          "B": "Yes, multiple expressions can be specified",
+          "C": "Only two columns are allowed",
+          "D": "Only numeric columns can be used"
+        },
+        "correct_answer": "B",
+        "explanation": "ORDER BY can contain multiple expressions, each with its own direction.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_07",
+        "question": "Which query sorts first by department ascending and then salary descending?",
+        "options": {
+          "A": "ORDER BY department ASC, salary DESC",
+          "B": "ORDER BY department AND salary",
+          "C": "ORDER BY department, salary BOTH",
+          "D": "ORDER BY salary DESC THEN department ASC"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple ordering expressions are separated by commas.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_08",
+        "question": "Which clause can limit the number of sorted rows returned?",
+        "options": {
+          "A": "LIMIT",
+          "B": "RESTRICT",
+          "C": "COUNT",
+          "D": "TOP"
+        },
+        "correct_answer": "A",
+        "explanation": "LIMIT restricts the number of rows returned after ordering is applied.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_09",
+        "question": "Which query returns the three highest-paid employees?",
+        "options": {
+          "A": "SELECT * FROM employees ORDER BY salary DESC LIMIT 3;",
+          "B": "SELECT * FROM employees LIMIT 3 ORDER salary DESC;",
+          "C": "SELECT TOP 3 * FROM employees ORDER salary;",
+          "D": "SELECT * FROM employees GROUP BY salary DESC LIMIT 3;"
+        },
+        "correct_answer": "A",
+        "explanation": "The result is sorted from highest salary and then limited to three rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_10",
+        "question": "Can ORDER BY use a column alias defined in SELECT?",
+        "options": {
+          "A": "Yes",
+          "B": "No, aliases are never allowed",
+          "C": "Only with INSERT",
+          "D": "Only with DELETE"
+        },
+        "correct_answer": "A",
+        "explanation": "PostgreSQL allows SELECT-list aliases to be referenced in ORDER BY.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_11",
+        "question": "Which PostgreSQL option places NULL values before non-null values in ascending order?",
+        "options": {
+          "A": "NULLS FIRST",
+          "B": "NULLS TOP",
+          "C": "FIRST NULL",
+          "D": "NULL BEFORE"
+        },
+        "correct_answer": "A",
+        "explanation": "NULLS FIRST explicitly requests that NULL values appear before non-null values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_order_by_12",
+        "question": "Which query sorts names alphabetically and returns only five rows?",
+        "options": {
+          "A": "SELECT name FROM employees ORDER BY name ASC LIMIT 5;",
+          "B": "SELECT name FROM employees LIMIT 5 ORDER name;",
+          "C": "SELECT name FROM employees SORT ASC LIMIT name 5;",
+          "D": "SELECT name FROM employees GROUP BY name LIMIT 5;"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY name ASC sorts the names, and LIMIT 5 restricts the result to five rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_order_by_13",
+        "question": "What is the purpose of specifying multiple columns in ORDER BY?",
+        "options": {
+          "A": "to provide secondary and subsequent sorting rules when earlier values are equal",
+          "B": "to combine tables automatically",
+          "C": "to remove duplicate rows",
+          "D": "to create multiple databases"
+        },
+        "correct_answer": "A",
+        "explanation": "Later ORDER BY expressions act as tie-breakers when earlier sorting values are equal.",
+        "difficulty": "Hard"
+      }
+    ],
+    "ALTER TABLE": [
+      {
+        "id": "postgresql_alter_table_01",
+        "question": "What is the main purpose of ALTER TABLE?",
+        "options": {
+          "A": "to modify the structure of an existing table",
+          "B": "to retrieve table rows",
+          "C": "to calculate averages",
+          "D": "to delete only selected rows"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE changes the definition or structure of an existing table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_02",
+        "question": "Which command adds a new column to an existing table?",
+        "options": {
+          "A": "ALTER TABLE employees ADD COLUMN email TEXT;",
+          "B": "ALTER employees CREATE email TEXT;",
+          "C": "ADD COLUMN email TO employees;",
+          "D": "UPDATE TABLE employees ADD email;"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE ... ADD COLUMN adds a new column to an existing table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_03",
+        "question": "Which command removes a column from a table?",
+        "options": {
+          "A": "ALTER TABLE employees DROP COLUMN age;",
+          "B": "ALTER TABLE employees DELETE COLUMN age;",
+          "C": "REMOVE age FROM employees;",
+          "D": "DROP age FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "DROP COLUMN removes the specified column from the table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_04",
+        "question": "Which command renames a column in PostgreSQL?",
+        "options": {
+          "A": "ALTER TABLE employees RENAME COLUMN name TO full_name;",
+          "B": "ALTER TABLE employees CHANGE name full_name;",
+          "C": "RENAME employees.name AS full_name;",
+          "D": "UPDATE COLUMN name TO full_name;"
+        },
+        "correct_answer": "A",
+        "explanation": "RENAME COLUMN changes the name of an existing column.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_05",
+        "question": "Which command renames a table?",
+        "options": {
+          "A": "ALTER TABLE employees RENAME TO staff;",
+          "B": "ALTER TABLE employees CHANGE NAME staff;",
+          "C": "RENAME TABLE employees AS staff;",
+          "D": "UPDATE TABLE employees NAME staff;"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE ... RENAME TO changes the table name.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_06",
+        "question": "Which command changes the data type of a column?",
+        "options": {
+          "A": "ALTER TABLE employees ALTER COLUMN age TYPE BIGINT;",
+          "B": "ALTER TABLE employees CHANGE TYPE age BIGINT;",
+          "C": "MODIFY employees age BIGINT;",
+          "D": "UPDATE employees TYPE age BIGINT;"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER COLUMN ... TYPE changes the data type of an existing column.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_alter_table_07",
+        "question": "Which command sets a default value for a column?",
+        "options": {
+          "A": "ALTER TABLE employees ALTER COLUMN status SET DEFAULT 'Active';",
+          "B": "ALTER TABLE employees DEFAULT status = 'Active';",
+          "C": "SET DEFAULT employees.status 'Active';",
+          "D": "UPDATE DEFAULT status TO 'Active';"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER COLUMN ... SET DEFAULT defines the value used when an INSERT omits that column.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_08",
+        "question": "Which command removes an existing default value from a column?",
+        "options": {
+          "A": "ALTER TABLE employees ALTER COLUMN status DROP DEFAULT;",
+          "B": "ALTER TABLE employees DELETE DEFAULT status;",
+          "C": "REMOVE DEFAULT FROM employees.status;",
+          "D": "ALTER DEFAULT status REMOVE;"
+        },
+        "correct_answer": "A",
+        "explanation": "DROP DEFAULT removes the default expression from the column.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_09",
+        "question": "Which command adds a CHECK constraint to an existing table?",
+        "options": {
+          "A": "ALTER TABLE employees ADD CONSTRAINT positive_salary CHECK (salary > 0);",
+          "B": "ALTER TABLE employees CHECK ADD salary > 0;",
+          "C": "ADD CHECK employees salary > 0;",
+          "D": "ALTER employees SET CHECK salary;"
+        },
+        "correct_answer": "A",
+        "explanation": "ALTER TABLE ... ADD CONSTRAINT can add a named CHECK constraint to an existing table.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_10",
+        "question": "Which command removes a named constraint?",
+        "options": {
+          "A": "ALTER TABLE employees DROP CONSTRAINT positive_salary;",
+          "B": "ALTER TABLE employees DELETE CONSTRAINT positive_salary;",
+          "C": "REMOVE CONSTRAINT positive_salary FROM employees;",
+          "D": "DROP positive_salary FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "DROP CONSTRAINT removes a named constraint from the table.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_11",
+        "question": "Which command makes an existing column mandatory by preventing NULL values?",
+        "options": {
+          "A": "ALTER TABLE employees ALTER COLUMN name SET NOT NULL;",
+          "B": "ALTER TABLE employees MAKE name REQUIRED;",
+          "C": "ALTER TABLE employees ADD REQUIRED name;",
+          "D": "UPDATE employees SET NOT NULL name;"
+        },
+        "correct_answer": "A",
+        "explanation": "SET NOT NULL changes the column so future rows cannot contain NULL values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_12",
+        "question": "Which command removes the NOT NULL requirement from a column?",
+        "options": {
+          "A": "ALTER TABLE employees ALTER COLUMN name DROP NOT NULL;",
+          "B": "ALTER TABLE employees DELETE NOT NULL name;",
+          "C": "REMOVE REQUIRED FROM employees.name;",
+          "D": "ALTER COLUMN name NULL;"
+        },
+        "correct_answer": "A",
+        "explanation": "DROP NOT NULL removes the NOT NULL constraint from the specified column.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_alter_table_13",
+        "question": "Why should ALTER COLUMN TYPE be used carefully on a populated table?",
+        "options": {
+          "A": "because existing values may not be automatically convertible to the new type",
+          "B": "because it always deletes the database",
+          "C": "because it can only be used on empty tables",
+          "D": "because it automatically removes all constraints"
+        },
+        "correct_answer": "A",
+        "explanation": "Changing a column's type may fail if existing data cannot be converted to the new type or may require an explicit USING expression.",
+        "difficulty": "Hard"
+      }
+    ],
+    "String Functions": [
+      {
+        "id": "postgresql_string_functions_01",
+        "question": "Which PostgreSQL function converts a string to uppercase?",
+        "options": {
+          "A": "UPPER()",
+          "B": "CAPITAL()",
+          "C": "UPCASE()",
+          "D": "TOUPPER()"
+        },
+        "correct_answer": "A",
+        "explanation": "UPPER() converts alphabetic characters in a string to uppercase.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_02",
+        "question": "Which PostgreSQL function converts a string to lowercase?",
+        "options": {
+          "A": "LOWER()",
+          "B": "SMALLER()",
+          "C": "LOWCASE()",
+          "D": "TOLOWER()"
+        },
+        "correct_answer": "A",
+        "explanation": "LOWER() converts alphabetic characters in a string to lowercase.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_03",
+        "question": "Which function returns the number of characters in a string?",
+        "options": {
+          "A": "LENGTH()",
+          "B": "COUNTCHAR()",
+          "C": "SIZE()",
+          "D": "CHARCOUNT()"
+        },
+        "correct_answer": "A",
+        "explanation": "LENGTH() returns the number of characters in a string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_04",
+        "question": "What is the result of UPPER('postgresql')?",
+        "options": {
+          "A": "POSTGRESQL",
+          "B": "Postgresql",
+          "C": "postgresql",
+          "D": "PostgreSQL"
+        },
+        "correct_answer": "A",
+        "explanation": "UPPER() converts the entire string to uppercase.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_05",
+        "question": "Which function removes leading and trailing spaces from a string?",
+        "options": {
+          "A": "TRIM()",
+          "B": "REMOVE()",
+          "C": "CLEAN()",
+          "D": "STRIP()"
+        },
+        "correct_answer": "A",
+        "explanation": "TRIM() removes leading and trailing characters, spaces by default, from a string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_06",
+        "question": "Which function combines two or more strings?",
+        "options": {
+          "A": "CONCAT()",
+          "B": "COMBINE()",
+          "C": "MERGE_TEXT()",
+          "D": "JOIN_TEXT()"
+        },
+        "correct_answer": "A",
+        "explanation": "CONCAT() concatenates multiple values into a single string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_07",
+        "question": "Which function combines strings using a specified separator?",
+        "options": {
+          "A": "CONCAT_WS()",
+          "B": "CONCAT_SEPARATOR()",
+          "C": "JOIN_WS()",
+          "D": "MERGE_WS()"
+        },
+        "correct_answer": "A",
+        "explanation": "CONCAT_WS() means concatenate with separator and places the specified separator between values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_08",
+        "question": "Which function extracts a portion of a string?",
+        "options": {
+          "A": "SUBSTRING()",
+          "B": "EXTRACT_STRING()",
+          "C": "PART()",
+          "D": "SLICE()"
+        },
+        "correct_answer": "A",
+        "explanation": "SUBSTRING() extracts a specified portion of a string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "postgresql_string_functions_09",
+        "question": "Which expression returns the first three characters of the name column?",
+        "options": {
+          "A": "SUBSTRING(name FROM 1 FOR 3)",
+          "B": "SUBSTRING(name, 3)",
+          "C": "FIRST(name, 3)",
+          "D": "LEFTCHAR(name, 3)"
+        },
+        "correct_answer": "A",
+        "explanation": "SUBSTRING(name FROM 1 FOR 3) extracts three characters starting from position 1.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_10",
+        "question": "Which function replaces occurrences of one substring with another?",
+        "options": {
+          "A": "REPLACE()",
+          "B": "CHANGE()",
+          "C": "SWAP()",
+          "D": "ALTER_TEXT()"
+        },
+        "correct_answer": "A",
+        "explanation": "REPLACE() replaces all occurrences of a specified substring with another string.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_11",
+        "question": "Which function returns the starting position of a substring?",
+        "options": {
+          "A": "POSITION()",
+          "B": "INDEX()",
+          "C": "FIND()",
+          "D": "LOCATE()"
+        },
+        "correct_answer": "A",
+        "explanation": "POSITION() returns the starting position of a specified substring within another string.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_12",
+        "question": "Which expression creates a full name with a space between first_name and last_name?",
+        "options": {
+          "A": "CONCAT_WS(' ', first_name, last_name)",
+          "B": "CONCAT(first_name, last_name)",
+          "C": "CONCAT_SPACE(first_name, last_name)",
+          "D": "JOIN(first_name, last_name, ' ')"
+        },
+        "correct_answer": "A",
+        "explanation": "CONCAT_WS() uses the first argument as a separator and places it between the remaining arguments.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "postgresql_string_functions_13",
+        "question": "Which query removes surrounding spaces from employee names and then converts them to uppercase?",
+        "options": {
+          "A": "SELECT UPPER(TRIM(name)) FROM employees;",
+          "B": "SELECT TRIM(UPPER(name)) FROM employees;",
+          "C": "SELECT CLEAN_UPPER(name) FROM employees;",
+          "D": "SELECT UPPER + TRIM(name) FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "TRIM(name) removes surrounding spaces and UPPER() converts the resulting string to uppercase.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

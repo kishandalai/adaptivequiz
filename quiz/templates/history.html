@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | History{% endblock %}
+
+{% block content %}
+<section class="container page-section">
+    <div class="history-header">
+        <div>
+            <p class="eyebrow">Your learning trail</p>
+            <h1>Quiz History</h1>
+            <p>See how your accuracy is changing across every adaptive challenge.</p>
+        </div>
+        <a class="btn btn-primary" href="{% url 'select_quiz' %}">Start a New Quiz <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="history-stats">
+        <div class="history-stat card"><span>Attempts completed</span><strong>{{ history_stats.total }}</strong><small>Every finished quiz</small></div>
+        <div class="history-stat card"><span>Average accuracy</span><strong>{{ history_stats.average_accuracy }}%</strong><small>Across your history</small></div>
+        <div class="history-stat card history-stat-highlight"><span>Personal best</span><strong>{{ history_stats.best_accuracy }}%</strong><small>{% if best_attempt %}{{ best_attempt.subject }} · {{ best_attempt.topic }}{% else %}Complete a quiz to set a best{% endif %}</small></div>
+    </div>
+
+    <div class="table-panel card history-table-panel">
+        <div class="panel-header">
+            <div><p class="eyebrow">Latest activity</p><h2>Completed quizzes</h2></div>
+            <span>{{ history_stats.total }} record{{ history_stats.total|pluralize }}</span>
+        </div>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Topic</th>
+                        <th>Score</th>
+                        <th>Accuracy</th>
+                        <th>Highest difficulty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for attempt in attempts %}
+                    <tr class="history-row">
+                        <td><strong>{{ attempt.completed_at|date:'d M Y' }}</strong><small>{{ attempt.completed_at|date:'H:i' }}</small></td>
+                        <td><span class="history-subject">{{ attempt.subject }}</span></td>
+                        <td>{{ attempt.topic }}</td>
+                        <td><strong>{{ attempt.score }}/{{ attempt.total_questions }}</strong></td>
+                        <td><span class="accuracy-pill {% if attempt.accuracy >= 80 %}accuracy-high{% elif attempt.accuracy >= 50 %}accuracy-mid{% else %}accuracy-low{% endif %}">{{ attempt.accuracy }}%</span></td>
+                        <td><span class="difficulty-pill">{{ attempt.highest_difficulty }}</span></td>
+                    </tr>
+                    {% empty %}
+                    <tr><td colspan="6"><div class="history-empty"><span class="history-empty-mark">◎</span><strong>Your history starts here</strong><p>Complete your first adaptive quiz and your result will appear in this timeline.</p><a class="btn btn-secondary" href="{% url 'select_quiz' %}">Choose a Quiz</a></div></td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

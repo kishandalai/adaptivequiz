@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Quiz{% endblock %}
+
+{% block content %}
+<section class="container page-section">
+    <div class="quiz-shell card">
+        <div class="quiz-topbar">
+            <div>
+                <p class="eyebrow">{{ subject }} / {{ topic }}</p>
+                <h2>Question {{ question_number }} of {{ total_questions }}</h2>
+            </div>
+            <span class="difficulty-badge">Difficulty: {{ difficulty }}</span>
+        </div>
+
+        <div class="progress-bar" aria-label="Quiz progress">
+            <div class="progress-fill" style="width: {{ progress }}%"></div>
+        </div>
+
+        {% if result and result.was_submitted %}
+        <div class="result-box {% if result.correct %}success{% else %}error{% endif %}">
+            <h3>{% if result.correct %}Correct{% else %}Incorrect{% endif %}</h3>
+            <p>{{ result.explanation }}</p>
+            <p><strong>Next difficulty:</strong> {{ result.next_difficulty }}</p>
+        </div>
+        {% endif %}
+
+        <div class="question-panel">
+            <h3>{{ question.question }}</h3>
+            {% if result and result.was_submitted %}
+            <form method="post" action="{% url 'quiz_page' %}">
+                {% csrf_token %}
+                <input type="hidden" name="action" value="next" />
+                <button type="submit" class="btn btn-primary btn-block">Next Question</button>
+            </form>
+            {% else %}
+            <form method="post" action="{% url 'submit_answer' %}" id="answerForm">
+                {% csrf_token %}
+                <input type="hidden" name="time_taken" id="timeTaken" value="0" />
+                {% for option in question.options %}
+                <label class="option-item">
+                    <input type="radio" name="selected_answer" value="{{ option }}" required />
+                    <span>{{ option }}</span>
+                </label>
+                {% endfor %}
+                <button type="submit" class="btn btn-primary btn-block">Submit Answer</button>
+            </form>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const startTime = Date.now();
+    const timeInput = document.getElementById('timeTaken');
+    const answerForm = document.getElementById('answerForm');
+    if (answerForm && timeInput) {
+        answerForm.addEventListener('submit', function () {
+            const seconds = Math.round((Date.now() - startTime) / 1000);
+            timeInput.value = seconds;
+        });
+    }
+
+    fetch('{% url "prefetch_question" %}', {headers: {'X-Requested-With': 'XMLHttpRequest'}}).catch(function () {});
+</script>
+{% endblock %}

@@ -1,0 +1,860 @@
+{
+  "subject": "Operating Systems",
+  "topics": {
+    "Processes": [
+      {
+        "id": "operating_systems_processes_01",
+        "question": "Which description best matches Processes?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_02",
+        "question": "In Operating Systems, what is Processes mainly concerned with?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_03",
+        "question": "Which statement about Processes is accurate?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_04",
+        "question": "What is the primary purpose of Processes in Operating Systems?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_05",
+        "question": "Which idea is most closely associated with Processes?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_processes_06",
+        "question": "What does Processes provide in a typical Operating Systems system?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_processes_07",
+        "question": "Which explanation would best introduce Processes to a student?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_processes_08",
+        "question": "What problem does Processes primarily address?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_processes_09",
+        "question": "Which concept is represented by Processes?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_processes_10",
+        "question": "How should Processes be understood in Operating Systems?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_processes_11",
+        "question": "Which statement correctly identifies Processes?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_processes_12",
+        "question": "What is a central characteristic of Processes?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_processes_13",
+        "question": "Which definition is most accurate for Processes?",
+        "options": {
+          "A": "independent programs in execution with their own resources",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Processes means independent programs in execution with their own resources.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Threads": [
+      {
+        "id": "operating_systems_threads_01",
+        "question": "Which description best matches Threads?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "independent programs in execution with their own resources",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_02",
+        "question": "In Operating Systems, what is Threads mainly concerned with?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_03",
+        "question": "Which statement about Threads is accurate?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_04",
+        "question": "What is the primary purpose of Threads in Operating Systems?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_05",
+        "question": "Which idea is most closely associated with Threads?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_06",
+        "question": "What does Threads provide in a typical Operating Systems system?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "independent programs in execution with their own resources",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_07",
+        "question": "Which explanation would best introduce Threads to a student?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "independent programs in execution with their own resources",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_08",
+        "question": "What problem does Threads primarily address?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_09",
+        "question": "Which concept is represented by Threads?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_threads_10",
+        "question": "How should Threads be understood in Operating Systems?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_threads_11",
+        "question": "Which statement correctly identifies Threads?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "choosing which ready task receives processor time",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_threads_12",
+        "question": "What is a central characteristic of Threads?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "independent programs in execution with their own resources",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_threads_13",
+        "question": "Which definition is most accurate for Threads?",
+        "options": {
+          "A": "execution paths that share resources within a process",
+          "B": "independent programs in execution with their own resources",
+          "C": "choosing which ready task receives processor time",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads means execution paths that share resources within a process.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Scheduling": [
+      {
+        "id": "operating_systems_scheduling_01",
+        "question": "Which description best matches Scheduling?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_02",
+        "question": "In Operating Systems, what is Scheduling mainly concerned with?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_03",
+        "question": "Which statement about Scheduling is accurate?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_04",
+        "question": "What is the primary purpose of Scheduling in Operating Systems?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "execution paths that share resources within a process",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_05",
+        "question": "Which idea is most closely associated with Scheduling?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "execution paths that share resources within a process",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_06",
+        "question": "What does Scheduling provide in a typical Operating Systems system?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_07",
+        "question": "Which explanation would best introduce Scheduling to a student?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_08",
+        "question": "What problem does Scheduling primarily address?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_09",
+        "question": "Which concept is represented by Scheduling?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "managing address space, allocation, and protection for programs",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_scheduling_10",
+        "question": "How should Scheduling be understood in Operating Systems?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "execution paths that share resources within a process",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_scheduling_11",
+        "question": "Which statement correctly identifies Scheduling?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "execution paths that share resources within a process",
+          "C": "managing address space, allocation, and protection for programs",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_scheduling_12",
+        "question": "What is a central characteristic of Scheduling?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_scheduling_13",
+        "question": "Which definition is most accurate for Scheduling?",
+        "options": {
+          "A": "choosing which ready task receives processor time",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "managing address space, allocation, and protection for programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Scheduling means choosing which ready task receives processor time.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Memory": [
+      {
+        "id": "operating_systems_memory_01",
+        "question": "Which description best matches Memory?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_02",
+        "question": "In Operating Systems, what is Memory mainly concerned with?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_03",
+        "question": "Which statement about Memory is accurate?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_04",
+        "question": "What is the primary purpose of Memory in Operating Systems?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_05",
+        "question": "Which idea is most closely associated with Memory?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_06",
+        "question": "What does Memory provide in a typical Operating Systems system?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_07",
+        "question": "Which explanation would best introduce Memory to a student?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_08",
+        "question": "What problem does Memory primarily address?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_09",
+        "question": "Which concept is represented by Memory?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_memory_10",
+        "question": "How should Memory be understood in Operating Systems?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_memory_11",
+        "question": "Which statement correctly identifies Memory?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_memory_12",
+        "question": "What is a central characteristic of Memory?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_memory_13",
+        "question": "Which definition is most accurate for Memory?",
+        "options": {
+          "A": "managing address space, allocation, and protection for programs",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "Memory means managing address space, allocation, and protection for programs.",
+        "difficulty": "Hard"
+      }
+    ],
+    "File Systems": [
+      {
+        "id": "operating_systems_file_systems_01",
+        "question": "Which description best matches File Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_02",
+        "question": "In Operating Systems, what is File Systems mainly concerned with?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_03",
+        "question": "Which statement about File Systems is accurate?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_04",
+        "question": "What is the primary purpose of File Systems in Operating Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_05",
+        "question": "Which idea is most closely associated with File Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_06",
+        "question": "What does File Systems provide in a typical Operating Systems system?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_07",
+        "question": "Which explanation would best introduce File Systems to a student?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_08",
+        "question": "What problem does File Systems primarily address?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_09",
+        "question": "Which concept is represented by File Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "choosing which ready task receives processor time",
+          "C": "independent programs in execution with their own resources",
+          "D": "execution paths that share resources within a process"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_file_systems_10",
+        "question": "How should File Systems be understood in Operating Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_file_systems_11",
+        "question": "Which statement correctly identifies File Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "execution paths that share resources within a process",
+          "C": "choosing which ready task receives processor time",
+          "D": "independent programs in execution with their own resources"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_file_systems_12",
+        "question": "What is a central characteristic of File Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_file_systems_13",
+        "question": "Which definition is most accurate for File Systems?",
+        "options": {
+          "A": "structures and rules for storing and retrieving files",
+          "B": "independent programs in execution with their own resources",
+          "C": "execution paths that share resources within a process",
+          "D": "choosing which ready task receives processor time"
+        },
+        "correct_answer": "A",
+        "explanation": "File Systems means structures and rules for storing and retrieving files.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

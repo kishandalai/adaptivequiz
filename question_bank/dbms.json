@@ -1,0 +1,864 @@
+{
+  "subject": "DBMS",
+  "topics": {
+    "Normalization": [
+      {
+        "id": "dbms_normalization_01",
+        "question": "What is the main purpose of normalization in a database?",
+        "options": {
+          "A": "To reduce data redundancy and improve data consistency",
+          "B": "To increase the number of duplicate records",
+          "C": "To remove all primary keys from tables",
+          "D": "To prevent users from querying tables"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization organizes data into related tables to reduce unnecessary duplication and maintain consistency.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_02",
+        "question": "Which normal form requires all attribute values to be atomic?",
+        "options": {
+          "A": "Second Normal Form",
+          "B": "First Normal Form",
+          "C": "Third Normal Form",
+          "D": "Boyce-Codd Normal Form"
+        },
+        "correct_answer": "B",
+        "explanation": "First Normal Form (1NF) requires each table cell to contain a single atomic value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_03",
+        "question": "What type of dependency is removed when a relation is converted from 1NF to 2NF?",
+        "options": {
+          "A": "Transitive dependency",
+          "B": "Multivalued dependency",
+          "C": "Partial dependency",
+          "D": "Functional dependency"
+        },
+        "correct_answer": "C",
+        "explanation": "Second Normal Form removes partial dependencies of non-key attributes on part of a composite key.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_04",
+        "question": "What condition must a relation satisfy to be in Third Normal Form?",
+        "options": {
+          "A": "It must contain repeating groups",
+          "B": "It must have no transitive dependency of non-key attributes",
+          "C": "It must have no primary key",
+          "D": "Every column must contain duplicate values"
+        },
+        "correct_answer": "B",
+        "explanation": "3NF removes transitive dependencies so non-key attributes depend directly on the key.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_05",
+        "question": "Which normal form is stricter than Third Normal Form?",
+        "options": {
+          "A": "First Normal Form",
+          "B": "Second Normal Form",
+          "C": "Boyce-Codd Normal Form",
+          "D": "Zero Normal Form"
+        },
+        "correct_answer": "C",
+        "explanation": "Boyce-Codd Normal Form (BCNF) is stricter than 3NF and requires every determinant to be a candidate key.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_06",
+        "question": "Which anomaly occurs when the same data must be changed in multiple rows?",
+        "options": {
+          "A": "Update anomaly",
+          "B": "Insert anomaly",
+          "C": "Delete anomaly",
+          "D": "Join anomaly"
+        },
+        "correct_answer": "A",
+        "explanation": "An update anomaly occurs when duplicated information must be updated in multiple places.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_07",
+        "question": "What is an insertion anomaly?",
+        "options": {
+          "A": "The inability to delete a record",
+          "B": "The inability to insert certain information without unrelated information",
+          "C": "The duplication of primary keys",
+          "D": "The automatic sorting of records"
+        },
+        "correct_answer": "B",
+        "explanation": "An insertion anomaly occurs when a database structure prevents useful information from being inserted without additional unrelated data.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_08",
+        "question": "What is a deletion anomaly?",
+        "options": {
+          "A": "Deleting one record accidentally removes unrelated information",
+          "B": "Deleting duplicate columns from a table",
+          "C": "Deleting an index from a table",
+          "D": "Deleting a database connection"
+        },
+        "correct_answer": "A",
+        "explanation": "A deletion anomaly occurs when removing a record also removes other important information stored with it.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_09",
+        "question": "Suppose STUDENT(StudentID, StudentName, DeptID, DeptName) has StudentID as the key and DeptID determines DeptName. Which dependency violates 3NF?",
+        "options": {
+          "A": "StudentID determines StudentName",
+          "B": "StudentID determines DeptID",
+          "C": "DeptID determines DeptName",
+          "D": "StudentName determines StudentID"
+        },
+        "correct_answer": "C",
+        "explanation": "DeptID determines DeptName, while StudentID determines DeptID, creating a transitive dependency that violates 3NF.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_10",
+        "question": "A relation has a composite key (StudentID, CourseID), and Grade depends only on CourseID. What type of dependency is this?",
+        "options": {
+          "A": "Transitive dependency",
+          "B": "Partial dependency",
+          "C": "Multivalued dependency",
+          "D": "Join dependency"
+        },
+        "correct_answer": "B",
+        "explanation": "Grade depends on only part of the composite key, CourseID, so it is a partial dependency.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_11",
+        "question": "Which statement best describes a functional dependency X → Y?",
+        "options": {
+          "A": "Y uniquely determines X in every case",
+          "B": "Every value of X determines exactly one value of Y",
+          "C": "X and Y must always be primary keys",
+          "D": "X and Y must contain identical values"
+        },
+        "correct_answer": "B",
+        "explanation": "A functional dependency X → Y means that each value of X is associated with one specific value of Y.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_12",
+        "question": "What is the main requirement of BCNF?",
+        "options": {
+          "A": "Every determinant must be a candidate key",
+          "B": "Every table must have two primary keys",
+          "C": "Every attribute must be multivalued",
+          "D": "Every relation must contain exactly three columns"
+        },
+        "correct_answer": "A",
+        "explanation": "BCNF requires every non-trivial functional dependency X → Y to have X as a superkey.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_normalization_13",
+        "question": "What is a major trade-off of decomposing a database into many normalized tables?",
+        "options": {
+          "A": "It always eliminates the need for joins",
+          "B": "It can reduce redundancy but may require more joins",
+          "C": "It removes all foreign keys",
+          "D": "It guarantees faster queries in every situation"
+        },
+        "correct_answer": "B",
+        "explanation": "Normalization reduces redundancy, but highly normalized designs can require additional joins when retrieving related data.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Transactions": [
+      {
+        "id": "dbms_transactions_01",
+        "question": "What is a transaction in a DBMS?",
+        "options": {
+          "A": "A collection of operations treated as one logical unit of work",
+          "B": "A type of database table",
+          "C": "A database user account",
+          "D": "A method of creating indexes"
+        },
+        "correct_answer": "A",
+        "explanation": "A transaction is a logical unit of database operations that should be completed consistently.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_02",
+        "question": "Which command permanently saves the changes made by a transaction?",
+        "options": {
+          "A": "ROLLBACK",
+          "B": "COMMIT",
+          "C": "SAVEPOINT",
+          "D": "UNDO"
+        },
+        "correct_answer": "B",
+        "explanation": "COMMIT makes the changes of the current transaction permanent.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_03",
+        "question": "Which command is used to undo changes made during a transaction?",
+        "options": {
+          "A": "COMMIT",
+          "B": "SAVE",
+          "C": "ROLLBACK",
+          "D": "UPDATE"
+        },
+        "correct_answer": "C",
+        "explanation": "ROLLBACK cancels uncommitted changes made by the current transaction.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_04",
+        "question": "Which ACID property ensures that a transaction is completed entirely or not at all?",
+        "options": {
+          "A": "Consistency",
+          "B": "Isolation",
+          "C": "Durability",
+          "D": "Atomicity"
+        },
+        "correct_answer": "D",
+        "explanation": "Atomicity means all operations of a transaction succeed together or the transaction is rolled back.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_05",
+        "question": "Which ACID property ensures that a transaction takes the database from one valid state to another?",
+        "options": {
+          "A": "Consistency",
+          "B": "Atomicity",
+          "C": "Isolation",
+          "D": "Durability"
+        },
+        "correct_answer": "A",
+        "explanation": "Consistency ensures that database rules and constraints remain valid after a transaction.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_06",
+        "question": "Which ACID property controls how the intermediate results of concurrent transactions are hidden from one another?",
+        "options": {
+          "A": "Durability",
+          "B": "Isolation",
+          "C": "Consistency",
+          "D": "Atomicity"
+        },
+        "correct_answer": "B",
+        "explanation": "Isolation determines how concurrent transactions interact and how intermediate changes are exposed.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_07",
+        "question": "Which ACID property ensures committed data survives a system failure?",
+        "options": {
+          "A": "Atomicity",
+          "B": "Consistency",
+          "C": "Durability",
+          "D": "Isolation"
+        },
+        "correct_answer": "C",
+        "explanation": "Durability ensures that committed changes remain stored even after failures.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_08",
+        "question": "What is the purpose of a SAVEPOINT?",
+        "options": {
+          "A": "To permanently commit the entire transaction",
+          "B": "To create a point to which a transaction can partially roll back",
+          "C": "To delete all transaction logs",
+          "D": "To create a new database"
+        },
+        "correct_answer": "B",
+        "explanation": "A SAVEPOINT allows a transaction to roll back part of its work without undoing the entire transaction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_09",
+        "question": "What happens if a transaction fails before COMMIT?",
+        "options": {
+          "A": "Its uncommitted changes can be rolled back",
+          "B": "All changes become permanent automatically",
+          "C": "The database is always deleted",
+          "D": "All other databases are removed"
+        },
+        "correct_answer": "A",
+        "explanation": "Uncommitted changes can be undone when a transaction fails or is rolled back.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_10",
+        "question": "In a bank transfer transaction, why should debit and credit operations belong to the same transaction?",
+        "options": {
+          "A": "To ensure both operations succeed or neither is applied",
+          "B": "To make the database contain duplicate balances",
+          "C": "To avoid using primary keys",
+          "D": "To prevent SELECT queries"
+        },
+        "correct_answer": "A",
+        "explanation": "Atomicity ensures that a money transfer does not leave only the debit or only the credit applied.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_11",
+        "question": "Which operation starts an explicit transaction in many SQL systems?",
+        "options": {
+          "A": "BEGIN",
+          "B": "START INDEX",
+          "C": "OPEN TABLE",
+          "D": "CREATE TRANSACTION TABLE"
+        },
+        "correct_answer": "A",
+        "explanation": "BEGIN is commonly used to explicitly start a transaction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_12",
+        "question": "What is the main purpose of a transaction log in database systems?",
+        "options": {
+          "A": "To store only usernames",
+          "B": "To support recovery by recording transaction-related changes",
+          "C": "To replace all database tables",
+          "D": "To automatically normalize every table"
+        },
+        "correct_answer": "B",
+        "explanation": "Transaction logs record changes and help the DBMS recover the database after failures.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_transactions_13",
+        "question": "Why is transaction isolation important when multiple users access the same database simultaneously?",
+        "options": {
+          "A": "It helps prevent concurrent transactions from producing incorrect interference",
+          "B": "It removes the need for transactions",
+          "C": "It prevents all users from reading data",
+          "D": "It guarantees that every query uses an index"
+        },
+        "correct_answer": "A",
+        "explanation": "Isolation helps concurrent transactions behave correctly by controlling how their operations interact.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Indexes": [
+      {
+        "id": "dbms_indexes_01",
+        "question": "What is the main purpose of an index in a database?",
+        "options": {
+          "A": "To speed up data retrieval for suitable queries",
+          "B": "To delete duplicate tables",
+          "C": "To replace the database schema",
+          "D": "To prevent all INSERT operations"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes provide additional data structures that can help the DBMS find rows more efficiently.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_02",
+        "question": "Which SQL statement is commonly used to create an index?",
+        "options": {
+          "A": "MAKE INDEX",
+          "B": "CREATE INDEX",
+          "C": "ADD INDEX TABLE",
+          "D": "BUILD DATABASE INDEX"
+        },
+        "correct_answer": "B",
+        "explanation": "CREATE INDEX is the SQL command used to create an index.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_03",
+        "question": "Which SQL statement is used to remove an index?",
+        "options": {
+          "A": "DELETE INDEX",
+          "B": "REMOVE INDEX",
+          "C": "DROP INDEX",
+          "D": "CLEAR INDEX"
+        },
+        "correct_answer": "C",
+        "explanation": "DROP INDEX removes an existing index from the database.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_04",
+        "question": "Which data structure is commonly used for database indexes?",
+        "options": {
+          "A": "B-tree",
+          "B": "Stack only",
+          "C": "Queue only",
+          "D": "Linked list only"
+        },
+        "correct_answer": "A",
+        "explanation": "B-tree and related balanced tree structures are widely used for database indexes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_05",
+        "question": "What is one disadvantage of creating too many indexes?",
+        "options": {
+          "A": "They can increase storage usage and slow INSERT, UPDATE, and DELETE operations",
+          "B": "They always delete table data",
+          "C": "They remove all primary keys",
+          "D": "They prevent SELECT statements"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes require storage and must be maintained when indexed data changes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_06",
+        "question": "What does a unique index enforce?",
+        "options": {
+          "A": "Every indexed key value must be unique",
+          "B": "Every row must contain NULL",
+          "C": "Every table must have the same number of rows",
+          "D": "Every query must use the index"
+        },
+        "correct_answer": "A",
+        "explanation": "A unique index prevents duplicate indexed key values according to its uniqueness rules.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_07",
+        "question": "Why might a DBMS choose not to use an available index?",
+        "options": {
+          "A": "A sequential scan may be estimated to be cheaper",
+          "B": "Indexes can never be used with WHERE clauses",
+          "C": "Indexes work only with DELETE statements",
+          "D": "Indexes always make queries slower"
+        },
+        "correct_answer": "A",
+        "explanation": "The query optimizer chooses the estimated cheapest execution plan, which may sometimes be a sequential scan.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_08",
+        "question": "What is a composite index?",
+        "options": {
+          "A": "An index built on two or more columns",
+          "B": "An index containing only duplicate values",
+          "C": "An index created only on primary keys",
+          "D": "An index stored outside the database"
+        },
+        "correct_answer": "A",
+        "explanation": "A composite index contains multiple columns and can help queries filtering or sorting by those columns.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_09",
+        "question": "Which query condition is generally a good candidate for an index on the salary column?",
+        "options": {
+          "A": "WHERE salary = 50000",
+          "B": "WHERE 1 = 1",
+          "C": "WHERE salary IS NOT NULL for every row without selectivity",
+          "D": "SELECT salary without any filtering or ordering"
+        },
+        "correct_answer": "A",
+        "explanation": "An equality condition on an indexed column can allow the database to locate matching rows efficiently.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_10",
+        "question": "What is a partial index?",
+        "options": {
+          "A": "An index created only for rows satisfying a specified condition",
+          "B": "An index containing only half of every column",
+          "C": "An index that can never be updated",
+          "D": "An index containing no keys"
+        },
+        "correct_answer": "A",
+        "explanation": "A partial index indexes only rows that satisfy a specified predicate.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_indexes_11",
+        "question": "Why can an index improve the performance of an ORDER BY query?",
+        "options": {
+          "A": "The index may provide rows in a useful ordering",
+          "B": "The index permanently changes table row order",
+          "C": "The index removes the ORDER BY clause",
+          "D": "The index converts all values to strings"
+        },
+        "correct_answer": "A",
+        "explanation": "An index with a suitable ordering can sometimes allow the DBMS to avoid an additional sorting step.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_indexes_12",
+        "question": "What is the role of a query optimizer when indexes are available?",
+        "options": {
+          "A": "It evaluates possible execution plans and chooses an efficient one",
+          "B": "It creates a new database for every query",
+          "C": "It always chooses every available index",
+          "D": "It removes all indexes before execution"
+        },
+        "correct_answer": "A",
+        "explanation": "The optimizer estimates the cost of different execution plans and selects a suitable plan.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_indexes_13",
+        "question": "What can happen when an indexed column has very low selectivity?",
+        "options": {
+          "A": "The DBMS may prefer a sequential scan because the index provides little filtering benefit",
+          "B": "The index must always be used",
+          "C": "The table is automatically deleted",
+          "D": "The column becomes a primary key"
+        },
+        "correct_answer": "A",
+        "explanation": "When many rows match a condition, using an index may cost more than scanning the table directly.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "ER Model": [
+      {
+        "id": "dbms_er_model_01",
+        "question": "What does ER stand for in DBMS?",
+        "options": {
+          "A": "Entity Relationship",
+          "B": "External Record",
+          "C": "Entry Relation",
+          "D": "Entity Retrieval"
+        },
+        "correct_answer": "A",
+        "explanation": "ER stands for Entity Relationship and is used to model data and relationships.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_02",
+        "question": "What does an entity represent in an ER model?",
+        "options": {
+          "A": "A real-world object or concept that can be identified",
+          "B": "Only a database query",
+          "C": "Only a foreign key",
+          "D": "A database password"
+        },
+        "correct_answer": "A",
+        "explanation": "An entity represents a distinguishable real-world object or concept, such as Student or Employee.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_03",
+        "question": "What is an attribute in an ER model?",
+        "options": {
+          "A": "A property that describes an entity",
+          "B": "A relationship between two databases",
+          "C": "A database transaction",
+          "D": "A query execution plan"
+        },
+        "correct_answer": "A",
+        "explanation": "Attributes describe properties of entities, such as StudentName or EmployeeSalary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_04",
+        "question": "What does a relationship represent in an ER model?",
+        "options": {
+          "A": "An association between entities",
+          "B": "A database password",
+          "C": "A column data type",
+          "D": "A transaction log"
+        },
+        "correct_answer": "A",
+        "explanation": "A relationship describes how two or more entities are associated with each other.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_05",
+        "question": "Which cardinality represents one entity related to many entities?",
+        "options": {
+          "A": "One-to-one",
+          "B": "One-to-many",
+          "C": "Many-to-one only",
+          "D": "Zero-to-zero"
+        },
+        "correct_answer": "B",
+        "explanation": "In a one-to-many relationship, one entity instance can be associated with many instances of another entity.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_06",
+        "question": "Which cardinality means that one student can enroll in many courses and one course can have many students?",
+        "options": {
+          "A": "One-to-one",
+          "B": "One-to-many",
+          "C": "Many-to-many",
+          "D": "Zero-to-one"
+        },
+        "correct_answer": "C",
+        "explanation": "Students and courses commonly have a many-to-many relationship because each student can take many courses and each course can contain many students.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_07",
+        "question": "Which attribute is normally used to uniquely identify an entity instance?",
+        "options": {
+          "A": "Descriptive attribute",
+          "B": "Key attribute",
+          "C": "Multivalued attribute",
+          "D": "Derived attribute"
+        },
+        "correct_answer": "B",
+        "explanation": "A key attribute uniquely identifies an entity instance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_08",
+        "question": "How is a many-to-many relationship usually represented in a relational database?",
+        "options": {
+          "A": "By creating a junction or associative table",
+          "B": "By removing both primary keys",
+          "C": "By storing all records in one column",
+          "D": "By deleting the relationship"
+        },
+        "correct_answer": "A",
+        "explanation": "A many-to-many relationship is usually converted into an associative table containing foreign keys referencing the participating entities.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_09",
+        "question": "What is a weak entity?",
+        "options": {
+          "A": "An entity that cannot be uniquely identified by its own attributes alone",
+          "B": "An entity with no attributes",
+          "C": "An entity that cannot have relationships",
+          "D": "An entity containing only foreign keys"
+        },
+        "correct_answer": "A",
+        "explanation": "A weak entity depends on another entity for identification and usually has a partial key.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_10",
+        "question": "In a one-to-many relationship between Department and Employee, where one department has many employees, where is the foreign key normally placed?",
+        "options": {
+          "A": "In the Department table",
+          "B": "In the Employee table",
+          "C": "In neither table",
+          "D": "In a separate database"
+        },
+        "correct_answer": "B",
+        "explanation": "The foreign key is normally placed on the many side, so Employee stores the Department key.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_11",
+        "question": "What is a derived attribute?",
+        "options": {
+          "A": "An attribute whose value can be calculated from other stored values",
+          "B": "An attribute that must always be a primary key",
+          "C": "An attribute that contains another table",
+          "D": "An attribute that cannot have a value"
+        },
+        "correct_answer": "A",
+        "explanation": "A derived attribute can be calculated from other attributes, such as Age derived from DateOfBirth.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_12",
+        "question": "What does participation constraint describe in an ER model?",
+        "options": {
+          "A": "Whether entity instances must participate in a relationship",
+          "B": "The physical location of a database",
+          "C": "The size of an index",
+          "D": "The order of SQL keywords"
+        },
+        "correct_answer": "A",
+        "explanation": "Participation constraints specify whether participation in a relationship is mandatory or optional.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_er_model_13",
+        "question": "When converting an ER model to relational tables, what is generally created for an entity set?",
+        "options": {
+          "A": "A relation containing attributes of the entity",
+          "B": "A transaction log only",
+          "C": "An index without a table",
+          "D": "A query without columns"
+        },
+        "correct_answer": "A",
+        "explanation": "An entity set is generally mapped to a relational table containing its attributes and an appropriate key.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Concurrency": [
+      {
+        "id": "dbms_concurrency_01",
+        "question": "What is concurrency in a DBMS?",
+        "options": {
+          "A": "Execution of multiple transactions during overlapping periods",
+          "B": "Execution of only one query in the database forever",
+          "C": "Deleting all transactions",
+          "D": "Creating only one database user"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency allows multiple transactions to execute during overlapping periods while maintaining database correctness.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_02",
+        "question": "What is a dirty read?",
+        "options": {
+          "A": "Reading data written by another transaction before that transaction commits",
+          "B": "Reading data from a backup database",
+          "C": "Reading a NULL value",
+          "D": "Reading data using an index"
+        },
+        "correct_answer": "A",
+        "explanation": "A dirty read occurs when a transaction reads changes made by another transaction that have not yet been committed.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_03",
+        "question": "What is a non-repeatable read?",
+        "options": {
+          "A": "Reading the same row twice and getting different committed values",
+          "B": "Reading a row for the first time",
+          "C": "Reading a table using a primary key",
+          "D": "Reading data from an index twice"
+        },
+        "correct_answer": "A",
+        "explanation": "A non-repeatable read occurs when another committed transaction changes a row between two reads in the same transaction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_04",
+        "question": "What is a phantom read?",
+        "options": {
+          "A": "A repeated query returns a different set of rows because another transaction inserted or removed matching rows",
+          "B": "A query returns only NULL values",
+          "C": "A transaction is automatically committed",
+          "D": "A primary key changes automatically"
+        },
+        "correct_answer": "A",
+        "explanation": "A phantom read occurs when repeated execution of a predicate-based query sees newly inserted, deleted, or otherwise changed matching rows.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_05",
+        "question": "Which technique is commonly used to control concurrent access to shared database data?",
+        "options": {
+          "A": "Locking",
+          "B": "Formatting",
+          "C": "Normalization only",
+          "D": "Data compression only"
+        },
+        "correct_answer": "A",
+        "explanation": "Locking controls access to database resources so concurrent transactions can operate safely.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_06",
+        "question": "What is a shared lock generally used for?",
+        "options": {
+          "A": "Allowing a transaction to read data while restricting conflicting writes",
+          "B": "Deleting the locked row",
+          "C": "Automatically committing a transaction",
+          "D": "Creating a new database"
+        },
+        "correct_answer": "A",
+        "explanation": "A shared lock is generally associated with reading and can be compatible with other shared locks while conflicting with certain writes.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_07",
+        "question": "What is an exclusive lock generally used for?",
+        "options": {
+          "A": "Protecting data that a transaction intends to modify",
+          "B": "Allowing unlimited conflicting writes",
+          "C": "Reading database metadata only",
+          "D": "Creating a backup file"
+        },
+        "correct_answer": "A",
+        "explanation": "An exclusive lock protects a resource from conflicting concurrent operations while a transaction modifies it.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_08",
+        "question": "What is a deadlock in concurrency control?",
+        "options": {
+          "A": "Two or more transactions wait indefinitely for resources held by one another",
+          "B": "A transaction that completes successfully",
+          "C": "A query that returns no rows",
+          "D": "A table that has no primary key"
+        },
+        "correct_answer": "A",
+        "explanation": "A deadlock occurs when transactions form a cycle of waiting and none can proceed without intervention.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_09",
+        "question": "What is the purpose of MVCC in a database system?",
+        "options": {
+          "A": "To maintain multiple row versions so readers and writers can often operate with less blocking",
+          "B": "To remove all database constraints",
+          "C": "To prevent all concurrent transactions",
+          "D": "To store only one version of every query"
+        },
+        "correct_answer": "A",
+        "explanation": "Multi-Version Concurrency Control (MVCC) uses row versions to provide consistent views while allowing concurrent activity.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_10",
+        "question": "What does serializability mean in transaction processing?",
+        "options": {
+          "A": "A concurrent schedule produces an effect equivalent to some serial execution",
+          "B": "Every transaction must contain exactly one statement",
+          "C": "Transactions cannot run concurrently",
+          "D": "Every query must use a serial data type"
+        },
+        "correct_answer": "A",
+        "explanation": "A schedule is serializable when its overall effect is equivalent to executing the transactions in some serial order.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_concurrency_11",
+        "question": "What can happen when a deadlock is detected?",
+        "options": {
+          "A": "The DBMS may abort one transaction to break the cycle",
+          "B": "All transactions must always remain blocked",
+          "C": "The database must be permanently deleted",
+          "D": "All indexes are automatically removed"
+        },
+        "correct_answer": "A",
+        "explanation": "A common deadlock recovery method is to abort or roll back one transaction, allowing the others to proceed.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_concurrency_12",
+        "question": "Which isolation level provides the strongest standard SQL isolation guarantee?",
+        "options": {
+          "A": "Read Uncommitted",
+          "B": "Read Committed",
+          "C": "Repeatable Read",
+          "D": "Serializable"
+        },
+        "correct_answer": "D",
+        "explanation": "Serializable provides the strongest standard SQL isolation level by requiring behavior equivalent to serial execution.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_concurrency_13",
+        "question": "Why can a transaction using serializable isolation need to be retried?",
+        "options": {
+          "A": "The DBMS may detect a serialization conflict and abort the transaction",
+          "B": "Serializable transactions cannot contain SELECT statements",
+          "C": "The database automatically deletes failed transactions permanently",
+          "D": "Serializable isolation prevents COMMIT"
+        },
+        "correct_answer": "A",
+        "explanation": "A serializable transaction can fail with a serialization conflict when its concurrent execution cannot be made equivalent to a serial order, so the application may retry it.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

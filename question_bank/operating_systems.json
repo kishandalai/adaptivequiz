@@ -1,0 +1,864 @@
+{
+  "subject": "Operating Systems",
+  "topics": {
+    "Processes": [
+      {
+        "id": "operating_systems_processes_01",
+        "question": "Which statement best describes a process?",
+        "options": {
+          "A": "a program that is currently executing",
+          "B": "a physical storage device",
+          "C": "a method for organizing files",
+          "D": "a hardware component used for input"
+        },
+        "correct_answer": "A",
+        "explanation": "A process is a program in execution, along with its current state and allocated resources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_02",
+        "question": "Which component stores information about a process?",
+        "options": {
+          "A": "File Allocation Table",
+          "B": "Process Control Block",
+          "C": "Page Table",
+          "D": "Directory Table"
+        },
+        "correct_answer": "B",
+        "explanation": "The Process Control Block (PCB) stores important information about a process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_03",
+        "question": "Which information is commonly stored in a Process Control Block?",
+        "options": {
+          "A": "process state",
+          "B": "keyboard layout",
+          "C": "file extension",
+          "D": "monitor resolution"
+        },
+        "correct_answer": "A",
+        "explanation": "A PCB contains information such as process state, program counter, CPU registers, and scheduling information.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_04",
+        "question": "Which state indicates that a process is waiting for CPU allocation?",
+        "options": {
+          "A": "Running",
+          "B": "Waiting",
+          "C": "Ready",
+          "D": "Terminated"
+        },
+        "correct_answer": "C",
+        "explanation": "A ready process is prepared to execute but is waiting for CPU allocation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_05",
+        "question": "What happens when a process is in the running state?",
+        "options": {
+          "A": "It is waiting for an I/O operation",
+          "B": "It is currently being executed by the CPU",
+          "C": "It has finished execution",
+          "D": "It is waiting permanently"
+        },
+        "correct_answer": "B",
+        "explanation": "A running process is currently executing instructions on the CPU.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_06",
+        "question": "Which operation creates a new process in many operating systems?",
+        "options": {
+          "A": "fork",
+          "B": "delete",
+          "C": "format",
+          "D": "compile"
+        },
+        "correct_answer": "A",
+        "explanation": "The fork operation is commonly used in Unix-like systems to create a new process.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_processes_07",
+        "question": "What is a child process?",
+        "options": {
+          "A": "a process created by another process",
+          "B": "a process stored only on disk",
+          "C": "a process that cannot execute",
+          "D": "a process used only for memory management"
+        },
+        "correct_answer": "A",
+        "explanation": "A child process is created by a parent process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_08",
+        "question": "Which process state normally follows process creation?",
+        "options": {
+          "A": "New",
+          "B": "Terminated",
+          "C": "Blocked",
+          "D": "Suspended"
+        },
+        "correct_answer": "A",
+        "explanation": "A newly created process initially enters the New state before being admitted for execution.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_09",
+        "question": "What is context switching?",
+        "options": {
+          "A": "changing a file name",
+          "B": "switching the CPU from one process to another",
+          "C": "moving files between directories",
+          "D": "changing the memory size"
+        },
+        "correct_answer": "B",
+        "explanation": "Context switching saves the state of one process and loads the state of another.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_processes_10",
+        "question": "Which entity can contain multiple threads?",
+        "options": {
+          "A": "Process",
+          "B": "File",
+          "C": "Directory",
+          "D": "Disk block"
+        },
+        "correct_answer": "A",
+        "explanation": "A process can contain one or more threads that share the process resources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_11",
+        "question": "What is process termination?",
+        "options": {
+          "A": "starting a process",
+          "B": "stopping a process from further execution",
+          "C": "moving a process to the ready queue",
+          "D": "increasing process priority"
+        },
+        "correct_answer": "B",
+        "explanation": "Process termination occurs when a process completes or is otherwise stopped.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_processes_12",
+        "question": "Which mechanism allows processes to exchange data and coordinate with each other?",
+        "options": {
+          "A": "Inter-Process Communication",
+          "B": "Disk Formatting",
+          "C": "File Compression",
+          "D": "Memory Defragmentation"
+        },
+        "correct_answer": "A",
+        "explanation": "Inter-Process Communication (IPC) provides mechanisms for processes to communicate and synchronize.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_processes_13",
+        "question": "Why is context switching considered an overhead?",
+        "options": {
+          "A": "It performs useful application work",
+          "B": "It consumes CPU time without directly executing the selected process's task",
+          "C": "It permanently deletes process data",
+          "D": "It increases disk capacity"
+        },
+        "correct_answer": "B",
+        "explanation": "Context switching requires saving and restoring process state, which consumes CPU resources.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Threads": [
+      {
+        "id": "operating_systems_threads_01",
+        "question": "What is a thread?",
+        "options": {
+          "A": "the smallest unit of CPU execution within a process",
+          "B": "a physical memory chip",
+          "C": "a type of file system",
+          "D": "a storage partition"
+        },
+        "correct_answer": "A",
+        "explanation": "A thread is a basic unit of CPU execution within a process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_02",
+        "question": "What do threads of the same process generally share?",
+        "options": {
+          "A": "address space",
+          "B": "separate computers",
+          "C": "different operating systems",
+          "D": "independent file systems"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads belonging to the same process generally share its address space and resources.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_03",
+        "question": "Which resource is normally private to each thread?",
+        "options": {
+          "A": "code segment",
+          "B": "data segment",
+          "C": "stack",
+          "D": "heap"
+        },
+        "correct_answer": "C",
+        "explanation": "Each thread normally has its own stack for storing local variables and function-call information.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_04",
+        "question": "What is a major advantage of multithreading?",
+        "options": {
+          "A": "improved responsiveness",
+          "B": "elimination of all memory usage",
+          "C": "removal of the operating system",
+          "D": "permanent CPU allocation"
+        },
+        "correct_answer": "A",
+        "explanation": "Multithreading can improve responsiveness by allowing different tasks to progress concurrently.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_05",
+        "question": "Which type of thread is managed directly by the operating system?",
+        "options": {
+          "A": "Kernel thread",
+          "B": "Database thread",
+          "C": "File thread",
+          "D": "Storage thread"
+        },
+        "correct_answer": "A",
+        "explanation": "Kernel threads are managed and scheduled by the operating system kernel.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_06",
+        "question": "Which type of thread is primarily managed by a user-level thread library?",
+        "options": {
+          "A": "User thread",
+          "B": "Kernel process",
+          "C": "Disk thread",
+          "D": "Hardware thread"
+        },
+        "correct_answer": "A",
+        "explanation": "User-level threads are managed by user-space libraries rather than directly by the kernel.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_07",
+        "question": "Why can threads be cheaper to create than processes?",
+        "options": {
+          "A": "Threads share many process resources",
+          "B": "Threads require a separate operating system",
+          "C": "Threads never use memory",
+          "D": "Threads do not execute instructions"
+        },
+        "correct_answer": "A",
+        "explanation": "Threads share the process's address space and resources, reducing creation and switching overhead.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_08",
+        "question": "What problem can occur when multiple threads access shared data without proper synchronization?",
+        "options": {
+          "A": "Race condition",
+          "B": "File extension",
+          "C": "Disk partition",
+          "D": "Page fault"
+        },
+        "correct_answer": "A",
+        "explanation": "A race condition occurs when the result depends on the timing of concurrent accesses to shared data.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_09",
+        "question": "Which mechanism is commonly used to protect shared resources between threads?",
+        "options": {
+          "A": "Mutex",
+          "B": "Compiler",
+          "C": "Directory",
+          "D": "File extension"
+        },
+        "correct_answer": "A",
+        "explanation": "A mutex provides mutual exclusion so that only one thread can enter a protected critical section at a time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_threads_10",
+        "question": "What is a critical section?",
+        "options": {
+          "A": "a part of a program that accesses shared resources",
+          "B": "a disk partition",
+          "C": "a process that has terminated",
+          "D": "a memory address outside the system"
+        },
+        "correct_answer": "A",
+        "explanation": "A critical section is code that accesses shared data or resources and therefore may require synchronization.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_11",
+        "question": "What is multithreading?",
+        "options": {
+          "A": "executing multiple threads within a process",
+          "B": "storing multiple files in one folder",
+          "C": "creating multiple hard disks",
+          "D": "using multiple operating systems simultaneously"
+        },
+        "correct_answer": "A",
+        "explanation": "Multithreading allows multiple threads to execute within the same process.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_threads_12",
+        "question": "Which issue can result if a thread waits indefinitely for a lock held by another thread?",
+        "options": {
+          "A": "Deadlock",
+          "B": "Compilation",
+          "C": "Formatting",
+          "D": "Paging"
+        },
+        "correct_answer": "A",
+        "explanation": "A deadlock can occur when threads wait indefinitely for resources held by one another.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_threads_13",
+        "question": "Why can multithreading improve performance on a multicore processor?",
+        "options": {
+          "A": "Different threads can execute simultaneously on different cores",
+          "B": "It removes all synchronization requirements",
+          "C": "It prevents processes from using memory",
+          "D": "It makes every thread execute on one core only"
+        },
+        "correct_answer": "A",
+        "explanation": "On multicore systems, independent threads can run in parallel on different CPU cores.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Scheduling": [
+      {
+        "id": "operating_systems_scheduling_01",
+        "question": "What is CPU scheduling?",
+        "options": {
+          "A": "selecting a process from the ready queue to run on the CPU",
+          "B": "organizing files on a disk",
+          "C": "allocating folders to users",
+          "D": "formatting memory"
+        },
+        "correct_answer": "A",
+        "explanation": "CPU scheduling determines which ready process should be allocated the CPU.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_02",
+        "question": "Which scheduling algorithm executes the process with the smallest CPU burst first?",
+        "options": {
+          "A": "FCFS",
+          "B": "SJF",
+          "C": "Round Robin",
+          "D": "FIFO Page Replacement"
+        },
+        "correct_answer": "B",
+        "explanation": "Shortest Job First (SJF) selects the process with the shortest expected CPU burst.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_03",
+        "question": "What does FCFS stand for?",
+        "options": {
+          "A": "First Come First Served",
+          "B": "Fast CPU File System",
+          "C": "First Core First Scheduled",
+          "D": "File Control First Service"
+        },
+        "correct_answer": "A",
+        "explanation": "FCFS stands for First Come First Served and schedules processes in arrival order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_04",
+        "question": "Which scheduling algorithm uses a time quantum?",
+        "options": {
+          "A": "Round Robin",
+          "B": "FCFS",
+          "C": "SJF",
+          "D": "FIFO"
+        },
+        "correct_answer": "A",
+        "explanation": "Round Robin assigns each ready process a fixed time quantum.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_05",
+        "question": "What is turnaround time?",
+        "options": {
+          "A": "completion time minus arrival time",
+          "B": "arrival time minus burst time",
+          "C": "waiting time minus arrival time",
+          "D": "burst time minus completion time"
+        },
+        "correct_answer": "A",
+        "explanation": "Turnaround time is the total time from process arrival to process completion.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_06",
+        "question": "What is waiting time?",
+        "options": {
+          "A": "time spent waiting in the ready queue",
+          "B": "time spent executing on the CPU",
+          "C": "time spent permanently terminated",
+          "D": "time spent creating a file"
+        },
+        "correct_answer": "A",
+        "explanation": "Waiting time is the amount of time a process spends waiting in the ready queue.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_07",
+        "question": "Which scheduling algorithm can suffer from the convoy effect?",
+        "options": {
+          "A": "FCFS",
+          "B": "Round Robin",
+          "C": "Priority Scheduling",
+          "D": "SJF"
+        },
+        "correct_answer": "A",
+        "explanation": "FCFS can cause the convoy effect when a long process delays many shorter processes.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_08",
+        "question": "What is preemptive scheduling?",
+        "options": {
+          "A": "the operating system can interrupt a running process and allocate the CPU to another",
+          "B": "a process always keeps the CPU until completion",
+          "C": "a process cannot enter the ready queue",
+          "D": "the CPU is disabled during execution"
+        },
+        "correct_answer": "A",
+        "explanation": "Preemptive scheduling allows the operating system to take the CPU from a running process.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_09",
+        "question": "Which scheduling method can cause starvation of low-priority processes?",
+        "options": {
+          "A": "Priority Scheduling",
+          "B": "FCFS",
+          "C": "Round Robin",
+          "D": "FIFO"
+        },
+        "correct_answer": "A",
+        "explanation": "In priority scheduling, low-priority processes may wait indefinitely if higher-priority processes keep arriving.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_10",
+        "question": "What technique can help prevent starvation in priority scheduling?",
+        "options": {
+          "A": "Aging",
+          "B": "Formatting",
+          "C": "Paging",
+          "D": "Compaction"
+        },
+        "correct_answer": "A",
+        "explanation": "Aging gradually increases the priority of waiting processes to reduce starvation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_scheduling_11",
+        "question": "Which metric measures the average time processes spend waiting before execution?",
+        "options": {
+          "A": "Average waiting time",
+          "B": "Average file size",
+          "C": "Average memory address",
+          "D": "Average disk capacity"
+        },
+        "correct_answer": "A",
+        "explanation": "Average waiting time is calculated from the waiting times of the processes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_scheduling_12",
+        "question": "If the time quantum in Round Robin is extremely large, what does the algorithm approach?",
+        "options": {
+          "A": "FCFS behavior",
+          "B": "SJF behavior",
+          "C": "Priority behavior",
+          "D": "Shortest Remaining Time behavior"
+        },
+        "correct_answer": "A",
+        "explanation": "When the time quantum is very large, each process may run until completion, making Round Robin behave similarly to FCFS.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_scheduling_13",
+        "question": "Which scheduling algorithm is designed to minimize average waiting time when CPU burst lengths are known?",
+        "options": {
+          "A": "SJF",
+          "B": "FCFS",
+          "C": "Round Robin",
+          "D": "Priority Scheduling"
+        },
+        "correct_answer": "A",
+        "explanation": "SJF is optimal for minimizing average waiting time when the required CPU burst lengths are known.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Memory": [
+      {
+        "id": "operating_systems_memory_01",
+        "question": "What is the primary purpose of main memory in a computer?",
+        "options": {
+          "A": "to store programs and data currently needed by the CPU",
+          "B": "to permanently store all backup files",
+          "C": "to connect computers to networks",
+          "D": "to control the keyboard"
+        },
+        "correct_answer": "A",
+        "explanation": "Main memory stores programs and data that are actively being used by the CPU.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_02",
+        "question": "What is virtual memory?",
+        "options": {
+          "A": "a memory-management technique that uses disk space to extend the apparent memory available to processes",
+          "B": "a physical CPU register",
+          "C": "a type of keyboard memory",
+          "D": "a permanent replacement for secondary storage"
+        },
+        "correct_answer": "A",
+        "explanation": "Virtual memory allows processes to use an address space larger than physical RAM by using secondary storage.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_03",
+        "question": "What is paging?",
+        "options": {
+          "A": "dividing logical memory into fixed-size pages",
+          "B": "dividing files into variable-size folders",
+          "C": "sorting CPU instructions",
+          "D": "deleting unused programs"
+        },
+        "correct_answer": "A",
+        "explanation": "Paging divides logical memory into fixed-size pages and physical memory into frames.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_04",
+        "question": "What is a page frame?",
+        "options": {
+          "A": "a fixed-size block of physical memory",
+          "B": "a logical CPU instruction",
+          "C": "a disk directory",
+          "D": "a process identifier"
+        },
+        "correct_answer": "A",
+        "explanation": "A frame is a fixed-size block of physical memory that can hold a page.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_05",
+        "question": "What is a page fault?",
+        "options": {
+          "A": "an event that occurs when a required page is not currently in physical memory",
+          "B": "an error caused by deleting a file",
+          "C": "a CPU scheduling algorithm",
+          "D": "a type of process termination"
+        },
+        "correct_answer": "A",
+        "explanation": "A page fault occurs when a process references a page that is not currently loaded in physical memory.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_06",
+        "question": "Which data structure maps virtual pages to physical frames?",
+        "options": {
+          "A": "Page table",
+          "B": "File table",
+          "C": "Process queue",
+          "D": "Directory tree"
+        },
+        "correct_answer": "A",
+        "explanation": "A page table stores mappings between virtual pages and physical frames.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_07",
+        "question": "What is fragmentation in memory management?",
+        "options": {
+          "A": "wasted memory space caused by allocation patterns",
+          "B": "a method of CPU scheduling",
+          "C": "a file naming convention",
+          "D": "a type of process state"
+        },
+        "correct_answer": "A",
+        "explanation": "Fragmentation refers to memory space that becomes unusable or inefficiently utilized because of allocation patterns.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_memory_08",
+        "question": "Which type of fragmentation occurs when allocated blocks contain unused space inside them?",
+        "options": {
+          "A": "Internal fragmentation",
+          "B": "External fragmentation",
+          "C": "Logical fragmentation",
+          "D": "Virtual fragmentation"
+        },
+        "correct_answer": "A",
+        "explanation": "Internal fragmentation occurs when allocated memory blocks contain unused space within the allocated region.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_09",
+        "question": "Which type of fragmentation occurs when free memory is divided into small separated blocks?",
+        "options": {
+          "A": "External fragmentation",
+          "B": "Internal fragmentation",
+          "C": "Page fragmentation",
+          "D": "Register fragmentation"
+        },
+        "correct_answer": "A",
+        "explanation": "External fragmentation occurs when free memory is available but scattered into separated blocks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_10",
+        "question": "What is swapping?",
+        "options": {
+          "A": "moving processes between main memory and secondary storage",
+          "B": "switching keyboard keys",
+          "C": "changing file extensions",
+          "D": "changing CPU instructions"
+        },
+        "correct_answer": "A",
+        "explanation": "Swapping temporarily moves processes between main memory and secondary storage.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_11",
+        "question": "Which technique loads pages into memory only when they are needed?",
+        "options": {
+          "A": "Demand paging",
+          "B": "Static allocation",
+          "C": "File indexing",
+          "D": "CPU preemption"
+        },
+        "correct_answer": "A",
+        "explanation": "Demand paging loads a page into physical memory when the process actually references it.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_memory_12",
+        "question": "What is thrashing?",
+        "options": {
+          "A": "excessive paging that leaves little time for useful execution",
+          "B": "fast CPU execution",
+          "C": "efficient file allocation",
+          "D": "successful process scheduling"
+        },
+        "correct_answer": "A",
+        "explanation": "Thrashing occurs when a system spends excessive time handling page faults and swapping pages instead of executing useful work.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "operating_systems_memory_13",
+        "question": "Which page replacement algorithm replaces the page that has not been used for the longest time?",
+        "options": {
+          "A": "LRU",
+          "B": "FIFO",
+          "C": "FCFS",
+          "D": "Round Robin"
+        },
+        "correct_answer": "A",
+        "explanation": "Least Recently Used (LRU) replaces the page that has not been referenced for the longest period.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "File Systems": [
+      {
+        "id": "operating_systems_file_systems_01",
+        "question": "What is a file system?",
+        "options": {
+          "A": "a method used by an operating system to organize and manage files and directories",
+          "B": "a CPU scheduling algorithm",
+          "C": "a type of processor",
+          "D": "a programming language"
+        },
+        "correct_answer": "A",
+        "explanation": "A file system organizes, stores, retrieves, and manages files on storage devices.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_02",
+        "question": "What is a file?",
+        "options": {
+          "A": "a named collection of related information stored on secondary storage",
+          "B": "a CPU register",
+          "C": "a process scheduler",
+          "D": "a memory frame"
+        },
+        "correct_answer": "A",
+        "explanation": "A file is a named collection of related information stored on a storage device.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_03",
+        "question": "What is a directory used for?",
+        "options": {
+          "A": "organizing and locating files and other directories",
+          "B": "executing CPU instructions",
+          "C": "allocating CPU time",
+          "D": "storing processor registers"
+        },
+        "correct_answer": "A",
+        "explanation": "Directories organize files and subdirectories and provide a way to locate them.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_04",
+        "question": "Which operation creates a new file?",
+        "options": {
+          "A": "Create",
+          "B": "Seek",
+          "C": "Mount",
+          "D": "Schedule"
+        },
+        "correct_answer": "A",
+        "explanation": "The create operation establishes a new file in the file system.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_05",
+        "question": "Which operation removes a file from a file system?",
+        "options": {
+          "A": "Delete",
+          "B": "Execute",
+          "C": "Schedule",
+          "D": "Compile"
+        },
+        "correct_answer": "A",
+        "explanation": "The delete operation removes a file from the file system.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_06",
+        "question": "What does a file descriptor identify?",
+        "options": {
+          "A": "an open file or other I/O resource",
+          "B": "a CPU core",
+          "C": "a memory page",
+          "D": "a process priority"
+        },
+        "correct_answer": "A",
+        "explanation": "A file descriptor is an identifier used by an operating system to refer to an open file or I/O resource.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_07",
+        "question": "Which file allocation method stores a file in consecutive disk blocks?",
+        "options": {
+          "A": "Contiguous allocation",
+          "B": "Indexed allocation",
+          "C": "Linked allocation",
+          "D": "Random allocation"
+        },
+        "correct_answer": "A",
+        "explanation": "Contiguous allocation stores all blocks of a file in consecutive disk locations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_08",
+        "question": "Which allocation method uses pointers between file blocks?",
+        "options": {
+          "A": "Linked allocation",
+          "B": "Contiguous allocation",
+          "C": "Static allocation",
+          "D": "Direct allocation"
+        },
+        "correct_answer": "A",
+        "explanation": "Linked allocation connects the blocks of a file using pointers.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_09",
+        "question": "What is indexed allocation?",
+        "options": {
+          "A": "using an index block containing pointers to file blocks",
+          "B": "storing all blocks consecutively",
+          "C": "storing files only in cache",
+          "D": "using CPU registers to store files"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexed allocation uses an index block that contains pointers to the blocks belonging to a file.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_10",
+        "question": "What is file protection concerned with?",
+        "options": {
+          "A": "controlling who can access or modify files",
+          "B": "increasing CPU clock speed",
+          "C": "changing memory page size",
+          "D": "reducing processor temperature"
+        },
+        "correct_answer": "A",
+        "explanation": "File protection controls access permissions and prevents unauthorized file operations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_11",
+        "question": "Which permission normally allows a user to view the contents of a file?",
+        "options": {
+          "A": "Read",
+          "B": "Write",
+          "C": "Execute",
+          "D": "Delete"
+        },
+        "correct_answer": "A",
+        "explanation": "Read permission allows the contents of a file to be accessed or viewed.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "operating_systems_file_systems_12",
+        "question": "Which directory structure allows directories to contain subdirectories?",
+        "options": {
+          "A": "Tree-structured directory",
+          "B": "Single-level directory",
+          "C": "Flat memory structure",
+          "D": "Circular queue"
+        },
+        "correct_answer": "A",
+        "explanation": "A tree-structured directory organizes files and directories hierarchically, allowing nested subdirectories.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "operating_systems_file_systems_13",
+        "question": "Which file allocation method can provide efficient direct access while using an index structure?",
+        "options": {
+          "A": "Indexed allocation",
+          "B": "Pure linked allocation",
+          "C": "Sequential-only allocation",
+          "D": "Unallocated storage"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexed allocation stores block addresses in an index structure, allowing direct access to file blocks.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

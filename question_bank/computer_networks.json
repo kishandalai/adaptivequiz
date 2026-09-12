@@ -1,0 +1,864 @@
+{
+  "subject": "Computer Networks",
+  "topics": {
+    "TCP/IP": [
+      {
+        "id": "computer_networks_tcp_ip_01",
+        "question": "What does TCP/IP refer to?",
+        "options": {
+          "A": "a suite of communication protocols used for computer networks",
+          "B": "a type of network cable",
+          "C": "a hardware device for routing electricity",
+          "D": "a file compression format"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP/IP is a suite of communication protocols that enables devices to communicate across networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_02",
+        "question": "What does TCP stand for?",
+        "options": {
+          "A": "Transmission Control Protocol",
+          "B": "Transfer Communication Process",
+          "C": "Terminal Control Program",
+          "D": "Transport Connection Path"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP stands for Transmission Control Protocol.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_03",
+        "question": "What is the main purpose of IP?",
+        "options": {
+          "A": "addressing and routing packets between networks",
+          "B": "encrypting every application message",
+          "C": "compressing files before transmission",
+          "D": "managing computer memory"
+        },
+        "correct_answer": "A",
+        "explanation": "Internet Protocol provides addressing and packet delivery across interconnected networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_04",
+        "question": "Which TCP feature provides reliable delivery of data?",
+        "options": {
+          "A": "acknowledgments and retransmissions",
+          "B": "random packet deletion",
+          "C": "fixed IP addresses",
+          "D": "DNS caching"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP uses acknowledgments and retransmissions to provide reliable, ordered delivery.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_05",
+        "question": "Which protocol is connection-oriented?",
+        "options": {
+          "A": "TCP",
+          "B": "IP",
+          "C": "ARP",
+          "D": "DNS"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP establishes a connection between endpoints before transferring application data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_06",
+        "question": "Which protocol is connectionless at the transport layer?",
+        "options": {
+          "A": "UDP",
+          "B": "TCP",
+          "C": "HTTPS",
+          "D": "FTP"
+        },
+        "correct_answer": "A",
+        "explanation": "UDP is a connectionless transport protocol that does not establish a connection before sending data.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_07",
+        "question": "What is the purpose of the TCP three-way handshake?",
+        "options": {
+          "A": "to establish a TCP connection and synchronize sequence numbers",
+          "B": "to translate domain names into IP addresses",
+          "C": "to assign a MAC address",
+          "D": "to encrypt a hard drive"
+        },
+        "correct_answer": "A",
+        "explanation": "The TCP three-way handshake establishes the connection and synchronizes sequence numbers between endpoints.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_08",
+        "question": "Which TCP mechanism helps control the amount of unacknowledged data sent by a sender?",
+        "options": {
+          "A": "sliding window",
+          "B": "DNS resolver",
+          "C": "ARP table",
+          "D": "routing table"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP uses window-based flow control to limit the amount of data that can be outstanding before acknowledgment.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_09",
+        "question": "What does an IP address identify?",
+        "options": {
+          "A": "a network interface or endpoint at the network layer",
+          "B": "a specific application process only",
+          "C": "a file stored on a server",
+          "D": "a physical keyboard"
+        },
+        "correct_answer": "A",
+        "explanation": "An IP address provides logical addressing for network interfaces and enables packet routing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_tcp_ip_10",
+        "question": "What is the main difference between IPv4 and IPv6?",
+        "options": {
+          "A": "IPv6 uses a much larger address space than IPv4",
+          "B": "IPv4 is connection-oriented while IPv6 is connectionless",
+          "C": "IPv6 does not support routing",
+          "D": "IPv4 can only be used on wireless networks"
+        },
+        "correct_answer": "A",
+        "explanation": "IPv6 uses 128-bit addresses, providing a vastly larger address space than IPv4's 32-bit addresses.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_11",
+        "question": "What is TCP congestion control designed to prevent?",
+        "options": {
+          "A": "excessive traffic from overwhelming the network",
+          "B": "domain name duplication",
+          "C": "file system corruption",
+          "D": "unauthorized keyboard access"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP congestion control adjusts sending behavior to reduce the risk of network overload.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_12",
+        "question": "Which TCP flag is normally used to initiate a connection?",
+        "options": {
+          "A": "SYN",
+          "B": "FIN",
+          "C": "RST",
+          "D": "URG"
+        },
+        "correct_answer": "A",
+        "explanation": "The SYN flag is used during TCP connection establishment.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_tcp_ip_13",
+        "question": "Why does TCP use sequence numbers?",
+        "options": {
+          "A": "to track bytes and support ordered delivery and retransmission",
+          "B": "to convert domain names into IP addresses",
+          "C": "to assign physical MAC addresses",
+          "D": "to identify encryption algorithms"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP sequence numbers allow received data to be ordered and help identify data that may need retransmission.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "DNS": [
+      {
+        "id": "computer_networks_dns_01",
+        "question": "What does DNS stand for?",
+        "options": {
+          "A": "Domain Name System",
+          "B": "Data Network Service",
+          "C": "Digital Naming Standard",
+          "D": "Domain Network Security"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS stands for Domain Name System.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_02",
+        "question": "What is the primary purpose of DNS?",
+        "options": {
+          "A": "to translate domain names into IP addresses and provide other naming information",
+          "B": "to encrypt all network packets",
+          "C": "to assign CPU processes",
+          "D": "to compress network files"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS maps human-readable domain names to IP addresses and can provide other DNS records.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_03",
+        "question": "Which DNS record maps a domain name to an IPv4 address?",
+        "options": {
+          "A": "A",
+          "B": "AAAA",
+          "C": "MX",
+          "D": "CNAME"
+        },
+        "correct_answer": "A",
+        "explanation": "An A record maps a hostname to an IPv4 address.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_04",
+        "question": "Which DNS record maps a domain name to an IPv6 address?",
+        "options": {
+          "A": "AAAA",
+          "B": "A",
+          "C": "MX",
+          "D": "TXT"
+        },
+        "correct_answer": "A",
+        "explanation": "An AAAA record maps a hostname to an IPv6 address.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_05",
+        "question": "Which DNS record identifies a mail server for a domain?",
+        "options": {
+          "A": "MX",
+          "B": "A",
+          "C": "PTR",
+          "D": "NS"
+        },
+        "correct_answer": "A",
+        "explanation": "MX records specify mail servers responsible for receiving email for a domain.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_06",
+        "question": "What is DNS caching?",
+        "options": {
+          "A": "temporarily storing DNS results to reduce repeated lookups",
+          "B": "encrypting domain names",
+          "C": "deleting all DNS records",
+          "D": "converting IPv6 into IPv4"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS caching stores recently obtained DNS information for a period of time to improve lookup efficiency.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_dns_07",
+        "question": "What is the role of a recursive DNS resolver?",
+        "options": {
+          "A": "to obtain DNS answers on behalf of a client",
+          "B": "to physically connect network cables",
+          "C": "to encrypt HTTP traffic",
+          "D": "to assign MAC addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "A recursive resolver receives a client's DNS query and obtains the answer from DNS servers when it is not already cached.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_08",
+        "question": "Which DNS record specifies authoritative name servers for a domain?",
+        "options": {
+          "A": "NS",
+          "B": "MX",
+          "C": "TXT",
+          "D": "A"
+        },
+        "correct_answer": "A",
+        "explanation": "NS records identify the authoritative name servers for a DNS zone.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_09",
+        "question": "What does a CNAME record provide?",
+        "options": {
+          "A": "an alias from one hostname to another hostname",
+          "B": "an IPv4 address directly",
+          "C": "an email server priority",
+          "D": "a network encryption key"
+        },
+        "correct_answer": "A",
+        "explanation": "A CNAME record makes one hostname an alias of another hostname.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_10",
+        "question": "What is TTL in DNS?",
+        "options": {
+          "A": "the time a DNS record may be cached before it should be refreshed",
+          "B": "the total length of a domain name",
+          "C": "the number of DNS servers in a zone",
+          "D": "the encryption strength of DNS"
+        },
+        "correct_answer": "A",
+        "explanation": "DNS TTL specifies how long a resolver may cache a DNS record before it should obtain fresh information.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_11",
+        "question": "Which DNS server type holds authoritative information for a DNS zone?",
+        "options": {
+          "A": "authoritative name server",
+          "B": "recursive client",
+          "C": "web proxy",
+          "D": "DHCP relay"
+        },
+        "correct_answer": "A",
+        "explanation": "An authoritative name server stores and serves the DNS records for the zones it is authoritative for.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_dns_12",
+        "question": "Which DNS record is commonly used for reverse DNS lookups in IPv4?",
+        "options": {
+          "A": "PTR",
+          "B": "MX",
+          "C": "CNAME",
+          "D": "AAAA"
+        },
+        "correct_answer": "A",
+        "explanation": "PTR records are used to map an IP address to a hostname in reverse DNS.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_dns_13",
+        "question": "What is DNSSEC primarily designed to provide?",
+        "options": {
+          "A": "authentication and integrity protection for DNS data",
+          "B": "faster physical network cables",
+          "C": "automatic IP address allocation",
+          "D": "compression of DNS packets"
+        },
+        "correct_answer": "A",
+        "explanation": "DNSSEC uses digital signatures to help validate the authenticity and integrity of DNS responses.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Routing": [
+      {
+        "id": "computer_networks_routing_01",
+        "question": "What is routing?",
+        "options": {
+          "A": "the process of selecting paths for packets between networks",
+          "B": "the process of creating files",
+          "C": "the process of encrypting passwords",
+          "D": "the process of installing applications"
+        },
+        "correct_answer": "A",
+        "explanation": "Routing determines suitable paths for packets to travel from a source network to a destination network.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_02",
+        "question": "Which device primarily performs IP routing?",
+        "options": {
+          "A": "Router",
+          "B": "Keyboard",
+          "C": "Printer",
+          "D": "Monitor"
+        },
+        "correct_answer": "A",
+        "explanation": "Routers forward IP packets between different networks.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_03",
+        "question": "What is a routing table?",
+        "options": {
+          "A": "a collection of routes used to determine where packets should be forwarded",
+          "B": "a list of computer passwords",
+          "C": "a table containing only MAC addresses",
+          "D": "a database of installed applications"
+        },
+        "correct_answer": "A",
+        "explanation": "A routing table contains network destinations and information used to select forwarding paths.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_04",
+        "question": "What is a default route used for?",
+        "options": {
+          "A": "forwarding packets when no more specific route matches",
+          "B": "encrypting all network packets",
+          "C": "assigning domain names",
+          "D": "creating wireless signals"
+        },
+        "correct_answer": "A",
+        "explanation": "A default route acts as a fallback when a packet does not match a more specific routing-table entry.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_05",
+        "question": "Which routing protocol is commonly classified as a link-state protocol?",
+        "options": {
+          "A": "OSPF",
+          "B": "RIP",
+          "C": "HTTP",
+          "D": "DNS"
+        },
+        "correct_answer": "A",
+        "explanation": "OSPF is a link-state interior gateway routing protocol.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_06",
+        "question": "Which routing protocol traditionally uses hop count as its primary metric?",
+        "options": {
+          "A": "RIP",
+          "B": "OSPF",
+          "C": "BGP",
+          "D": "ARP"
+        },
+        "correct_answer": "A",
+        "explanation": "RIP uses hop count as its routing metric and has a maximum usable hop count of 15.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_07",
+        "question": "What does BGP primarily exchange information about?",
+        "options": {
+          "A": "reachability between autonomous systems",
+          "B": "local file permissions",
+          "C": "CPU scheduling priorities",
+          "D": "DNS cache entries"
+        },
+        "correct_answer": "A",
+        "explanation": "BGP is the primary inter-domain routing protocol used to exchange network reachability information between autonomous systems.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_08",
+        "question": "What is a routing metric?",
+        "options": {
+          "A": "a value used to compare possible routes",
+          "B": "a type of network cable",
+          "C": "a password encryption method",
+          "D": "a DNS record"
+        },
+        "correct_answer": "A",
+        "explanation": "A routing metric helps a routing protocol or router compare paths and select a preferred route.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_09",
+        "question": "What is static routing?",
+        "options": {
+          "A": "routes manually configured by an administrator",
+          "B": "routes learned automatically from DNS",
+          "C": "routes generated by a web browser",
+          "D": "routes created by file systems"
+        },
+        "correct_answer": "A",
+        "explanation": "Static routes are manually configured and do not automatically adapt to network changes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_10",
+        "question": "What is dynamic routing?",
+        "options": {
+          "A": "routing in which routes can be learned and updated automatically",
+          "B": "routing performed only by users",
+          "C": "routing without IP addresses",
+          "D": "routing that works only with one computer"
+        },
+        "correct_answer": "A",
+        "explanation": "Dynamic routing protocols allow routers to learn and update routes based on network information.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_routing_11",
+        "question": "Which algorithm is associated with many link-state routing protocols?",
+        "options": {
+          "A": "Dijkstra's shortest-path algorithm",
+          "B": "Binary search",
+          "C": "Round Robin",
+          "D": "FIFO scheduling"
+        },
+        "correct_answer": "A",
+        "explanation": "Link-state protocols such as OSPF use a shortest-path calculation based on Dijkstra's algorithm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_routing_12",
+        "question": "What is route convergence?",
+        "options": {
+          "A": "the process by which routers reach a consistent view of network routes after a change",
+          "B": "the process of converting IPv4 to IPv6",
+          "C": "the process of encrypting a routing table",
+          "D": "the process of deleting unused routes"
+        },
+        "correct_answer": "A",
+        "explanation": "Convergence occurs when routers have updated their routing information and reached a consistent state after a topology change.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_routing_13",
+        "question": "Why is longest prefix matching used in IP routing?",
+        "options": {
+          "A": "to select the most specific matching route",
+          "B": "to select the route with the shortest IP address",
+          "C": "to encrypt the destination address",
+          "D": "to identify the DNS server"
+        },
+        "correct_answer": "A",
+        "explanation": "Longest prefix matching selects the most specific routing-table entry that matches the destination IP address.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Sockets": [
+      {
+        "id": "computer_networks_sockets_01",
+        "question": "What is a socket in computer networking?",
+        "options": {
+          "A": "an endpoint used by an application for network communication",
+          "B": "a physical network cable",
+          "C": "a type of hard disk",
+          "D": "a DNS record"
+        },
+        "correct_answer": "A",
+        "explanation": "A socket provides an endpoint through which an application can communicate over a network.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_02",
+        "question": "Which combination commonly identifies a network endpoint?",
+        "options": {
+          "A": "IP address and port number",
+          "B": "file name and extension",
+          "C": "CPU speed and RAM",
+          "D": "username and password"
+        },
+        "correct_answer": "A",
+        "explanation": "An IP address identifies the host/interface and a port identifies the application endpoint.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_03",
+        "question": "What is the purpose of a port number?",
+        "options": {
+          "A": "to identify an application or service endpoint on a host",
+          "B": "to identify a physical network cable",
+          "C": "to identify a DNS zone",
+          "D": "to identify a file type"
+        },
+        "correct_answer": "A",
+        "explanation": "Port numbers distinguish application or service endpoints on a host.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_04",
+        "question": "Which socket type is commonly associated with TCP?",
+        "options": {
+          "A": "stream socket",
+          "B": "datagram socket",
+          "C": "raw file socket",
+          "D": "directory socket"
+        },
+        "correct_answer": "A",
+        "explanation": "TCP is commonly accessed through stream sockets because it provides a reliable byte stream.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_05",
+        "question": "Which socket type is commonly associated with UDP?",
+        "options": {
+          "A": "datagram socket",
+          "B": "stream socket",
+          "C": "file socket",
+          "D": "memory socket"
+        },
+        "correct_answer": "A",
+        "explanation": "UDP is commonly accessed through datagram sockets.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_06",
+        "question": "Which socket operation is commonly used by a TCP server to wait for incoming connections?",
+        "options": {
+          "A": "accept",
+          "B": "sendto",
+          "C": "close",
+          "D": "recvfrom"
+        },
+        "correct_answer": "A",
+        "explanation": "A TCP server commonly uses accept to accept an incoming connection from a client.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_07",
+        "question": "Which socket operation associates a socket with a local IP address and port?",
+        "options": {
+          "A": "bind",
+          "B": "listen",
+          "C": "accept",
+          "D": "recv"
+        },
+        "correct_answer": "A",
+        "explanation": "The bind operation associates a socket with a local address and port.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_08",
+        "question": "Which operation puts a TCP server socket into a state where it can listen for connections?",
+        "options": {
+          "A": "listen",
+          "B": "bind",
+          "C": "send",
+          "D": "connect"
+        },
+        "correct_answer": "A",
+        "explanation": "After binding, a TCP server commonly calls listen to mark the socket as a passive listening socket.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_09",
+        "question": "Which operation is commonly used by a TCP client to establish a connection with a server?",
+        "options": {
+          "A": "connect",
+          "B": "listen",
+          "C": "accept",
+          "D": "bindonly"
+        },
+        "correct_answer": "A",
+        "explanation": "A TCP client commonly calls connect to establish a connection to a server endpoint.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_10",
+        "question": "What is a blocking socket operation?",
+        "options": {
+          "A": "an operation that may wait until the requested network action can proceed",
+          "B": "an operation that always fails immediately",
+          "C": "an operation that disables the network card",
+          "D": "an operation that deletes the socket"
+        },
+        "correct_answer": "A",
+        "explanation": "A blocking operation can pause the calling thread until data, a connection, or another required condition becomes available.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_sockets_11",
+        "question": "Why are socket APIs useful to application developers?",
+        "options": {
+          "A": "they provide a programming interface for network communication",
+          "B": "they replace all network hardware",
+          "C": "they automatically create domain names",
+          "D": "they remove the need for IP addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "Socket APIs allow applications to create endpoints and send or receive data over network protocols.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_sockets_12",
+        "question": "What is the purpose of the backlog associated with a listening TCP socket?",
+        "options": {
+          "A": "to control the queue of pending connection requests",
+          "B": "to store DNS records permanently",
+          "C": "to encrypt transmitted packets",
+          "D": "to identify the client's operating system"
+        },
+        "correct_answer": "A",
+        "explanation": "The listen backlog controls the queueing behavior for pending connection requests waiting to be accepted.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "computer_networks_sockets_13",
+        "question": "Why might a server use multiple sockets for multiple TCP clients?",
+        "options": {
+          "A": "each accepted connection can have its own connected socket",
+          "B": "each client requires a different DNS system",
+          "C": "each client must use a separate router",
+          "D": "each client must have a separate IP protocol"
+        },
+        "correct_answer": "A",
+        "explanation": "A TCP listening socket accepts connections, and each accepted client connection is represented by a separate connected socket.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Security in Computer Networks": [
+      {
+        "id": "computer_networks_security_01",
+        "question": "What is network security?",
+        "options": {
+          "A": "the protection of network systems, communications, and data from unauthorized access and attacks",
+          "B": "the process of increasing CPU speed",
+          "C": "the process of organizing files",
+          "D": "the process of assigning keyboard shortcuts"
+        },
+        "correct_answer": "A",
+        "explanation": "Network security protects networks, devices, communications, and data from unauthorized access and malicious activity.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_02",
+        "question": "What is confidentiality in network security?",
+        "options": {
+          "A": "ensuring that information is accessible only to authorized parties",
+          "B": "ensuring that every packet arrives instantly",
+          "C": "ensuring that all systems use the same password",
+          "D": "ensuring that files are never deleted"
+        },
+        "correct_answer": "A",
+        "explanation": "Confidentiality prevents unauthorized parties from accessing sensitive information.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_03",
+        "question": "What does integrity mean in network security?",
+        "options": {
+          "A": "ensuring that data is not improperly altered",
+          "B": "ensuring that data is always public",
+          "C": "ensuring that data is never transmitted",
+          "D": "ensuring that every device has the same IP address"
+        },
+        "correct_answer": "A",
+        "explanation": "Integrity ensures that data remains accurate and is not modified without authorization.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_04",
+        "question": "What does availability mean in network security?",
+        "options": {
+          "A": "ensuring authorized users can access systems and resources when needed",
+          "B": "ensuring that data is always encrypted with one algorithm",
+          "C": "ensuring that all users are administrators",
+          "D": "ensuring that no network traffic is allowed"
+        },
+        "correct_answer": "A",
+        "explanation": "Availability means systems and resources remain accessible to authorized users when required.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_05",
+        "question": "What is a firewall?",
+        "options": {
+          "A": "a security mechanism that controls network traffic according to defined rules",
+          "B": "a device that increases monitor brightness",
+          "C": "a protocol for assigning domain names",
+          "D": "a tool for compressing files"
+        },
+        "correct_answer": "A",
+        "explanation": "A firewall filters network traffic according to security policies and configured rules.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_06",
+        "question": "What is encryption?",
+        "options": {
+          "A": "transforming readable data into a protected form using a cryptographic process",
+          "B": "deleting network packets",
+          "C": "assigning IP addresses automatically",
+          "D": "converting files into folders"
+        },
+        "correct_answer": "A",
+        "explanation": "Encryption transforms plaintext into ciphertext so that unauthorized parties cannot easily understand it.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_07",
+        "question": "Which security property is provided by HTTPS when properly configured?",
+        "options": {
+          "A": "encrypted communication between the browser and server",
+          "B": "automatic removal of malware from the server",
+          "C": "guaranteed protection from every cyberattack",
+          "D": "permanent anonymity for the user"
+        },
+        "correct_answer": "A",
+        "explanation": "HTTPS uses TLS to protect HTTP communication against eavesdropping and tampering in transit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_08",
+        "question": "What is authentication?",
+        "options": {
+          "A": "verifying the identity of a user or system",
+          "B": "deciding which files should be deleted",
+          "C": "increasing network bandwidth",
+          "D": "changing a domain name"
+        },
+        "correct_answer": "A",
+        "explanation": "Authentication verifies that an entity is who or what it claims to be.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_09",
+        "question": "What is authorization?",
+        "options": {
+          "A": "determining what an authenticated user or system is allowed to access",
+          "B": "verifying the identity of a network cable",
+          "C": "encrypting every IP address",
+          "D": "assigning a MAC address"
+        },
+        "correct_answer": "A",
+        "explanation": "Authorization determines which resources and actions an authenticated entity is permitted to use.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_10",
+        "question": "What is a denial-of-service attack?",
+        "options": {
+          "A": "an attack intended to make a service unavailable to legitimate users",
+          "B": "an attack that only changes a file name",
+          "C": "a method for improving network speed",
+          "D": "a technique for assigning IP addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "A denial-of-service attack attempts to disrupt availability by overwhelming or otherwise exhausting a service's resources.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_11",
+        "question": "What is phishing?",
+        "options": {
+          "A": "a social engineering technique that attempts to trick users into revealing information or performing unsafe actions",
+          "B": "a routing protocol",
+          "C": "a method of compressing packets",
+          "D": "a type of network cable"
+        },
+        "correct_answer": "A",
+        "explanation": "Phishing uses deceptive messages or websites to manipulate users into revealing information or taking harmful actions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "computer_networks_security_12",
+        "question": "What is a VPN commonly used for?",
+        "options": {
+          "A": "creating a protected communication tunnel over an untrusted network",
+          "B": "replacing the operating system",
+          "C": "increasing the physical speed of a router",
+          "D": "removing the need for authentication"
+        },
+        "correct_answer": "A",
+        "explanation": "A VPN can create an encrypted or otherwise protected tunnel for network traffic across an untrusted network.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "computer_networks_security_13",
+        "question": "What is a man-in-the-middle attack?",
+        "options": {
+          "A": "an attack where an adversary positions itself between communicating parties and attempts to intercept or alter communication",
+          "B": "an attack that only deletes local files",
+          "C": "a routing algorithm used by routers",
+          "D": "a method for assigning private IP addresses"
+        },
+        "correct_answer": "A",
+        "explanation": "A man-in-the-middle attack occurs when an attacker intercepts communication between parties and may attempt to observe or modify it.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

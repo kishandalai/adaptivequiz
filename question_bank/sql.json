@@ -1,0 +1,1552 @@
+{
+  "subject": "sql",
+  "topics": {
+    "WHERE": [
+      {
+        "id": "sql_where_01",
+        "question": "Which SQL clause is used to filter rows based on a condition?",
+        "options": {
+          "A": "WHERE",
+          "B": "ORDER BY",
+          "C": "GROUP BY",
+          "D": "HAVING"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE filters individual rows according to a specified condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_02",
+        "question": "Which query returns employees whose salary is greater than 50000?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE salary > 50000;",
+          "B": "SELECT * FROM employees HAVING salary > 50000;",
+          "C": "SELECT * FROM employees ORDER salary > 50000;",
+          "D": "SELECT * FROM employees GROUP salary > 50000;"
+        },
+        "correct_answer": "A",
+        "explanation": "The WHERE clause filters employees whose salary is greater than 50000.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_03",
+        "question": "Which operator checks whether two values are equal in SQL?",
+        "options": {
+          "A": "==",
+          "B": "=",
+          "C": "===",
+          "D": ":="
+        },
+        "correct_answer": "B",
+        "explanation": "The single equals sign is used for equality comparison in SQL.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_04",
+        "question": "Which query finds employees from the IT department?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE department = 'IT';",
+          "B": "SELECT * FROM employees WHERE department == 'IT';",
+          "C": "SELECT * FROM employees HAVING department = 'IT';",
+          "D": "SELECT * FROM employees FILTER department = 'IT';"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE with = filters rows where department contains IT.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_05",
+        "question": "Which operator is used to combine two conditions when both must be true?",
+        "options": {
+          "A": "OR",
+          "B": "NOT",
+          "C": "AND",
+          "D": "IN"
+        },
+        "correct_answer": "C",
+        "explanation": "AND requires both conditions to evaluate as true.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_06",
+        "question": "Which operator returns rows satisfying at least one of two conditions?",
+        "options": {
+          "A": "AND",
+          "B": "OR",
+          "C": "BETWEEN",
+          "D": "LIKE"
+        },
+        "correct_answer": "B",
+        "explanation": "OR returns a row when at least one of the specified conditions is true.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_07",
+        "question": "Which condition correctly checks whether salary is between 30000 and 60000?",
+        "options": {
+          "A": "salary IN 30000 TO 60000",
+          "B": "salary BETWEEN 30000 AND 60000",
+          "C": "salary RANGE 30000 AND 60000",
+          "D": "salary FROM 30000 TO 60000"
+        },
+        "correct_answer": "B",
+        "explanation": "BETWEEN checks whether a value falls within an inclusive range.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_08",
+        "question": "Which operator is commonly used with WHERE to match a text pattern?",
+        "options": {
+          "A": "LIKE",
+          "B": "MATCHES",
+          "C": "PATTERN",
+          "D": "SEARCH"
+        },
+        "correct_answer": "A",
+        "explanation": "LIKE is used for pattern matching with wildcard characters.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_where_09",
+        "question": "What does the % wildcard represent when used with LIKE?",
+        "options": {
+          "A": "Exactly one character",
+          "B": "Any sequence of characters",
+          "C": "Only numeric characters",
+          "D": "A space character"
+        },
+        "correct_answer": "B",
+        "explanation": "The percent wildcard represents zero or more characters.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_where_10",
+        "question": "Which condition finds employees whose city is either Delhi or Mumbai?",
+        "options": {
+          "A": "city BETWEEN ('Delhi', 'Mumbai')",
+          "B": "city LIKE ('Delhi', 'Mumbai')",
+          "C": "city IN ('Delhi', 'Mumbai')",
+          "D": "city HAS ('Delhi', 'Mumbai')"
+        },
+        "correct_answer": "C",
+        "explanation": "IN checks whether a value matches any value in a specified list.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_where_11",
+        "question": "Which condition correctly finds rows where email has no value?",
+        "options": {
+          "A": "email = NULL",
+          "B": "email == NULL",
+          "C": "email IS NULL",
+          "D": "email EQUALS NULL"
+        },
+        "correct_answer": "C",
+        "explanation": "SQL uses IS NULL to test for NULL values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_where_12",
+        "question": "Which query finds employees who are not in the HR department?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE NOT department = 'HR';",
+          "B": "SELECT * FROM employees WHERE department NOT 'HR';",
+          "C": "SELECT * FROM employees FILTER department != HR;",
+          "D": "SELECT * FROM employees WHERE EXCEPT department = 'HR';"
+        },
+        "correct_answer": "A",
+        "explanation": "NOT reverses the result of the department equality condition.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_where_13",
+        "question": "What is the primary purpose of WHERE in a SELECT query?",
+        "options": {
+          "A": "To filter rows before grouping or ordering",
+          "B": "To rename the database",
+          "C": "To create indexes automatically",
+          "D": "To calculate aggregate values"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE filters individual rows before later query processing such as grouping.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "SELECT": [
+      {
+        "id": "sql_select_01",
+        "question": "Which SQL command is used to retrieve data from a table?",
+        "options": {
+          "A": "SELECT",
+          "B": "FETCH_TABLE",
+          "C": "GET",
+          "D": "READ"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT retrieves data from one or more tables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_select_02",
+        "question": "Which query retrieves all columns from employees?",
+        "options": {
+          "A": "SELECT ALL FROM employees;",
+          "B": "SELECT * FROM employees;",
+          "C": "GET * FROM employees;",
+          "D": "SELECT COLUMNS FROM employees;"
+        },
+        "correct_answer": "B",
+        "explanation": "The asterisk represents all columns in the selected table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_select_03",
+        "question": "Which query retrieves only name and salary?",
+        "options": {
+          "A": "SELECT name, salary FROM employees;",
+          "B": "SELECT name AND salary FROM employees;",
+          "C": "GET name, salary IN employees;",
+          "D": "SELECT (name salary) FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "Column names separated by commas specify which columns should be returned.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_select_04",
+        "question": "Which keyword is used to remove duplicate rows from SELECT results?",
+        "options": {
+          "A": "UNIQUE",
+          "B": "DISTINCT",
+          "C": "REMOVE",
+          "D": "DIFFERENT"
+        },
+        "correct_answer": "B",
+        "explanation": "DISTINCT removes duplicate combinations from the selected result.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_select_05",
+        "question": "Which query gives the salary column the alias monthly_salary?",
+        "options": {
+          "A": "SELECT salary AS monthly_salary FROM employees;",
+          "B": "SELECT salary TO monthly_salary FROM employees;",
+          "C": "SELECT salary NAME monthly_salary FROM employees;",
+          "D": "SELECT salary RENAME monthly_salary FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "AS creates an alias for a selected column.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_select_06",
+        "question": "Which query calculates salary increased by 10 percent?",
+        "options": {
+          "A": "SELECT salary + 10 FROM employees;",
+          "B": "SELECT salary * 1.10 FROM employees;",
+          "C": "SELECT salary / 10 FROM employees;",
+          "D": "SELECT salary + 1.10 FROM employees;"
+        },
+        "correct_answer": "B",
+        "explanation": "Multiplying salary by 1.10 adds ten percent to the original salary.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_select_07",
+        "question": "Which keyword can be used to assign a readable name to a calculated expression?",
+        "options": {
+          "A": "AS",
+          "B": "NAME",
+          "C": "LABEL",
+          "D": "TITLE"
+        },
+        "correct_answer": "A",
+        "explanation": "AS assigns an alias to a column or calculated expression.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_select_08",
+        "question": "Which query returns employee names in uppercase?",
+        "options": {
+          "A": "SELECT UPPER(name) FROM employees;",
+          "B": "SELECT CAPITAL(name) FROM employees;",
+          "C": "SELECT UPPERCASE name FROM employees;",
+          "D": "SELECT TOUPPER(name) FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "UPPER converts text characters to uppercase.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_select_09",
+        "question": "Which query selects employees older than 25?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE age > 25;",
+          "B": "SELECT * FROM employees IF age > 25;",
+          "C": "SELECT * FROM employees FILTER age > 25;",
+          "D": "SELECT * FROM employees CHECK age > 25;"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT retrieves the rows and WHERE applies the age condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_select_10",
+        "question": "What does SELECT DISTINCT department FROM employees return?",
+        "options": {
+          "A": "Every employee with a department",
+          "B": "Only unique department values",
+          "C": "Only departments with duplicate employees",
+          "D": "The number of employees in each department"
+        },
+        "correct_answer": "B",
+        "explanation": "DISTINCT returns each different department value only once.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_select_11",
+        "question": "Which query calculates age plus 5 for every employee?",
+        "options": {
+          "A": "SELECT age + 5 AS future_age FROM employees;",
+          "B": "SELECT age ADD 5 AS future_age FROM employees;",
+          "C": "SELECT age PLUS 5 FROM employees;",
+          "D": "SELECT ADD(age, 5) FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "SQL expressions can perform arithmetic operations directly in SELECT.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_select_12",
+        "question": "Which SELECT statement returns two columns with one calculated result?",
+        "options": {
+          "A": "SELECT name, salary * 12 AS annual_salary FROM employees;",
+          "B": "SELECT name AND salary * 12 FROM employees;",
+          "C": "SELECT name WITH salary * 12 FROM employees;",
+          "D": "SELECT name, CALCULATE salary * 12 employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT can return normal columns and calculated expressions together.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_select_13",
+        "question": "Which statement correctly describes SELECT in a SQL query?",
+        "options": {
+          "A": "It specifies the data or expressions to return",
+          "B": "It permanently sorts the physical table",
+          "C": "It deletes rows matching a condition",
+          "D": "It creates a new database automatically"
+        },
+        "correct_answer": "A",
+        "explanation": "SELECT defines the columns, expressions, or calculated values returned by a query.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "ORDER BY": [
+      {
+        "id": "sql_order_by_01",
+        "question": "Which clause is used to sort query results?",
+        "options": {
+          "A": "ORDER BY",
+          "B": "SORT BY",
+          "C": "GROUP BY",
+          "D": "ARRANGE BY"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY sorts the rows returned by a query.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_order_by_02",
+        "question": "What is the default sort direction of ORDER BY?",
+        "options": {
+          "A": "DESC",
+          "B": "ASC",
+          "C": "RANDOM",
+          "D": "NONE"
+        },
+        "correct_answer": "B",
+        "explanation": "Ascending order is the default when no direction is specified.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_order_by_03",
+        "question": "Which query sorts employees by salary from highest to lowest?",
+        "options": {
+          "A": "SELECT * FROM employees ORDER BY salary ASC;",
+          "B": "SELECT * FROM employees ORDER BY salary DESC;",
+          "C": "SELECT * FROM employees SORT salary HIGH;",
+          "D": "SELECT * FROM employees GROUP BY salary DESC;"
+        },
+        "correct_answer": "B",
+        "explanation": "DESC sorts numeric values from highest to lowest.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_order_by_04",
+        "question": "Which keyword sorts values from smallest to largest?",
+        "options": {
+          "A": "HIGH",
+          "B": "DESC",
+          "C": "ASC",
+          "D": "LOW"
+        },
+        "correct_answer": "C",
+        "explanation": "ASC means ascending order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_order_by_05",
+        "question": "Which query sorts employees first by department and then by salary descending?",
+        "options": {
+          "A": "ORDER BY department, salary DESC",
+          "B": "ORDER BY department AND salary DESC",
+          "C": "SORT department THEN salary",
+          "D": "GROUP BY department, salary DESC"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple columns can be supplied to ORDER BY, each with its own direction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_order_by_06",
+        "question": "Which clause can be combined with LIMIT to retrieve the three highest salaries?",
+        "options": {
+          "A": "ORDER BY salary DESC",
+          "B": "GROUP BY salary",
+          "C": "WHERE salary DESC",
+          "D": "HAVING salary DESC"
+        },
+        "correct_answer": "A",
+        "explanation": "Sorting salary descending before LIMIT returns the highest salaries.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_order_by_07",
+        "question": "Can ORDER BY sort text columns?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only in PostgreSQL temporary tables",
+          "D": "Only when using GROUP BY"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY can sort text according to the database's collation rules.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_order_by_08",
+        "question": "Which query sorts employee names alphabetically?",
+        "options": {
+          "A": "SELECT * FROM employees ORDER BY name ASC;",
+          "B": "SELECT * FROM employees GROUP name ASC;",
+          "C": "SELECT * FROM employees SORT name;",
+          "D": "SELECT * FROM employees WHERE name ASC;"
+        },
+        "correct_answer": "A",
+        "explanation": "ASC sorts text values in ascending order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_order_by_09",
+        "question": "What does ORDER BY salary DESC, name ASC mean?",
+        "options": {
+          "A": "Salary ascending and name descending",
+          "B": "Salary descending and name ascending",
+          "C": "Both salary and name descending",
+          "D": "Both salary and name ascending"
+        },
+        "correct_answer": "B",
+        "explanation": "Each ORDER BY expression can have its own sorting direction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_order_by_10",
+        "question": "Which query sorts results using a selected column alias?",
+        "options": {
+          "A": "SELECT salary * 12 AS annual_salary FROM employees ORDER BY annual_salary;",
+          "B": "SELECT salary * 12 AS annual_salary FROM employees SORT annual_salary;",
+          "C": "SELECT salary * 12 AS annual_salary FROM employees GROUP annual_salary;",
+          "D": "SELECT salary * 12 AS annual_salary FROM employees USING annual_salary;"
+        },
+        "correct_answer": "A",
+        "explanation": "A SELECT-list alias can be referenced by ORDER BY in PostgreSQL.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_order_by_11",
+        "question": "Where does ORDER BY logically occur relative to WHERE?",
+        "options": {
+          "A": "ORDER BY filters rows before WHERE",
+          "B": "WHERE filters rows before ORDER BY sorts them",
+          "C": "They always execute simultaneously",
+          "D": "ORDER BY replaces WHERE"
+        },
+        "correct_answer": "B",
+        "explanation": "Conceptually, WHERE filters rows and ORDER BY sorts the resulting rows.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_order_by_12",
+        "question": "Which query returns employees ordered by salary while displaying only their names?",
+        "options": {
+          "A": "SELECT name FROM employees ORDER BY salary DESC;",
+          "B": "SELECT salary FROM employees ORDER BY name DESC;",
+          "C": "SELECT name ORDER salary FROM employees;",
+          "D": "SELECT name FROM employees GROUP BY salary DESC;"
+        },
+        "correct_answer": "A",
+        "explanation": "ORDER BY can use a column that is not included in the SELECT list in this non-distinct query.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_order_by_13",
+        "question": "What is the main purpose of ORDER BY?",
+        "options": {
+          "A": "To permanently change table row order",
+          "B": "To control the order of rows in query results",
+          "C": "To remove duplicate records",
+          "D": "To group rows into categories"
+        },
+        "correct_answer": "B",
+        "explanation": "ORDER BY controls the presentation order of rows returned by a query.",
+        "difficulty": "Medium"
+      }
+    ],
+
+    "GROUP BY": [
+      {
+        "id": "sql_group_by_01",
+        "question": "What is the main purpose of GROUP BY?",
+        "options": {
+          "A": "To group rows with matching values",
+          "B": "To delete duplicate rows",
+          "C": "To sort rows alphabetically",
+          "D": "To rename columns"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY combines rows with the same grouping values for aggregate calculations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_group_by_02",
+        "question": "Which query counts employees in each department?",
+        "options": {
+          "A": "SELECT department, COUNT(*) FROM employees GROUP BY department;",
+          "B": "SELECT department, COUNT(*) FROM employees ORDER BY department;",
+          "C": "SELECT COUNT(department) FROM employees SORT department;",
+          "D": "SELECT department FROM employees COUNT BY department;"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY department creates one group per department and COUNT counts rows in each group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_group_by_03",
+        "question": "Which aggregate function is commonly used with GROUP BY to calculate an average?",
+        "options": {
+          "A": "COUNT",
+          "B": "AVG",
+          "C": "MAX",
+          "D": "SUM"
+        },
+        "correct_answer": "B",
+        "explanation": "AVG calculates the arithmetic mean for each group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_group_by_04",
+        "question": "Which query calculates total salary for each department?",
+        "options": {
+          "A": "SELECT department, SUM(salary) FROM employees GROUP BY department;",
+          "B": "SELECT department, TOTAL(salary) FROM employees ORDER BY department;",
+          "C": "SELECT SUM(salary) GROUP department FROM employees;",
+          "D": "SELECT department FROM employees SUM BY salary;"
+        },
+        "correct_answer": "A",
+        "explanation": "SUM calculates the total salary within each department group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_group_by_05",
+        "question": "What happens when GROUP BY department is applied?",
+        "options": {
+          "A": "All employees are deleted",
+          "B": "Rows with the same department are placed into groups",
+          "C": "Departments are sorted permanently",
+          "D": "Only the first employee is returned"
+        },
+        "correct_answer": "B",
+        "explanation": "GROUP BY forms groups based on equal values of the grouping column.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_group_by_06",
+        "question": "Which query finds the highest salary in each department?",
+        "options": {
+          "A": "SELECT department, MAX(salary) FROM employees GROUP BY department;",
+          "B": "SELECT department, HIGH(salary) FROM employees GROUP BY department;",
+          "C": "SELECT MAX(salary) FROM employees ORDER department;",
+          "D": "SELECT department FROM employees MAX salary;"
+        },
+        "correct_answer": "A",
+        "explanation": "MAX returns the highest salary within each department group.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_group_by_07",
+        "question": "Which query counts distinct cities in each department?",
+        "options": {
+          "A": "SELECT department, COUNT(DISTINCT city) FROM employees GROUP BY department;",
+          "B": "SELECT department, DISTINCT COUNT(city) FROM employees;",
+          "C": "SELECT COUNT(city) DISTINCT BY department FROM employees;",
+          "D": "SELECT department, UNIQUE(city) FROM employees GROUP BY city;"
+        },
+        "correct_answer": "A",
+        "explanation": "COUNT(DISTINCT city) counts different city values within each department.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_group_by_08",
+        "question": "Can GROUP BY contain more than one column?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Only with COUNT",
+          "D": "Only in MySQL"
+        },
+        "correct_answer": "A",
+        "explanation": "Multiple columns can be used to create groups based on their combined values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_group_by_09",
+        "question": "Which query groups employees by both department and city?",
+        "options": {
+          "A": "SELECT department, city, COUNT(*) FROM employees GROUP BY department, city;",
+          "B": "SELECT department, city FROM employees GROUP department AND city;",
+          "C": "SELECT COUNT(*) FROM employees GROUP department, city;",
+          "D": "SELECT department, city FROM employees SORT BY department, city;"
+        },
+        "correct_answer": "A",
+        "explanation": "Both department and city are grouping columns.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_group_by_10",
+        "question": "Which aggregate function calculates the smallest value in each group?",
+        "options": {
+          "A": "MIN",
+          "B": "LOWEST",
+          "C": "SMALL",
+          "D": "BOTTOM"
+        },
+        "correct_answer": "A",
+        "explanation": "MIN returns the smallest non-null value in each group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_group_by_11",
+        "question": "Which statement about non-aggregated selected columns is generally correct when using GROUP BY?",
+        "options": {
+          "A": "They generally need to be grouping columns",
+          "B": "They are always ignored",
+          "C": "They must always be inside COUNT",
+          "D": "They automatically become aggregate values"
+        },
+        "correct_answer": "A",
+        "explanation": "Selected columns that are not aggregated generally must be included in GROUP BY.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_group_by_12",
+        "question": "Which query calculates the average age for each city?",
+        "options": {
+          "A": "SELECT city, AVG(age) FROM employees GROUP BY city;",
+          "B": "SELECT city, MEAN(age) FROM employees SORT city;",
+          "C": "SELECT AVG(age) GROUP city FROM employees;",
+          "D": "SELECT city FROM employees AVERAGE age;"
+        },
+        "correct_answer": "A",
+        "explanation": "AVG calculates the average age separately for every city group.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_group_by_13",
+        "question": "What type of result does GROUP BY commonly produce with aggregate functions?",
+        "options": {
+          "A": "One result row for each group",
+          "B": "One result row for every database",
+          "C": "Only one row regardless of grouping",
+          "D": "A new permanent table"
+        },
+        "correct_answer": "A",
+        "explanation": "Each group generally produces one result row containing its aggregate values.",
+        "difficulty": "Medium"
+      }
+    ],
+
+    "HAVING": [
+      {
+        "id": "sql_having_01",
+        "question": "Which clause filters groups after GROUP BY?",
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "FILTER BY",
+          "D": "GROUP WHERE"
+        },
+        "correct_answer": "B",
+        "explanation": "HAVING filters grouped results after grouping and aggregation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_having_02",
+        "question": "Which clause is normally used to filter individual rows before grouping?",
+        "options": {
+          "A": "HAVING",
+          "B": "WHERE",
+          "C": "ORDER BY",
+          "D": "GROUP BY"
+        },
+        "correct_answer": "B",
+        "explanation": "WHERE filters individual rows before GROUP BY.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_having_03",
+        "question": "Which query returns departments having more than 5 employees?",
+        "options": {
+          "A": "SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 5;",
+          "B": "SELECT department, COUNT(*) FROM employees WHERE COUNT(*) > 5 GROUP BY department;",
+          "C": "SELECT department FROM employees FILTER COUNT(*) > 5;",
+          "D": "SELECT department, COUNT(*) FROM employees ORDER BY COUNT(*) > 5;"
+        },
+        "correct_answer": "A",
+        "explanation": "HAVING filters groups based on the aggregate COUNT result.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_having_04",
+        "question": "Which aggregate is commonly used in HAVING to filter groups by total salary?",
+        "options": {
+          "A": "SUM",
+          "B": "ORDER",
+          "C": "GROUP",
+          "D": "SORT"
+        },
+        "correct_answer": "A",
+        "explanation": "SUM can calculate total salary and HAVING can filter groups based on that total.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_having_05",
+        "question": "Which query finds departments whose average salary exceeds 60000?",
+        "options": {
+          "A": "SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 60000;",
+          "B": "SELECT department FROM employees WHERE AVG(salary) > 60000;",
+          "C": "SELECT department, AVG(salary) FROM employees WHERE salary > 60000;",
+          "D": "SELECT department FROM employees FILTER AVG(salary) > 60000;"
+        },
+        "correct_answer": "A",
+        "explanation": "HAVING is appropriate because the condition is based on an aggregate value per group.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_having_06",
+        "question": "Can HAVING be used without GROUP BY in SQL?",
+        "options": {
+          "A": "Yes, when used with an aggregate result treated as a single group",
+          "B": "No, HAVING always requires GROUP BY",
+          "C": "Only with ORDER BY",
+          "D": "Only with DISTINCT"
+        },
+        "correct_answer": "A",
+        "explanation": "Without GROUP BY, aggregate queries can treat the complete result as a single group.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_having_07",
+        "question": "Which statement best distinguishes WHERE and HAVING?",
+        "options": {
+          "A": "WHERE filters rows; HAVING filters groups",
+          "B": "WHERE sorts rows; HAVING sorts groups",
+          "C": "WHERE creates groups; HAVING deletes groups",
+          "D": "They always have exactly the same purpose"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE operates on rows, while HAVING is designed to filter grouped results.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_having_08",
+        "question": "Which query finds departments with a maximum salary above 100000?",
+        "options": {
+          "A": "SELECT department, MAX(salary) FROM employees GROUP BY department HAVING MAX(salary) > 100000;",
+          "B": "SELECT department FROM employees WHERE MAX(salary) > 100000;",
+          "C": "SELECT department, MAX(salary) FROM employees WHERE salary > 100000;",
+          "D": "SELECT MAX(salary) HAVING department > 100000;"
+        },
+        "correct_answer": "A",
+        "explanation": "MAX is calculated for each department and HAVING filters those groups.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_having_09",
+        "question": "Which condition is appropriate in HAVING when requiring at least 3 employees per department?",
+        "options": {
+          "A": "COUNT(*) >= 3",
+          "B": "salary >= 3",
+          "C": "department >= 3",
+          "D": "ROWS >= 3"
+        },
+        "correct_answer": "A",
+        "explanation": "COUNT(*) counts rows in each department group.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_having_10",
+        "question": "What is the role of HAVING in an aggregate query?",
+        "options": {
+          "A": "It filters aggregated groups",
+          "B": "It creates database users",
+          "C": "It sorts the final result",
+          "D": "It changes column data types"
+        },
+        "correct_answer": "A",
+        "explanation": "HAVING applies conditions to grouped or aggregate results.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_having_11",
+        "question": "Which query correctly combines WHERE, GROUP BY, and HAVING?",
+        "options": {
+          "A": "SELECT department, COUNT(*) FROM employees WHERE salary > 40000 GROUP BY department HAVING COUNT(*) > 2;",
+          "B": "SELECT department FROM employees HAVING salary > 40000 GROUP BY department WHERE COUNT(*) > 2;",
+          "C": "SELECT department, COUNT(*) FROM employees HAVING salary > 40000 WHERE COUNT(*) > 2 GROUP BY department;",
+          "D": "SELECT department FROM employees GROUP salary WHERE department HAVING COUNT;"
+        },
+        "correct_answer": "A",
+        "explanation": "WHERE filters rows first, GROUP BY creates groups, and HAVING filters those groups.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_having_12",
+        "question": "Which aggregate condition identifies departments with total salary below 500000?",
+        "options": {
+          "A": "HAVING SUM(salary) < 500000",
+          "B": "WHERE SUM(salary) < 500000",
+          "C": "HAVING salary < 500000",
+          "D": "GROUP SUM(salary) < 500000"
+        },
+        "correct_answer": "A",
+        "explanation": "SUM(salary) is an aggregate result for each department, so HAVING can filter it.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_having_13",
+        "question": "Why is HAVING useful when filtering by COUNT or AVG?",
+        "options": {
+          "A": "It allows conditions on aggregate results",
+          "B": "It converts aggregates into strings",
+          "C": "It removes the need for SELECT",
+          "D": "It permanently modifies aggregate values"
+        },
+        "correct_answer": "A",
+        "explanation": "HAVING is designed to filter groups using aggregate calculations such as COUNT and AVG.",
+        "difficulty": "Medium"
+      }
+    ],
+
+    "JOIN": [
+      {
+        "id": "sql_join_01",
+        "question": "What is the main purpose of a JOIN?",
+        "options": {
+          "A": "To combine related rows from multiple tables",
+          "B": "To delete multiple tables",
+          "C": "To rename a database",
+          "D": "To sort one column"
+        },
+        "correct_answer": "A",
+        "explanation": "JOIN combines rows from different tables based on a relationship or condition.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_02",
+        "question": "Which JOIN returns only matching rows from both tables?",
+        "options": {
+          "A": "LEFT JOIN",
+          "B": "RIGHT JOIN",
+          "C": "INNER JOIN",
+          "D": "CROSS JOIN"
+        },
+        "correct_answer": "C",
+        "explanation": "INNER JOIN returns rows where the join condition matches in both tables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_03",
+        "question": "Which JOIN keeps all rows from the left table?",
+        "options": {
+          "A": "INNER JOIN",
+          "B": "LEFT JOIN",
+          "C": "RIGHT JOIN",
+          "D": "CROSS JOIN"
+        },
+        "correct_answer": "B",
+        "explanation": "LEFT JOIN keeps every row from the left table and matching rows from the right table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_04",
+        "question": "Which JOIN keeps all rows from the right table?",
+        "options": {
+          "A": "RIGHT JOIN",
+          "B": "LEFT JOIN",
+          "C": "INNER JOIN",
+          "D": "SELF JOIN"
+        },
+        "correct_answer": "A",
+        "explanation": "RIGHT JOIN preserves every row from the right table.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_05",
+        "question": "Which JOIN returns unmatched rows from both sides as well as matching rows?",
+        "options": {
+          "A": "INNER JOIN",
+          "B": "LEFT JOIN",
+          "C": "FULL OUTER JOIN",
+          "D": "CROSS JOIN"
+        },
+        "correct_answer": "C",
+        "explanation": "FULL OUTER JOIN returns matching rows plus unmatched rows from both tables.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_join_06",
+        "question": "Which JOIN produces every possible combination of rows from two tables?",
+        "options": {
+          "A": "CROSS JOIN",
+          "B": "INNER JOIN",
+          "C": "SELF JOIN",
+          "D": "FULL JOIN"
+        },
+        "correct_answer": "A",
+        "explanation": "CROSS JOIN produces the Cartesian product of the two tables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_07",
+        "question": "What is a SELF JOIN?",
+        "options": {
+          "A": "Joining a table with itself",
+          "B": "Joining a table without a condition",
+          "C": "Joining only primary keys",
+          "D": "Joining two databases automatically"
+        },
+        "correct_answer": "A",
+        "explanation": "A self join uses a table more than once, usually with different aliases.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_08",
+        "question": "Which keyword commonly specifies the matching condition in a JOIN?",
+        "options": {
+          "A": "ON",
+          "B": "MATCH",
+          "C": "WITH",
+          "D": "USING ONLY"
+        },
+        "correct_answer": "A",
+        "explanation": "The ON clause defines the condition used to match rows between tables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_09",
+        "question": "Which query correctly joins employees with departments using department_id?",
+        "options": {
+          "A": "SELECT * FROM employees e JOIN departments d ON e.department_id = d.id;",
+          "B": "SELECT * FROM employees e JOIN departments d WHERE e.department_id = d.id;",
+          "C": "SELECT * FROM employees JOIN departments USING e.department_id;",
+          "D": "SELECT * FROM employees LINK departments ON department_id;"
+        },
+        "correct_answer": "A",
+        "explanation": "ON defines the relationship between employees.department_id and departments.id.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_join_10",
+        "question": "Why are table aliases useful in joins?",
+        "options": {
+          "A": "They provide shorter and clearer table references",
+          "B": "They permanently rename tables",
+          "C": "They remove duplicate rows automatically",
+          "D": "They create foreign keys"
+        },
+        "correct_answer": "A",
+        "explanation": "Aliases make queries shorter and are especially useful when tables have similar column names.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_join_11",
+        "question": "In a LEFT JOIN, what value appears for right-table columns when there is no match?",
+        "options": {
+          "A": "0",
+          "B": "FALSE",
+          "C": "NULL",
+          "D": "EMPTY"
+        },
+        "correct_answer": "C",
+        "explanation": "Unmatched right-side columns are represented by NULL values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_join_12",
+        "question": "Which JOIN is commonly used to find employees who have no matching department?",
+        "options": {
+          "A": "LEFT JOIN followed by a NULL check",
+          "B": "CROSS JOIN only",
+          "C": "INNER JOIN followed by COUNT",
+          "D": "RIGHT JOIN without a condition"
+        },
+        "correct_answer": "A",
+        "explanation": "A LEFT JOIN preserves employees, and checking a right-table key for NULL identifies unmatched departments.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_join_13",
+        "question": "What is a major difference between INNER JOIN and LEFT JOIN?",
+        "options": {
+          "A": "INNER JOIN keeps only matches, while LEFT JOIN also keeps unmatched left rows",
+          "B": "INNER JOIN sorts data, while LEFT JOIN groups it",
+          "C": "LEFT JOIN always returns fewer rows than INNER JOIN",
+          "D": "They always produce identical results"
+        },
+        "correct_answer": "A",
+        "explanation": "INNER JOIN removes unmatched rows, while LEFT JOIN preserves all rows from the left table.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "SUB QUERY": [
+      {
+        "id": "sql_sub_query_01",
+        "question": "What is a subquery?",
+        "options": {
+          "A": "A query nested inside another query",
+          "B": "A query that deletes a database",
+          "C": "A query used only for sorting",
+          "D": "A permanent copy of a table"
+        },
+        "correct_answer": "A",
+        "explanation": "A subquery is a query written inside another SQL statement.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_sub_query_02",
+        "question": "Where can a subquery commonly appear?",
+        "options": {
+          "A": "Inside WHERE",
+          "B": "Only inside ORDER BY",
+          "C": "Only inside INSERT",
+          "D": "Only inside CREATE DATABASE"
+        },
+        "correct_answer": "A",
+        "explanation": "Subqueries can commonly be used in WHERE and other parts of SQL statements.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_sub_query_03",
+        "question": "Which operator is commonly used when a subquery returns a single value?",
+        "options": {
+          "A": "=",
+          "B": "IN ONLY",
+          "C": "LIKE ONLY",
+          "D": "GROUP"
+        },
+        "correct_answer": "A",
+        "explanation": "A scalar subquery returning one value can be compared using operators such as =, >, or <.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_sub_query_04",
+        "question": "Which operator is suitable when a subquery returns multiple values?",
+        "options": {
+          "A": "IN",
+          "B": "EQUALS",
+          "C": "SINGLE",
+          "D": "VALUE"
+        },
+        "correct_answer": "A",
+        "explanation": "IN checks whether a value exists among multiple values returned by a subquery.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_sub_query_05",
+        "question": "Which query finds employees earning more than the average salary?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+          "B": "SELECT * FROM employees WHERE salary > AVG(salary);",
+          "C": "SELECT * FROM employees HAVING salary > AVG(salary);",
+          "D": "SELECT * FROM employees WHERE salary > SELECT AVG(salary);"
+        },
+        "correct_answer": "A",
+        "explanation": "The inner query calculates the overall average salary, which the outer query compares against.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_sub_query_06",
+        "question": "What type of subquery returns one value that can be used in a comparison?",
+        "options": {
+          "A": "Scalar subquery",
+          "B": "Table-only query",
+          "C": "Sorting query",
+          "D": "Grouping query"
+        },
+        "correct_answer": "A",
+        "explanation": "A scalar subquery returns a single value.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_sub_query_07",
+        "question": "Which keyword tests whether a subquery returns at least one row?",
+        "options": {
+          "A": "EXISTS",
+          "B": "HAS",
+          "C": "FOUND",
+          "D": "AVAILABLE"
+        },
+        "correct_answer": "A",
+        "explanation": "EXISTS evaluates to true when its subquery produces at least one row.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_sub_query_08",
+        "question": "Which query uses EXISTS correctly?",
+        "options": {
+          "A": "SELECT * FROM employees e WHERE EXISTS (SELECT 1 FROM departments d WHERE d.id = e.department_id);",
+          "B": "SELECT * FROM employees e EXISTS departments d;",
+          "C": "SELECT * FROM employees WHERE EXISTS department_id = departments.id;",
+          "D": "SELECT EXISTS employees FROM departments;"
+        },
+        "correct_answer": "A",
+        "explanation": "The correlated subquery checks whether a matching department exists for each employee.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_sub_query_09",
+        "question": "What is a correlated subquery?",
+        "options": {
+          "A": "A subquery that references a column from the outer query",
+          "B": "A subquery that never uses WHERE",
+          "C": "A subquery that always returns zero rows",
+          "D": "A subquery that creates a permanent table"
+        },
+        "correct_answer": "A",
+        "explanation": "A correlated subquery depends on values from the current row of the outer query.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_sub_query_10",
+        "question": "Which subquery can be used with IN?",
+        "options": {
+          "A": "A subquery returning multiple compatible values",
+          "B": "Only a subquery returning exactly one value",
+          "C": "Only a query without SELECT",
+          "D": "Only an UPDATE statement"
+        },
+        "correct_answer": "A",
+        "explanation": "IN can compare a value against a set of values produced by a subquery.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_sub_query_11",
+        "question": "Which query finds employees working in departments located in Delhi?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE department_id IN (SELECT id FROM departments WHERE city = 'Delhi');",
+          "B": "SELECT * FROM employees WHERE department_id = SELECT id FROM departments;",
+          "C": "SELECT * FROM employees WHERE department_id HAS departments WHERE city = 'Delhi';",
+          "D": "SELECT * FROM employees SUBQUERY departments city = 'Delhi';"
+        },
+        "correct_answer": "A",
+        "explanation": "The inner query returns department IDs in Delhi and the outer query matches employees to those IDs.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_sub_query_12",
+        "question": "What is a major benefit of a subquery?",
+        "options": {
+          "A": "It allows one query to use the result of another query",
+          "B": "It automatically improves every query's performance",
+          "C": "It permanently stores query results",
+          "D": "It eliminates the need for tables"
+        },
+        "correct_answer": "A",
+        "explanation": "Subqueries allow the result of an inner query to participate in an outer query.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_sub_query_13",
+        "question": "Which statement about subqueries is correct?",
+        "options": {
+          "A": "A subquery can be nested inside another query and can use outer-query values when correlated",
+          "B": "Every subquery must return exactly one row",
+          "C": "Subqueries can only be used with SELECT *",
+          "D": "Subqueries cannot contain aggregate functions"
+        },
+        "correct_answer": "A",
+        "explanation": "Subqueries can return different result shapes depending on their purpose and can be correlated with the outer query.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "STRING FUNCTIONS": [
+      {
+        "id": "sql_string_functions_01",
+        "question": "Which function converts text to uppercase?",
+        "options": {
+          "A": "UPPER",
+          "B": "CAPITAL",
+          "C": "UPCASE",
+          "D": "TOCAPITAL"
+        },
+        "correct_answer": "A",
+        "explanation": "UPPER converts alphabetic characters in a string to uppercase.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_string_functions_02",
+        "question": "Which function converts text to lowercase?",
+        "options": {
+          "A": "LOWER",
+          "B": "SMALL",
+          "C": "LOWCASE",
+          "D": "TOLOW"
+        },
+        "correct_answer": "A",
+        "explanation": "LOWER converts text characters to lowercase.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_string_functions_03",
+        "question": "Which function returns the number of characters in a string in PostgreSQL?",
+        "options": {
+          "A": "LENGTH",
+          "B": "COUNT_TEXT",
+          "C": "SIZEOF",
+          "D": "CHARCOUNT"
+        },
+        "correct_answer": "A",
+        "explanation": "LENGTH returns the number of characters in a string in PostgreSQL.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_string_functions_04",
+        "question": "Which function removes spaces from both ends of a string?",
+        "options": {
+          "A": "TRIM",
+          "B": "REMOVE_SPACE",
+          "C": "CLEAN",
+          "D": "STRIP_ALL"
+        },
+        "correct_answer": "A",
+        "explanation": "TRIM removes specified characters, commonly spaces, from the beginning and end of a string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_string_functions_05",
+        "question": "Which function concatenates strings in PostgreSQL?",
+        "options": {
+          "A": "CONCAT",
+          "B": "MERGE_TEXT",
+          "C": "JOIN_TEXT",
+          "D": "COMBINE_STRING"
+        },
+        "correct_answer": "A",
+        "explanation": "CONCAT combines multiple values into one string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_string_functions_06",
+        "question": "What does CONCAT_WS provide in addition to concatenation?",
+        "options": {
+          "A": "A separator between values",
+          "B": "Automatic sorting",
+          "C": "Numeric conversion",
+          "D": "Duplicate removal"
+        },
+        "correct_answer": "A",
+        "explanation": "CONCAT_WS concatenates values using a specified separator.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_string_functions_07",
+        "question": "Which function extracts part of a string using a starting position and length?",
+        "options": {
+          "A": "SUBSTRING",
+          "B": "PART",
+          "C": "EXTRACT_TEXT",
+          "D": "SLICE_TEXT"
+        },
+        "correct_answer": "A",
+        "explanation": "SUBSTRING extracts a portion of a string.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_string_functions_08",
+        "question": "Which function replaces occurrences of one substring with another?",
+        "options": {
+          "A": "REPLACE",
+          "B": "CHANGE_TEXT",
+          "C": "SWAP_TEXT",
+          "D": "SUBSTITUTE_ONLY"
+        },
+        "correct_answer": "A",
+        "explanation": "REPLACE substitutes occurrences of a specified substring.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_string_functions_09",
+        "question": "Which expression returns the first three characters of name?",
+        "options": {
+          "A": "SUBSTRING(name FROM 1 FOR 3)",
+          "B": "FIRST(name, 3)",
+          "C": "LEFT3(name)",
+          "D": "TAKE(name, 3)"
+        },
+        "correct_answer": "A",
+        "explanation": "PostgreSQL supports SUBSTRING with FROM and FOR to extract a specified portion.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_string_functions_10",
+        "question": "Which function can find the position of a substring inside another string?",
+        "options": {
+          "A": "POSITION",
+          "B": "INDEX_TEXT",
+          "C": "LOCATE_TEXT",
+          "D": "FIND_STRING"
+        },
+        "correct_answer": "A",
+        "explanation": "POSITION returns the starting position of a substring.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_string_functions_11",
+        "question": "Which expression combines first_name and last_name with a space between them?",
+        "options": {
+          "A": "CONCAT_WS(' ', first_name, last_name)",
+          "B": "CONCAT(first_name, last_name, SPACE)",
+          "C": "MERGE(first_name, last_name, ' ')",
+          "D": "JOIN(first_name, last_name)"
+        },
+        "correct_answer": "A",
+        "explanation": "CONCAT_WS uses the supplied space as a separator between the values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_string_functions_12",
+        "question": "Which function reverses the characters in a string in PostgreSQL?",
+        "options": {
+          "A": "REVERSE",
+          "B": "BACKWARD",
+          "C": "FLIP_TEXT",
+          "D": "INVERT_STRING"
+        },
+        "correct_answer": "A",
+        "explanation": "REVERSE returns the input string with its characters in reverse order.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_string_functions_13",
+        "question": "Which expression creates an email address by combining username, an @ symbol, and domain?",
+        "options": {
+          "A": "CONCAT(username, '@', domain)",
+          "B": "CONCAT_WS(username, '@', domain)",
+          "C": "MERGE(username, '@', domain)",
+          "D": "JOIN_STRING(username, '@', domain)"
+        },
+        "correct_answer": "A",
+        "explanation": "CONCAT can combine the username, @ symbol, and domain into one string.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "AGGREGATE FUNCTIONS": [
+      {
+        "id": "sql_aggregate_functions_01",
+        "question": "What do aggregate functions generally operate on?",
+        "options": {
+          "A": "A set of rows to produce a summarized value",
+          "B": "Only database names",
+          "C": "Only table definitions",
+          "D": "Only text strings"
+        },
+        "correct_answer": "A",
+        "explanation": "Aggregate functions summarize values across multiple rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_02",
+        "question": "Which function returns the number of rows?",
+        "options": {
+          "A": "COUNT",
+          "B": "NUMBER",
+          "C": "TOTAL_ROWS",
+          "D": "ROWS"
+        },
+        "correct_answer": "A",
+        "explanation": "COUNT is used to count rows or non-null values depending on its expression.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_03",
+        "question": "Which function calculates the total of numeric values?",
+        "options": {
+          "A": "SUM",
+          "B": "TOTAL",
+          "C": "ADD_ALL",
+          "D": "PLUS"
+        },
+        "correct_answer": "A",
+        "explanation": "SUM adds numeric values across rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_04",
+        "question": "Which function calculates the average of numeric values?",
+        "options": {
+          "A": "AVG",
+          "B": "MEAN",
+          "C": "AVERAGE_VALUE",
+          "D": "MID"
+        },
+        "correct_answer": "A",
+        "explanation": "AVG calculates the arithmetic mean of numeric values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_05",
+        "question": "Which function returns the highest value?",
+        "options": {
+          "A": "MAX",
+          "B": "HIGH",
+          "C": "TOP",
+          "D": "GREATEST_ALL"
+        },
+        "correct_answer": "A",
+        "explanation": "MAX returns the largest non-null value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_06",
+        "question": "Which function returns the lowest value?",
+        "options": {
+          "A": "MIN",
+          "B": "LOW",
+          "C": "BOTTOM",
+          "D": "SMALLEST_ALL"
+        },
+        "correct_answer": "A",
+        "explanation": "MIN returns the smallest non-null value.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_07",
+        "question": "What does COUNT(*) count?",
+        "options": {
+          "A": "All rows selected by the query",
+          "B": "Only rows containing NULL",
+          "C": "Only numeric rows",
+          "D": "Only unique rows automatically"
+        },
+        "correct_answer": "A",
+        "explanation": "COUNT(*) counts every row in the selected result, including rows containing NULL values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_aggregate_functions_08",
+        "question": "What does COUNT(column_name) generally count?",
+        "options": {
+          "A": "Non-null values in that column",
+          "B": "All rows including NULL values",
+          "C": "Only duplicate values",
+          "D": "Only numeric values"
+        },
+        "correct_answer": "A",
+        "explanation": "COUNT(column_name) counts rows where the specified column is not NULL.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_aggregate_functions_09",
+        "question": "Which expression counts unique department values?",
+        "options": {
+          "A": "COUNT(DISTINCT department)",
+          "B": "COUNT(UNIQUE department)",
+          "C": "DISTINCT(COUNT(department))",
+          "D": "UNIQUE_COUNT(department)"
+        },
+        "correct_answer": "A",
+        "explanation": "COUNT(DISTINCT department) counts different non-null department values.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "sql_aggregate_functions_10",
+        "question": "Which query finds the average salary of all employees?",
+        "options": {
+          "A": "SELECT AVG(salary) FROM employees;",
+          "B": "SELECT MEAN(salary) FROM employees;",
+          "C": "SELECT AVERAGE salary FROM employees;",
+          "D": "SELECT salary AVG employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "AVG calculates the average of the salary values.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_11",
+        "question": "Which query calculates total salary for all employees?",
+        "options": {
+          "A": "SELECT SUM(salary) FROM employees;",
+          "B": "SELECT TOTAL(salary) FROM employees;",
+          "C": "SELECT ADD(salary) FROM employees;",
+          "D": "SELECT salary TOTAL FROM employees;"
+        },
+        "correct_answer": "A",
+        "explanation": "SUM adds the salary values across the selected rows.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "sql_aggregate_functions_12",
+        "question": "Which statement about aggregate functions and NULL values is correct?",
+        "options": {
+          "A": "Most aggregates ignore NULL values for the expression being aggregated",
+          "B": "Every aggregate always treats NULL as zero",
+          "C": "Aggregates always return NULL when any input is NULL",
+          "D": "NULL values are always counted by COUNT(column)"
+        },
+        "correct_answer": "A",
+        "explanation": "Most PostgreSQL aggregate functions ignore NULL input values; COUNT(*) is a notable row-counting case.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "sql_aggregate_functions_13",
+        "question": "Which query finds the highest salary for each department?",
+        "options": {
+          "A": "SELECT department, MAX(salary) FROM employees GROUP BY department;",
+          "B": "SELECT department, MAX(salary) FROM employees ORDER BY department;",
+          "C": "SELECT MAX(salary) FROM employees WHERE department;",
+          "D": "SELECT department FROM employees MAX salary;"
+        },
+        "correct_answer": "A",
+        "explanation": "GROUP BY creates department groups and MAX finds the highest salary within each group.",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+}

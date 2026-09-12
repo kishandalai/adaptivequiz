@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Technical Languages{% endblock %}
+
+{% block content %}
+<section class="container page-section notes-page">
+    <div class="notes-hero">
+        <div>
+            <p class="eyebrow">Study library</p>
+            <h1>Technical Languages</h1>
+            <p>Learn, revise, and prepare technical concepts before taking quizzes.</p>
+        </div>
+        <div class="notes-hero-stat"><strong>9</strong><span>learning tracks</span></div>
+    </div>
+
+    <form class="notes-search" method="get" action="{% url 'technical_languages' %}">
+        <label for="notes-search-input">Search notes...</label>
+        <div class="notes-search-row">
+            <input id="notes-search-input" type="search" name="q" value="{{ query }}" placeholder="Search languages, topics, or concepts...">
+            <button class="btn btn-primary" type="submit">Search</button>
+            {% if query %}<a class="btn btn-secondary" href="{% url 'technical_languages' %}">Clear</a>{% endif %}
+        </div>
+    </form>
+
+    {% if query %}
+        <div class="section-heading notes-section-heading">
+            <p class="eyebrow">Search results</p>
+            <h2>{{ results|length }} matches for “{{ query }}”</h2>
+        </div>
+        <div class="search-results">
+            {% for result in results %}
+                <a class="search-result card" href="{% if result.type == 'language' %}{% url 'language_topics' result.language.slug %}{% else %}{% url 'topic_notes' result.language.slug result.topic_index %}{% endif %}">
+                    <span class="language-icon">{{ result.language.icon }}</span>
+                    <span><strong>{{ result.title }}</strong><small>{{ result.language.name }} · {{ result.description|truncatewords:18 }}</small></span>
+                </a>
+            {% empty %}<div class="empty-state card">No notes matched that search. Try a language name or topic such as “JOIN”.</div>{% endfor %}
+        </div>
+    {% else %}
+        <div class="section-heading notes-section-heading">
+            <p class="eyebrow">Choose a track</p>
+            <h2>Build your technical foundation</h2>
+        </div>
+        <div class="language-grid">
+            {% for language in languages %}
+                <article class="language-card card">
+                    <div class="language-card-top"><span class="language-icon">{{ language.icon }}</span><span class="topic-count">{{ language.topics|length }} topics</span></div>
+                    <h3>{{ language.name }}</h3>
+                    <p>{{ language.description }}</p>
+                    <a class="btn btn-secondary" href="{% url 'language_topics' language.slug %}">View Notes <span aria-hidden="true">→</span></a>
+                </article>
+            {% endfor %}
+        </div>
+    {% endif %}
+</section>
+{% endblock %}

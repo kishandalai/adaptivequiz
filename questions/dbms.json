@@ -1,0 +1,860 @@
+{
+  "subject": "DBMS",
+  "topics": {
+    "Normalization": [
+      {
+        "id": "dbms_normalization_01",
+        "question": "Which description best matches Normalization?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_02",
+        "question": "In DBMS, what is Normalization mainly concerned with?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_03",
+        "question": "Which statement about Normalization is accurate?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_04",
+        "question": "What is the primary purpose of Normalization in DBMS?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_normalization_05",
+        "question": "Which idea is most closely associated with Normalization?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_06",
+        "question": "What does Normalization provide in a typical DBMS system?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_07",
+        "question": "Which explanation would best introduce Normalization to a student?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_08",
+        "question": "What problem does Normalization primarily address?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_normalization_09",
+        "question": "Which concept is represented by Normalization?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_normalization_10",
+        "question": "How should Normalization be understood in DBMS?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_normalization_11",
+        "question": "Which statement correctly identifies Normalization?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_normalization_12",
+        "question": "What is a central characteristic of Normalization?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_normalization_13",
+        "question": "Which definition is most accurate for Normalization?",
+        "options": {
+          "A": "organizing relational data to reduce redundancy and anomalies",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Normalization means organizing relational data to reduce redundancy and anomalies.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Transactions": [
+      {
+        "id": "dbms_transactions_01",
+        "question": "Which description best matches Transactions?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_02",
+        "question": "In DBMS, what is Transactions mainly concerned with?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_03",
+        "question": "Which statement about Transactions is accurate?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_04",
+        "question": "What is the primary purpose of Transactions in DBMS?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_transactions_05",
+        "question": "Which idea is most closely associated with Transactions?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_06",
+        "question": "What does Transactions provide in a typical DBMS system?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_07",
+        "question": "Which explanation would best introduce Transactions to a student?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_08",
+        "question": "What problem does Transactions primarily address?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_transactions_09",
+        "question": "Which concept is represented by Transactions?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_transactions_10",
+        "question": "How should Transactions be understood in DBMS?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_transactions_11",
+        "question": "Which statement correctly identifies Transactions?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_transactions_12",
+        "question": "What is a central characteristic of Transactions?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_transactions_13",
+        "question": "Which definition is most accurate for Transactions?",
+        "options": {
+          "A": "groups of database operations treated as one logical unit",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Transactions means groups of database operations treated as one logical unit.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Indexes": [
+      {
+        "id": "dbms_indexes_01",
+        "question": "Which description best matches Indexes?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_02",
+        "question": "In DBMS, what is Indexes mainly concerned with?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_03",
+        "question": "Which statement about Indexes is accurate?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_04",
+        "question": "What is the primary purpose of Indexes in DBMS?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_indexes_05",
+        "question": "Which idea is most closely associated with Indexes?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_06",
+        "question": "What does Indexes provide in a typical DBMS system?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_07",
+        "question": "Which explanation would best introduce Indexes to a student?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_08",
+        "question": "What problem does Indexes primarily address?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_indexes_09",
+        "question": "Which concept is represented by Indexes?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "a conceptual model of entities, attributes, and relationships",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_indexes_10",
+        "question": "How should Indexes be understood in DBMS?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_indexes_11",
+        "question": "Which statement correctly identifies Indexes?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "a conceptual model of entities, attributes, and relationships",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_indexes_12",
+        "question": "What is a central characteristic of Indexes?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_indexes_13",
+        "question": "Which definition is most accurate for Indexes?",
+        "options": {
+          "A": "data structures that speed lookups at storage and write cost",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "a conceptual model of entities, attributes, and relationships"
+        },
+        "correct_answer": "A",
+        "explanation": "Indexes means data structures that speed lookups at storage and write cost.",
+        "difficulty": "Hard"
+      }
+    ],
+    "ER Model": [
+      {
+        "id": "dbms_er_model_01",
+        "question": "Which description best matches ER Model?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_02",
+        "question": "In DBMS, what is ER Model mainly concerned with?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_03",
+        "question": "Which statement about ER Model is accurate?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_04",
+        "question": "What is the primary purpose of ER Model in DBMS?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_er_model_05",
+        "question": "Which idea is most closely associated with ER Model?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_06",
+        "question": "What does ER Model provide in a typical DBMS system?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_07",
+        "question": "Which explanation would best introduce ER Model to a student?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_08",
+        "question": "What problem does ER Model primarily address?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_er_model_09",
+        "question": "Which concept is represented by ER Model?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_er_model_10",
+        "question": "How should ER Model be understood in DBMS?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_er_model_11",
+        "question": "Which statement correctly identifies ER Model?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_er_model_12",
+        "question": "What is a central characteristic of ER Model?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_er_model_13",
+        "question": "Which definition is most accurate for ER Model?",
+        "options": {
+          "A": "a conceptual model of entities, attributes, and relationships",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "ER Model means a conceptual model of entities, attributes, and relationships.",
+        "difficulty": "Hard"
+      }
+    ],
+    "Concurrency": [
+      {
+        "id": "dbms_concurrency_01",
+        "question": "Which description best matches Concurrency?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_02",
+        "question": "In DBMS, what is Concurrency mainly concerned with?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_03",
+        "question": "Which statement about Concurrency is accurate?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_04",
+        "question": "What is the primary purpose of Concurrency in DBMS?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "dbms_concurrency_05",
+        "question": "Which idea is most closely associated with Concurrency?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_06",
+        "question": "What does Concurrency provide in a typical DBMS system?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_07",
+        "question": "Which explanation would best introduce Concurrency to a student?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_08",
+        "question": "What problem does Concurrency primarily address?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "dbms_concurrency_09",
+        "question": "Which concept is represented by Concurrency?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "data structures that speed lookups at storage and write cost",
+          "C": "organizing relational data to reduce redundancy and anomalies",
+          "D": "groups of database operations treated as one logical unit"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_concurrency_10",
+        "question": "How should Concurrency be understood in DBMS?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_concurrency_11",
+        "question": "Which statement correctly identifies Concurrency?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "groups of database operations treated as one logical unit",
+          "C": "data structures that speed lookups at storage and write cost",
+          "D": "organizing relational data to reduce redundancy and anomalies"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_concurrency_12",
+        "question": "What is a central characteristic of Concurrency?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "dbms_concurrency_13",
+        "question": "Which definition is most accurate for Concurrency?",
+        "options": {
+          "A": "coordinating simultaneous database operations safely",
+          "B": "organizing relational data to reduce redundancy and anomalies",
+          "C": "groups of database operations treated as one logical unit",
+          "D": "data structures that speed lookups at storage and write cost"
+        },
+        "correct_answer": "A",
+        "explanation": "Concurrency means coordinating simultaneous database operations safely.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}

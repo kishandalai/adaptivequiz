@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}AdaptiveQuiz | Dashboard{% endblock %}
+
+{% block content %}
+<section class="container page-section">
+    <div class="page-header dashboard-header">
+        <div>
+            <p class="eyebrow">Student Dashboard</p>
+            <h1>Welcome back, {{ user.username }}.</h1>
+        </div>
+        <a href="{% url 'select_quiz' %}" class="btn btn-primary">Start New Quiz</a>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <span>Total quizzes</span>
+            <strong>{{ total_quizzes }}</strong>
+            <small>Completed attempts</small>
+        </div>
+        <div class="stat-card">
+            <span>Total questions answered</span>
+            <strong>{{ total_questions }}</strong>
+            <small>Across all attempts</small>
+        </div>
+        <div class="stat-card">
+            <span>Overall accuracy</span>
+            <strong>{{ accuracy }}%</strong>
+            <small>Performance score</small>
+        </div>
+        <div class="stat-card stat-card-highlight">
+            <span>Current skill level</span>
+            <strong>{{ skill_level }}</strong>
+            <small>Adaptive level</small>
+        </div>
+    </div>
+
+    <div class="dashboard-panels">
+        <div class="panel card chart-panel">
+            <div class="panel-header">
+                <h3>Topic Performance</h3>
+                <span>Accuracy by topic</span>
+            </div>
+            <div class="chart-wrap">
+                <canvas id="topicChart"></canvas>
+            </div>
+        </div>
+
+        <div class="panel insights">
+            <div class="mini-card">
+                <h4>Strongest topic</h4>
+                {% if strongest_topic %}
+                    <p>{{ strongest_topic.subject }} - {{ strongest_topic.topic }}</p>
+                {% else %}
+                    <p>No performance data yet</p>
+                {% endif %}
+            </div>
+            <div class="mini-card">
+                <h4>Needs attention</h4>
+                {% if weakest_topic %}
+                    <p>{{ weakest_topic.subject }} - {{ weakest_topic.topic }}</p>
+                {% else %}
+                    <p>No performance data yet</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="table-panel card">
+        <div class="panel-header">
+            <h3>Recent quiz attempts</h3>
+            <a href="{% url 'history' %}">View history</a>
+        </div>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Subject</th>
+                        <th>Topic</th>
+                        <th>Score</th>
+                        <th>Accuracy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for attempt in recent_attempts %}
+                    <tr>
+                        <td>{{ attempt.completed_at|date:'d M Y' }}</td>
+                        <td>{{ attempt.subject }}</td>
+                        <td>{{ attempt.topic }}</td>
+                        <td>{{ attempt.score }}/{{ attempt.total_questions }}</td>
+                        <td>{{ attempt.accuracy }}%</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="5">No quiz attempts yet.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/dashboard.js' %}"></script>
+<script>
+    const chartData = {{ chart_data|safe }};
+    document.addEventListener('DOMContentLoaded', function () {
+        renderTopicChart(chartData);
+    });
+</script>
+{% endblock %}

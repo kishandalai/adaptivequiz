@@ -1,0 +1,1036 @@
+{
+  "subject": "Data Structures",
+  "topics": {
+    "Arrays": [
+      {
+        "id": "data_structures_arrays_01",
+        "question": "What is an array?",
+        "options": {
+          "A": "A collection of elements stored in a linear structure",
+          "B": "A collection of unrelated databases",
+          "C": "A method used only for sorting",
+          "D": "A programming language"
+        },
+        "correct_answer": "A",
+        "explanation": "An array is a linear data structure that stores a collection of elements, typically accessed using an index.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_arrays_02",
+        "question": "How are elements commonly accessed in an array?",
+        "options": {
+          "A": "Using an index",
+          "B": "Using a database query",
+          "C": "Using a network address",
+          "D": "Using a class name"
+        },
+        "correct_answer": "A",
+        "explanation": "Array elements are commonly accessed using their index position.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_arrays_03",
+        "question": "What is the index of the first element in a zero-based array?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "-1",
+          "D": "2"
+        },
+        "correct_answer": "A",
+        "explanation": "In zero-based indexing, the first element is stored at index 0.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_arrays_04",
+        "question": "What is the time complexity of accessing an element by index in a typical array?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(n)",
+          "C": "O(log n)",
+          "D": "O(n²)"
+        },
+        "correct_answer": "A",
+        "explanation": "Direct array indexing generally provides constant-time O(1) access.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_arrays_05",
+        "question": "What is the typical time complexity of searching an unsorted array using linear search?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(n)",
+          "D": "O(n²)"
+        },
+        "correct_answer": "C",
+        "explanation": "Linear search may need to inspect every element, giving O(n) time complexity.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_arrays_06",
+        "question": "What happens when an element is inserted at the beginning of an array and existing elements must move?",
+        "options": {
+          "A": "Elements may need to be shifted to make space",
+          "B": "All elements are automatically deleted",
+          "C": "The array becomes a tree",
+          "D": "No elements are affected"
+        },
+        "correct_answer": "A",
+        "explanation": "Inserting at the beginning can require shifting existing elements to higher indexes.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_arrays_07",
+        "question": "What is the typical time complexity of inserting an element at the beginning of an array?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(n)",
+          "C": "O(log n)",
+          "D": "O(n log n)"
+        },
+        "correct_answer": "B",
+        "explanation": "Elements may need to be shifted, so insertion at the beginning typically takes O(n) time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_arrays_08",
+        "question": "What is a two-dimensional array commonly used to represent?",
+        "options": {
+          "A": "A matrix or table of values",
+          "B": "A single variable",
+          "C": "A linked list node",
+          "D": "A recursive function"
+        },
+        "correct_answer": "A",
+        "explanation": "A two-dimensional array organizes elements using rows and columns and can represent matrices or tables.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_arrays_09",
+        "question": "Which operation visits every element of an array once?",
+        "options": {
+          "A": "Traversal",
+          "B": "Hashing",
+          "C": "Compilation",
+          "D": "Recursion only"
+        },
+        "correct_answer": "A",
+        "explanation": "Array traversal means visiting each element, usually once, to process or inspect it.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_arrays_10",
+        "question": "What is the main advantage of an array over a linked list for direct element access?",
+        "options": {
+          "A": "Arrays provide efficient index-based access",
+          "B": "Arrays always use less memory",
+          "C": "Arrays never require memory allocation",
+          "D": "Arrays automatically sort their elements"
+        },
+        "correct_answer": "A",
+        "explanation": "Arrays support direct access by index, typically in O(1) time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_arrays_11",
+        "question": "What is the main disadvantage of inserting elements into the middle of an array?",
+        "options": {
+          "A": "Elements after the insertion position may need to be shifted",
+          "B": "The array cannot store integers",
+          "C": "The first element is always removed",
+          "D": "The array becomes unordered automatically"
+        },
+        "correct_answer": "A",
+        "explanation": "Insertion into the middle can require shifting many subsequent elements.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_arrays_12",
+        "question": "For a sorted array, which search algorithm can provide O(log n) search time?",
+        "options": {
+          "A": "Linear search",
+          "B": "Binary search",
+          "C": "Bubble sort",
+          "D": "Depth-first search"
+        },
+        "correct_answer": "B",
+        "explanation": "Binary search repeatedly divides the sorted search range in half, giving O(log n) time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_arrays_13",
+        "question": "If an array contains n elements and an algorithm compares every pair of elements, what is its typical time complexity?",
+        "options": {
+          "A": "O(log n)",
+          "B": "O(n)",
+          "C": "O(n²)",
+          "D": "O(1)"
+        },
+        "correct_answer": "C",
+        "explanation": "Comparing every pair of elements results in approximately n² comparisons, giving O(n²) complexity.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Linked Lists": [
+      {
+        "id": "data_structures_linked_lists_01",
+        "question": "What is a linked list?",
+        "options": {
+          "A": "A linear data structure made of nodes connected by links",
+          "B": "A collection of sorted arrays only",
+          "C": "A tree with no nodes",
+          "D": "A database indexing method"
+        },
+        "correct_answer": "A",
+        "explanation": "A linked list consists of nodes where each node stores data and one or more links to other nodes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_linked_lists_02",
+        "question": "What are the two common components of a singly linked list node?",
+        "options": {
+          "A": "Data and a link to the next node",
+          "B": "Only data and no link",
+          "C": "Two arrays",
+          "D": "A key and a database"
+        },
+        "correct_answer": "A",
+        "explanation": "A singly linked list node normally contains data and a reference to the next node.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_linked_lists_03",
+        "question": "What does the head of a linked list represent?",
+        "options": {
+          "A": "The first node of the list",
+          "B": "The last node only",
+          "C": "The middle node",
+          "D": "The number of nodes"
+        },
+        "correct_answer": "A",
+        "explanation": "The head reference points to the first node in a linked list.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_linked_lists_04",
+        "question": "What does the next pointer of the last node in a singly linked list normally contain?",
+        "options": {
+          "A": "A reference to the first node",
+          "B": "NULL or None",
+          "C": "The previous node",
+          "D": "The list size"
+        },
+        "correct_answer": "B",
+        "explanation": "The last node's next pointer is normally NULL or None, indicating the end of the list.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_linked_lists_05",
+        "question": "What is one major advantage of a linked list over a fixed-size array?",
+        "options": {
+          "A": "It can grow and shrink dynamically",
+          "B": "It always provides O(1) random access",
+          "C": "It always uses less memory",
+          "D": "It automatically keeps elements sorted"
+        },
+        "correct_answer": "A",
+        "explanation": "Linked lists can dynamically allocate nodes as needed instead of requiring a fixed size.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_linked_lists_06",
+        "question": "What is the typical time complexity of inserting a node at the beginning of a linked list when the head is known?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(n)",
+          "C": "O(log n)",
+          "D": "O(n²)"
+        },
+        "correct_answer": "A",
+        "explanation": "The new node can be linked directly before the current head, requiring constant time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_linked_lists_07",
+        "question": "What is the typical time complexity of accessing the kth element of a singly linked list?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(k), which can be O(n)",
+          "D": "O(n²) always"
+        },
+        "correct_answer": "C",
+        "explanation": "A singly linked list must be traversed from the head to reach the kth node, taking O(k) time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_linked_lists_08",
+        "question": "What additional pointer does a doubly linked list node usually contain?",
+        "options": {
+          "A": "A previous pointer",
+          "B": "A root pointer",
+          "C": "A queue pointer",
+          "D": "A sorting pointer"
+        },
+        "correct_answer": "A",
+        "explanation": "A doubly linked list node usually contains both next and previous references.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_linked_lists_09",
+        "question": "What makes a circular linked list different from a standard singly linked list?",
+        "options": {
+          "A": "The last node links back to a node in the list, commonly the head",
+          "B": "It cannot contain data",
+          "C": "It always has exactly two nodes",
+          "D": "Every node contains two previous pointers"
+        },
+        "correct_answer": "A",
+        "explanation": "In a circular linked list, the final node points back to the beginning or another designated node instead of NULL.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_linked_lists_10",
+        "question": "Why is random access slower in a linked list than in an array?",
+        "options": {
+          "A": "Linked lists require traversal through nodes",
+          "B": "Linked lists cannot store integers",
+          "C": "Arrays always use recursion",
+          "D": "Linked lists cannot contain more than ten nodes"
+        },
+        "correct_answer": "A",
+        "explanation": "Linked lists do not provide direct index-based access, so nodes must usually be traversed sequentially.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_linked_lists_11",
+        "question": "What is required to delete the first node of a singly linked list?",
+        "options": {
+          "A": "Move the head to the second node",
+          "B": "Sort the entire list",
+          "C": "Move the tail to the first node",
+          "D": "Create a new array"
+        },
+        "correct_answer": "A",
+        "explanation": "Deleting the first node is done by updating head to point to the second node.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_linked_lists_12",
+        "question": "If a linked list contains n nodes, what is the typical time complexity of searching for a value in an unsorted list?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(n)",
+          "D": "O(n²)"
+        },
+        "correct_answer": "C",
+        "explanation": "An unsorted linked list may require checking every node, resulting in O(n) search time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_linked_lists_13",
+        "question": "Which technique can be used to detect a cycle in a linked list using O(1) extra space?",
+        "options": {
+          "A": "Floyd's slow and fast pointer algorithm",
+          "B": "Binary search",
+          "C": "Bubble sort",
+          "D": "Binary tree traversal"
+        },
+        "correct_answer": "A",
+        "explanation": "Floyd's cycle detection algorithm uses slow and fast pointers to detect whether a linked list contains a cycle.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Stacks": [
+      {
+        "id": "data_structures_stacks_01",
+        "question": "What principle does a stack follow?",
+        "options": {
+          "A": "LIFO",
+          "B": "FIFO",
+          "C": "Random access",
+          "D": "Priority-based access only"
+        },
+        "correct_answer": "A",
+        "explanation": "A stack follows Last In, First Out (LIFO), meaning the most recently inserted item is removed first.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_02",
+        "question": "What is the operation of adding an element to a stack called?",
+        "options": {
+          "A": "Pop",
+          "B": "Push",
+          "C": "Peek",
+          "D": "Delete"
+        },
+        "correct_answer": "B",
+        "explanation": "Push adds an element to the top of a stack.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_03",
+        "question": "What is the operation of removing the top element from a stack called?",
+        "options": {
+          "A": "Push",
+          "B": "Insert",
+          "C": "Pop",
+          "D": "Traverse"
+        },
+        "correct_answer": "C",
+        "explanation": "Pop removes and returns the top element of a stack.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_04",
+        "question": "What does the peek operation do on a stack?",
+        "options": {
+          "A": "Removes every element",
+          "B": "Returns the top element without removing it",
+          "C": "Adds an element to the bottom",
+          "D": "Sorts the stack"
+        },
+        "correct_answer": "B",
+        "explanation": "Peek examines the top element without removing it.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_05",
+        "question": "What is stack underflow?",
+        "options": {
+          "A": "Trying to pop from an empty stack",
+          "B": "Adding too many elements to a queue",
+          "C": "Sorting a stack",
+          "D": "Creating a new stack"
+        },
+        "correct_answer": "A",
+        "explanation": "Stack underflow occurs when an operation attempts to remove an element from an empty stack.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_06",
+        "question": "What is stack overflow in a fixed-capacity stack?",
+        "options": {
+          "A": "Attempting to push an element when the stack is full",
+          "B": "Attempting to pop an empty stack",
+          "C": "Reading the bottom element",
+          "D": "Sorting stack elements"
+        },
+        "correct_answer": "A",
+        "explanation": "Stack overflow occurs when an insertion is attempted on a full fixed-capacity stack.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_07",
+        "question": "What is the typical time complexity of push and pop operations in a well-implemented stack?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(n)",
+          "C": "O(log n)",
+          "D": "O(n²)"
+        },
+        "correct_answer": "A",
+        "explanation": "Push and pop operate at the top of the stack and can normally be performed in O(1) time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_08",
+        "question": "Which application commonly uses a stack?",
+        "options": {
+          "A": "Function call management",
+          "B": "Breadth-first graph traversal",
+          "C": "Printer scheduling using FIFO",
+          "D": "Database table creation"
+        },
+        "correct_answer": "A",
+        "explanation": "The call stack manages active function calls and their execution contexts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_stacks_09",
+        "question": "Which data structure is commonly used to implement undo operations?",
+        "options": {
+          "A": "Stack",
+          "B": "Queue",
+          "C": "Graph",
+          "D": "Heap only"
+        },
+        "correct_answer": "A",
+        "explanation": "Undo operations commonly use a stack because the most recent action is undone first.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_stacks_10",
+        "question": "Which algorithm commonly uses a stack to evaluate postfix expressions?",
+        "options": {
+          "A": "Expression evaluation",
+          "B": "Binary search",
+          "C": "Merge sorting only",
+          "D": "Hashing"
+        },
+        "correct_answer": "A",
+        "explanation": "A stack is used to store operands while evaluating postfix expressions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_stacks_11",
+        "question": "How can a stack be used to check balanced parentheses?",
+        "options": {
+          "A": "Push opening brackets and pop when matching closing brackets appear",
+          "B": "Sort all brackets alphabetically",
+          "C": "Store only closing brackets",
+          "D": "Use binary search on the brackets"
+        },
+        "correct_answer": "A",
+        "explanation": "Opening brackets are pushed onto the stack and matching closing brackets remove them.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_stacks_12",
+        "question": "Which traversal of a binary tree can naturally be implemented using a stack?",
+        "options": {
+          "A": "Depth-first traversal",
+          "B": "Level-order traversal only",
+          "C": "Hash traversal",
+          "D": "Database traversal"
+        },
+        "correct_answer": "A",
+        "explanation": "Depth-first traversals can be implemented iteratively using a stack.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_stacks_13",
+        "question": "Why does recursion naturally use a stack?",
+        "options": {
+          "A": "Each recursive call needs a stack frame to store its execution state",
+          "B": "Recursion always uses a queue",
+          "C": "Recursive functions cannot return values",
+          "D": "Each recursive call creates a database"
+        },
+        "correct_answer": "A",
+        "explanation": "Function calls are stored as stack frames, and recursive calls build additional frames until they return.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Queues": [
+      {
+        "id": "data_structures_queues_01",
+        "question": "What principle does a queue follow?",
+        "options": {
+          "A": "LIFO",
+          "B": "FIFO",
+          "C": "Random access",
+          "D": "Last-priority-first"
+        },
+        "correct_answer": "B",
+        "explanation": "A queue follows First In, First Out (FIFO), meaning the earliest inserted element is removed first.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_02",
+        "question": "What operation adds an element to a queue?",
+        "options": {
+          "A": "Dequeue",
+          "B": "Enqueue",
+          "C": "Pop",
+          "D": "Peek only"
+        },
+        "correct_answer": "B",
+        "explanation": "Enqueue adds an element to the rear of a queue.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_03",
+        "question": "What operation removes an element from a queue?",
+        "options": {
+          "A": "Push",
+          "B": "Enqueue",
+          "C": "Dequeue",
+          "D": "Insert"
+        },
+        "correct_answer": "C",
+        "explanation": "Dequeue removes an element from the front of a queue.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_04",
+        "question": "From which end is an element normally removed in a standard queue?",
+        "options": {
+          "A": "Rear",
+          "B": "Front",
+          "C": "Middle",
+          "D": "Any random position"
+        },
+        "correct_answer": "B",
+        "explanation": "Elements are normally removed from the front of a queue.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_05",
+        "question": "From which end is a new element normally inserted in a standard queue?",
+        "options": {
+          "A": "Front",
+          "B": "Middle",
+          "C": "Rear",
+          "D": "Random position"
+        },
+        "correct_answer": "C",
+        "explanation": "New elements are normally inserted at the rear of a queue.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_06",
+        "question": "What is queue underflow?",
+        "options": {
+          "A": "Removing an element from an empty queue",
+          "B": "Adding an element to an empty queue",
+          "C": "Sorting a queue",
+          "D": "Creating a circular queue"
+        },
+        "correct_answer": "A",
+        "explanation": "Queue underflow occurs when a dequeue operation is attempted on an empty queue.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_07",
+        "question": "Which data structure is commonly used for breadth-first search?",
+        "options": {
+          "A": "Stack",
+          "B": "Queue",
+          "C": "Array only",
+          "D": "Linked list only"
+        },
+        "correct_answer": "B",
+        "explanation": "Breadth-first search uses a queue to process vertices level by level.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_queues_08",
+        "question": "What is a circular queue?",
+        "options": {
+          "A": "A queue where the end can wrap around to the beginning",
+          "B": "A queue that contains only one element",
+          "C": "A queue that follows LIFO",
+          "D": "A queue without a front"
+        },
+        "correct_answer": "A",
+        "explanation": "A circular queue treats the storage as connected in a circle so freed positions can be reused.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_09",
+        "question": "What is the main advantage of a circular queue over a simple array-based queue?",
+        "options": {
+          "A": "It can reuse positions freed at the front",
+          "B": "It automatically sorts values",
+          "C": "It removes the need for a rear",
+          "D": "It follows LIFO"
+        },
+        "correct_answer": "A",
+        "explanation": "Circular queues reuse available positions by wrapping the rear around to the beginning.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_queues_10",
+        "question": "What is a priority queue?",
+        "options": {
+          "A": "A queue where elements are removed according to priority",
+          "B": "A queue that always follows insertion order",
+          "C": "A queue with no elements",
+          "D": "A stack implemented with arrays"
+        },
+        "correct_answer": "A",
+        "explanation": "A priority queue removes elements based on their priority rather than simply their arrival order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_queues_11",
+        "question": "Which data structure is commonly used to implement an efficient priority queue?",
+        "options": {
+          "A": "Heap",
+          "B": "Stack",
+          "C": "Simple array only",
+          "D": "Graph"
+        },
+        "correct_answer": "A",
+        "explanation": "Binary heaps are commonly used to implement efficient priority queues.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_queues_12",
+        "question": "What is a deque?",
+        "options": {
+          "A": "A double-ended queue that allows insertion and deletion at both ends",
+          "B": "A queue that allows insertion only at the front",
+          "C": "A stack with no top",
+          "D": "A tree without a root"
+        },
+        "correct_answer": "A",
+        "explanation": "A deque, or double-ended queue, supports operations at both the front and rear.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_queues_13",
+        "question": "What is the typical time complexity of enqueue and dequeue in a properly implemented linked-list queue?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(n)",
+          "C": "O(log n)",
+          "D": "O(n²)"
+        },
+        "correct_answer": "A",
+        "explanation": "With references to both front and rear, enqueue and dequeue can be performed in constant time.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Trees": [
+      {
+        "id": "data_structures_trees_01",
+        "question": "What is a tree in data structures?",
+        "options": {
+          "A": "A hierarchical non-linear data structure made of nodes",
+          "B": "A linear structure containing only arrays",
+          "C": "A database table",
+          "D": "A sorting algorithm"
+        },
+        "correct_answer": "A",
+        "explanation": "A tree is a non-linear hierarchical data structure consisting of nodes connected by edges.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_02",
+        "question": "What is the topmost node of a tree called?",
+        "options": {
+          "A": "Leaf",
+          "B": "Root",
+          "C": "Child",
+          "D": "Sibling"
+        },
+        "correct_answer": "B",
+        "explanation": "The root is the topmost node of a tree.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_03",
+        "question": "What is a node with no children called?",
+        "options": {
+          "A": "Root",
+          "B": "Parent",
+          "C": "Leaf",
+          "D": "Ancestor"
+        },
+        "correct_answer": "C",
+        "explanation": "A leaf node has no children.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_04",
+        "question": "What is the relationship between a parent and its directly connected lower node?",
+        "options": {
+          "A": "The lower node is a child",
+          "B": "The lower node is always the root",
+          "C": "The lower node is a sibling",
+          "D": "The lower node is an ancestor only"
+        },
+        "correct_answer": "A",
+        "explanation": "A node directly connected below another node is called its child.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_05",
+        "question": "What is a binary tree?",
+        "options": {
+          "A": "A tree in which each node has at most two children",
+          "B": "A tree containing exactly two nodes",
+          "C": "A tree containing only two levels",
+          "D": "A tree with two roots"
+        },
+        "correct_answer": "A",
+        "explanation": "A binary tree is a tree where each node has at most two children.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_06",
+        "question": "What are the two possible child positions in a binary tree?",
+        "options": {
+          "A": "Front and rear",
+          "B": "Left and right",
+          "C": "Top and bottom",
+          "D": "Start and end"
+        },
+        "correct_answer": "B",
+        "explanation": "Each binary tree node can have a left child and a right child.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_07",
+        "question": "What property makes a binary search tree useful for searching?",
+        "options": {
+          "A": "Values in the left subtree are ordered relative to the node and values in the right subtree are ordered oppositely",
+          "B": "Every node must have exactly two children",
+          "C": "All values must be identical",
+          "D": "Nodes cannot contain numbers"
+        },
+        "correct_answer": "A",
+        "explanation": "In a binary search tree, values in the left subtree are less than the node and values in the right subtree are greater, subject to the chosen duplicate policy.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_trees_08",
+        "question": "Which traversal visits nodes in the order Root, Left, Right?",
+        "options": {
+          "A": "Inorder",
+          "B": "Postorder",
+          "C": "Preorder",
+          "D": "Level order"
+        },
+        "correct_answer": "C",
+        "explanation": "Preorder traversal visits the root first, followed by the left subtree and right subtree.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_09",
+        "question": "Which traversal visits nodes in the order Left, Root, Right?",
+        "options": {
+          "A": "Preorder",
+          "B": "Inorder",
+          "C": "Postorder",
+          "D": "Level order"
+        },
+        "correct_answer": "B",
+        "explanation": "Inorder traversal visits the left subtree, root, and then right subtree.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_10",
+        "question": "Which traversal visits nodes in the order Left, Right, Root?",
+        "options": {
+          "A": "Preorder",
+          "B": "Inorder",
+          "C": "Postorder",
+          "D": "Level order"
+        },
+        "correct_answer": "C",
+        "explanation": "Postorder traversal visits the left subtree, right subtree, and then the root.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_trees_11",
+        "question": "What is the height of a tree related to?",
+        "options": {
+          "A": "The longest path from the root to a leaf under the chosen height convention",
+          "B": "The total number of leaf nodes only",
+          "C": "The number of roots",
+          "D": "The number of sibling pairs"
+        },
+        "correct_answer": "A",
+        "explanation": "Tree height measures the longest root-to-leaf path, with exact counting depending on the convention used.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_trees_12",
+        "question": "What is a balanced binary search tree designed to maintain?",
+        "options": {
+          "A": "A relatively small height to keep operations efficient",
+          "B": "Only leaf nodes",
+          "C": "Exactly one child per node",
+          "D": "A circular structure"
+        },
+        "correct_answer": "A",
+        "explanation": "Balanced search trees keep their height controlled so searching, insertion, and deletion remain efficient.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_trees_13",
+        "question": "What is the typical search time in a balanced binary search tree containing n nodes?",
+        "options": {
+          "A": "O(1)",
+          "B": "O(log n)",
+          "C": "O(n²)",
+          "D": "O(2ⁿ)"
+        },
+        "correct_answer": "B",
+        "explanation": "A balanced binary search tree has logarithmic height, giving O(log n) search time.",
+        "difficulty": "Hard"
+      }
+    ],
+
+    "Graphs": [
+      {
+        "id": "data_structures_graphs_01",
+        "question": "What is a graph in data structures?",
+        "options": {
+          "A": "A collection of vertices connected by edges",
+          "B": "A linear array of numbers only",
+          "C": "A single linked-list node",
+          "D": "A sorting method"
+        },
+        "correct_answer": "A",
+        "explanation": "A graph consists of vertices, also called nodes, and edges that connect pairs of vertices.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_02",
+        "question": "What are the two basic components of a graph?",
+        "options": {
+          "A": "Roots and leaves",
+          "B": "Vertices and edges",
+          "C": "Stacks and queues",
+          "D": "Keys and values"
+        },
+        "correct_answer": "B",
+        "explanation": "Graphs are composed of vertices and edges.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_03",
+        "question": "What is a vertex in a graph?",
+        "options": {
+          "A": "A node representing an entity or point",
+          "B": "A connection between two nodes",
+          "C": "A sorting operation",
+          "D": "A traversal algorithm"
+        },
+        "correct_answer": "A",
+        "explanation": "A vertex is a node in a graph that represents an entity or point.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_04",
+        "question": "What is an edge in a graph?",
+        "options": {
+          "A": "A connection between vertices",
+          "B": "A root node",
+          "C": "A leaf node",
+          "D": "A stack operation"
+        },
+        "correct_answer": "A",
+        "explanation": "An edge represents a connection or relationship between vertices.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_05",
+        "question": "What is a directed graph?",
+        "options": {
+          "A": "A graph whose edges have a specified direction",
+          "B": "A graph containing no edges",
+          "C": "A graph with only one vertex",
+          "D": "A graph that must be a tree"
+        },
+        "correct_answer": "A",
+        "explanation": "In a directed graph, each edge has a direction from one vertex to another.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_06",
+        "question": "What is an undirected graph?",
+        "options": {
+          "A": "A graph whose edges do not have a direction",
+          "B": "A graph with no vertices",
+          "C": "A graph containing only self-loops",
+          "D": "A graph that must contain cycles"
+        },
+        "correct_answer": "A",
+        "explanation": "In an undirected graph, an edge represents a connection without a specified direction.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_07",
+        "question": "What is the degree of a vertex in an undirected graph?",
+        "options": {
+          "A": "The number of edges incident to the vertex",
+          "B": "The total number of graphs",
+          "C": "The number of roots in the graph",
+          "D": "The number of algorithms used"
+        },
+        "correct_answer": "A",
+        "explanation": "The degree of a vertex in an undirected graph is the number of edges connected to it.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_08",
+        "question": "Which traversal explores a graph level by level?",
+        "options": {
+          "A": "Depth-first search",
+          "B": "Breadth-first search",
+          "C": "Binary search",
+          "D": "Insertion sort"
+        },
+        "correct_answer": "B",
+        "explanation": "Breadth-first search explores vertices level by level using a queue.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_09",
+        "question": "Which data structure is commonly used by breadth-first search?",
+        "options": {
+          "A": "Queue",
+          "B": "Stack only",
+          "C": "Heap only",
+          "D": "Binary search tree"
+        },
+        "correct_answer": "A",
+        "explanation": "BFS uses a queue to process vertices in breadth-first order.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "data_structures_graphs_10",
+        "question": "Which data structure is commonly used to implement depth-first search iteratively?",
+        "options": {
+          "A": "Queue",
+          "B": "Stack",
+          "C": "Priority queue only",
+          "D": "Hash table only"
+        },
+        "correct_answer": "B",
+        "explanation": "An explicit stack can be used to implement iterative depth-first search.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_graphs_11",
+        "question": "What is an adjacency matrix?",
+        "options": {
+          "A": "A two-dimensional representation showing relationships between pairs of vertices",
+          "B": "A linked list containing only roots",
+          "C": "A stack of graph nodes",
+          "D": "A sorting algorithm"
+        },
+        "correct_answer": "A",
+        "explanation": "An adjacency matrix uses a two-dimensional array to represent whether pairs of vertices are connected, often storing edge weights when applicable.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_graphs_12",
+        "question": "What is an adjacency list?",
+        "options": {
+          "A": "A representation that stores a list of neighboring vertices for each vertex",
+          "B": "A table containing only graph names",
+          "C": "A binary tree representation",
+          "D": "A queue containing all edges in sorted order"
+        },
+        "correct_answer": "A",
+        "explanation": "An adjacency list stores the neighbors of each vertex and is often memory-efficient for sparse graphs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "data_structures_graphs_13",
+        "question": "Which algorithm is commonly used to find shortest paths from a source in a graph with non-negative edge weights?",
+        "options": {
+          "A": "Dijkstra's algorithm",
+          "B": "Binary search",
+          "C": "Bubble sort",
+          "D": "Depth-first traversal only"
+        },
+        "correct_answer": "A",
+        "explanation": "Dijkstra's algorithm finds shortest paths from a source vertex when edge weights are non-negative.",
+        "difficulty": "Hard"
+      }
+    ]
+  }
+}
