@@ -114,11 +114,13 @@ main.app-main {
 .nav-toggle-icon {
     display: grid;
     gap: 4px;
+    width: 22px;
 }
 
 .nav-toggle-icon i {
     display: block;
     height: 2px;
+    width: 100%;
     border-radius: 2px;
     background: currentColor;
 }
