@@ -24,7 +24,8 @@ class QuestionBankError(ValueError):
 
 def _validate_question(subject, topic, item, seen_ids, seen_texts):
     required = {"id", "question", "options", "correct_answer", "explanation", "difficulty"}
-    if set(item) != required:
+    optional = {"company", "year", "hint"}
+    if not required.issubset(item) or set(item) - required - optional:
         raise QuestionBankError(f"Invalid fields for {subject}/{topic} question.")
     if not isinstance(item["id"], str) or not item["id"] or item["id"] in seen_ids:
         raise QuestionBankError(f"Duplicate or invalid question ID in {subject}/{topic}.")
@@ -77,8 +78,8 @@ def load_question_bank():
         subject_questions = {}
         for topic in topics:
             questions = normalized_topics.get(topic)
-            if not isinstance(questions, list) or len(questions) != 13:
-                raise QuestionBankError(f"{subject}/{topic} must contain exactly 13 questions.")
+            if not isinstance(questions, list) or len(questions) < 10:
+                raise QuestionBankError(f"{subject}/{topic} must contain at least 10 questions.")
             seen_ids = set()
             seen_texts = set()
             for item in questions:
@@ -98,8 +99,8 @@ def get_bank_question(subject, topic, question_id):
 
 def select_question_ids(subject, topic, count=10):
     questions = get_topic_questions(subject, topic)
-    if len(questions) != 13:
-        raise QuestionBankError(f"{subject}/{topic} must contain exactly 13 questions.")
+    if len(questions) < count:
+        raise QuestionBankError(f"{subject}/{topic} does not contain enough questions.")
     return random.sample(list(questions), count)
 
 

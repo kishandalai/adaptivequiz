@@ -1,0 +1,6 @@
+{% extends 'admin/base.html' %}
+{% block content %}
+<div class="page-header"><div><p class="eyebrow">Workspace overview</p><h1>Admin Dashboard</h1><p class="admin-muted">Manage the learning content used across AdaptiveQuiz.</p></div></div>
+<div class="admin-cards"><div class="card admin-card"><span>Total Questions</span><strong>{{ total_questions }}</strong></div><div class="card admin-card"><span>Total Technical Notes</span><strong>{{ total_notes }}</strong></div><div class="card admin-card"><span>Total Languages</span><strong>{{ total_languages }}</strong></div><div class="card admin-card"><span>Total Topics</span><strong>{{ total_topics }}</strong></div></div>
+<div class="admin-actions"><a class="btn btn-primary" href="{% url 'admin_question_create' %}">+ Add Question</a><a class="btn btn-secondary" href="{% url 'admin_questions' %}">Manage Questions</a><a class="btn btn-secondary" href="{% url 'admin_notes' %}">Manage Technical Notes</a></div>
+{% endblock %}

@@ -15,7 +15,7 @@ from django.urls import reverse
 from .adaptive_engine import calculate_accuracy, get_skill_level
 from .forms import LoginForm, QuizSelectionForm, RegistrationForm
 from .gemini_service import generate_question
-from .learning_notes import LANGUAGES, LANGUAGE_DEFINITIONS, all_search_items
+from .learning_notes import LANGUAGE_DEFINITIONS, all_search_items, get_languages
 from .models import AnswerRecord, Question, QuizAttempt, TopicPerformance
 from .question_bank import QuestionBankError, get_bank_question, load_question_bank, select_question_ids
 from .utils import get_topics_for_subject, get_default_quiz_length, normalize_question_text
@@ -125,7 +125,7 @@ def technical_languages(request):
             if query_lower in item["title"].lower() or query_lower in item["description"].lower() or query_lower in item.get("matching_section", "").lower()
         ]
     return render(request, "technical_languages.html", {
-        "languages": LANGUAGE_DEFINITIONS,
+        "languages": get_languages(),
         "query": query,
         "results": results,
     })
@@ -133,7 +133,7 @@ def technical_languages(request):
 
 @login_required
 def language_topics(request, language_slug):
-    language = LANGUAGES.get(language_slug)
+    language = get_languages().get(language_slug)
     if language is None:
         return redirect("technical_languages")
     completed = request.session.get("notes_completed", [])
@@ -151,7 +151,7 @@ def language_topics(request, language_slug):
 
 @login_required
 def topic_notes(request, language_slug, topic_index):
-    language = LANGUAGES.get(language_slug)
+    language = get_languages().get(language_slug)
     if language is None or topic_index < 0 or topic_index >= len(language["topics"]):
         return redirect("technical_languages")
     topic = language["topics"][topic_index]
@@ -188,7 +188,7 @@ def topic_notes(request, language_slug, topic_index):
 
 @login_required
 def practice_topic(request, language_slug, topic_index):
-    language = LANGUAGES.get(language_slug)
+    language = get_languages().get(language_slug)
     if language is None or topic_index < 0 or topic_index >= len(language["topics"]):
         return redirect("technical_languages")
     topic = language["topics"][topic_index]
@@ -225,6 +225,8 @@ def login_view(request):
             user = authenticate(request, username=username, password=password)
             if user is not None:
                 login(request, user)
+                if user.is_staff or user.is_superuser:
+                    return redirect("admin_dashboard")
                 return redirect("dashboard")
             messages.error(request, "Invalid username or password.")
     else:

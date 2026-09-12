@@ -1,6 +1,12 @@
 from django.contrib import admin
 
-from .models import AnswerRecord, Question, QuizAttempt, TopicPerformance
+from .models import AnswerRecord, Question, QuizAttempt, TechnicalNote, TopicPerformance
+
+
+@admin.register(TechnicalNote)
+class TechnicalNoteAdmin(admin.ModelAdmin):
+    list_display = ("language_name", "topic", "updated_at")
+    search_fields = ("language_name", "topic")
 
 
 @admin.register(Question)

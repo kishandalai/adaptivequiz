@@ -13,6 +13,26 @@ class SubjectTopic(models.Model):
         return f"{self.subject} - {self.topic}"
 
 
+class TechnicalNote(models.Model):
+    language_slug = models.SlugField(max_length=100)
+    language_name = models.CharField(max_length=100)
+    topic = models.CharField(max_length=150)
+    content = models.JSONField(default=dict)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ["language_name", "topic"]
+        constraints = [
+            models.UniqueConstraint(
+                fields=["language_slug", "topic"],
+                name="unique_technical_note_topic",
+            ),
+        ]
+
+    def __str__(self):
+        return f"{self.language_name} - {self.topic}"
+
+
 class Question(models.Model):
     DIFFICULTY_CHOICES = [
         ("Easy", "Easy"),

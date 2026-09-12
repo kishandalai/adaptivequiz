@@ -1,6 +1,7 @@
 from django.urls import path
 
 from . import views
+from . import admin_views
 from .api_views import (
     CompleteQuizAPI,
     CurrentQuestionAPI,
@@ -15,6 +16,17 @@ from .api_views import (
 )
 
 urlpatterns = [
+    path("admin-panel/login/", admin_views.admin_login, name="admin_login"),
+    path("admin-panel/logout/", admin_views.admin_logout, name="admin_logout"),
+    path("admin-panel/", admin_views.admin_dashboard, name="admin_dashboard"),
+    path("admin-panel/questions/", admin_views.admin_questions, name="admin_questions"),
+    path("admin-panel/questions/add/", admin_views.admin_question_create, name="admin_question_create"),
+    path("admin-panel/questions/<str:question_id>/edit/", admin_views.admin_question_edit, name="admin_question_edit"),
+    path("admin-panel/questions/<str:question_id>/delete/", admin_views.admin_question_delete, name="admin_question_delete"),
+    path("admin-panel/notes/", admin_views.admin_notes, name="admin_notes"),
+    path("admin-panel/notes/add/", admin_views.admin_note_create, name="admin_note_create"),
+    path("admin-panel/notes/<slug:language_slug>/<int:topic_index>/edit/", admin_views.admin_note_edit, name="admin_note_edit"),
+    path("admin-panel/notes/<slug:language_slug>/<int:topic_index>/delete/", admin_views.admin_note_delete, name="admin_note_delete"),
     path("", views.home, name="home"),
     path("register/", views.register_view, name="register"),
     path("login/", views.login_view, name="login"),

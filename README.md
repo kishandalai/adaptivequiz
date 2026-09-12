@@ -68,6 +68,8 @@ AdaptiveQuiz is a student-focused adaptive quiz platform built with Python, Djan
    python manage.py createsuperuser
    ```
 
+   Set `ADMIN_USERNAME` in `.env` to the username of the one account that should use the separate Admin Panel. The account must be a Django staff account. Open `/admin-panel/login/` to sign in; the normal user dashboard and login flow are unchanged.
+
 8. Run the development server:
 
    ```powershell
@@ -82,6 +84,7 @@ Create a `.env` file in the project root:
 SECRET_KEY=your_secret_key_here
 DEBUG=True
 GEMINI_API_KEY=your_gemini_api_key_here
+ADMIN_USERNAME=admin
 
 DB_NAME=adaptivequiz
 DB_USER=postgres

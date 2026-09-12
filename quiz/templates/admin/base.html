@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}AdaptiveQuiz Admin{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        .admin-header { background: linear-gradient(135deg, #172554, #2563eb); color: #fff; }
+        .admin-nav, .admin-main { width: min(var(--page-width), calc(100% - (2 * var(--page-gutter)))); margin: auto; }
+        .admin-nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+        .admin-brand { color: #fff; font-size: 1.1rem; font-weight: 800; letter-spacing: -0.03em; }
+        .admin-brand:hover, .admin-nav a:hover { color: #dbeafe; }
+        .admin-nav-links { display: flex; align-items: center; gap: 1.2rem; }
+        .admin-nav a { color: #fff; font-size: 0.9rem; font-weight: 700; }
+        .admin-main { padding: clamp(1.75rem, 5vw, 2.8rem) 0 4rem; }
+        .admin-main h1 { margin-top: 0; }
+        .admin-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1.25rem 0; }
+        .admin-main .btn { min-height: 42px; padding: 0.65rem 1rem; border-radius: 10px; }
+        .admin-main .btn-danger { background: var(--danger-soft); color: var(--danger); border: 1px solid rgba(220, 38, 38, 0.18); }
+        .admin-main .btn-danger:hover { background: #fee2e2; color: #b91c1c; }
+        .admin-main .btn-quiet { min-height: 34px; padding: 0.45rem 0.7rem; border-radius: 9px; background: var(--primary-soft); color: var(--primary-strong); font-size: 0.85rem; }
+        .admin-main .btn-quiet:hover { background: #dbeafe; }
+        .admin-main .btn-danger.btn-quiet { background: var(--danger-soft); color: var(--danger); }
+        .admin-main .btn-danger.btn-quiet:hover { background: #fee2e2; }
+        .admin-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: 1rem; margin: 1.5rem 0 1.8rem; }
+        .admin-card { padding: 1.4rem 1.25rem; min-height: 140px; display: flex; flex-direction: column; justify-content: center; background: linear-gradient(180deg, #fff, #f8fbff); }
+        .admin-card strong { display: block; font-size: 2.1rem; line-height: 1.12; letter-spacing: -0.04em; }
+        .admin-card span { color: var(--muted); font-size: 0.93rem; }
+        .admin-panel { padding: 1.35rem; overflow-x: auto; }
+        .admin-table { min-width: 780px; }
+        .admin-table th { color: var(--muted); font-size: 0.78rem; letter-spacing: 0.07em; text-transform: uppercase; }
+        .admin-table td, .admin-table th { padding: 0.9rem 0.75rem; }
+        .admin-actions-cell { display: flex; align-items: center; gap: 0.45rem; white-space: nowrap; }
+        .admin-filter { margin-bottom: 1.35rem; }
+        .admin-filter-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+        .admin-filter-grid label { display: block; margin-bottom: 0.4rem; font-size: 0.88rem; font-weight: 700; }
+        .admin-filter input, .admin-form-row input, .admin-form-row select, .admin-form-row textarea { width: 100%; border: 1px solid var(--border); border-radius: 10px; padding: 0.7rem 0.8rem; background: #fff; color: var(--text); }
+        .admin-form-row { margin-bottom: 1rem; }
+        .admin-form-row label { display: block; margin-bottom: 0.4rem; font-weight: 700; }
+        .admin-form-row textarea { min-height: 100px; }
+        .admin-help, .admin-muted { color: var(--muted); font-size: 0.85rem; }
+        .admin-alert { margin-bottom: 1rem; padding: 0.8rem 1rem; border: 1px solid #bfdbfe; border-radius: 10px; background: #eff6ff; color: #1e3a8a; }
+        .inline { display: inline; }
+        @media (max-width: 760px) { .admin-nav { align-items: flex-start; padding: 1rem 0; flex-direction: column; } .admin-nav-links { flex-wrap: wrap; gap: 0.7rem 1rem; } .admin-filter-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+<header class="admin-header"><nav class="admin-nav"><a class="admin-brand" href="{% url 'admin_dashboard' %}">AdaptiveQuiz Admin</a><div class="admin-nav-links"><a href="{% url 'admin_dashboard' %}">Dashboard</a><a href="{% url 'admin_questions' %}">Questions</a><a href="{% url 'admin_notes' %}">Technical Notes</a><a href="{% url 'admin_logout' %}">Sign out</a></div></nav></header>
+<main class="admin-main">
+    {% for message in messages %}<div class="admin-alert">{{ message }}</div>{% endfor %}
+    {% block content %}{% endblock %}
+</main>
+</body>
+</html>

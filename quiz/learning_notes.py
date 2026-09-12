@@ -1,5 +1,7 @@
 """Curated Technical Languages learning content used by the notes UI."""
 
+from copy import deepcopy
+
 LANGUAGE_DEFINITIONS = [
     {
         "slug": "c",
@@ -68,6 +70,29 @@ LANGUAGE_DEFINITIONS = [
 
 LANGUAGES = {item["slug"]: item for item in LANGUAGE_DEFINITIONS}
 
+
+def get_languages():
+    """Return built-in notes with administrator overrides applied."""
+    languages = {item["slug"]: deepcopy(item) for item in LANGUAGE_DEFINITIONS}
+    from .models import TechnicalNote
+
+    for stored in TechnicalNote.objects.all():
+        language = languages.setdefault(
+            stored.language_slug,
+            {
+                "slug": stored.language_slug,
+                "name": stored.language_name,
+                "icon": stored.language_name[:2],
+                "description": f"Technical notes for {stored.language_name}.",
+                "topics": [],
+                "notes": {},
+            },
+        )
+        if stored.topic not in language["topics"]:
+            language["topics"].append(stored.topic)
+        language["notes"][stored.topic] = stored.content
+    return languages
+
 LANGUAGE_CONTEXT = {
     "C": ("printf(\"%d\\n\", value);", "int value = 42;", "C gives direct control over memory and is used for operating systems, embedded software, and performance-critical code."),
     "C++": ("std::cout << value << '\\n';", "int value = 42;", "C++ combines low-level control with classes, templates, and the standard library."),
@@ -124,7 +149,7 @@ for language in LANGUAGE_DEFINITIONS:
 
 
 def all_search_items():
-    for language in LANGUAGE_DEFINITIONS:
+    for language in get_languages().values():
         yield {"type": "language", "language": language, "title": language["name"], "description": language["description"]}
         for topic_index, topic in enumerate(language["topics"]):
             note = language["notes"][topic]
