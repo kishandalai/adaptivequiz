@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Contact{% endblock %}
+
+{% block content %}
+<section class="page-section">
+    <div class="container contact-layout">
+        <div>
+            <p class="eyebrow">Contact AdaptiveQuiz</p>
+            <h1>We would like to hear from you.</h1>
+            <p class="lead">Send a question or suggestion using the form. Messages are stored securely for review by the site administrator; this demo does not send email.</p>
+        </div>
+        <div class="form-box contact-form">
+            <h2>Contact us</h2>
+            <form method="post" class="auth-form">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary full-width">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

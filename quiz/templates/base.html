@@ -14,7 +14,7 @@
 <body>
     <header class="site-header">
         <nav class="navbar container" aria-label="Main navigation">
-            <a href="{% url 'home' %}" class="brand" aria-label="AdaptiveQuiz home">
+            <a href="{% url 'about' %}" class="brand" aria-label="About AdaptiveQuiz">
                 <span class="brand-mark">A</span>
                 <span>AdaptiveQuiz</span>
             </a>
@@ -55,6 +55,11 @@
         <div class="container footer-inner">
             <p>© 2026 AdaptiveQuiz</p>
             <span>Smart learning, tailored to you.</span>
+            <div class="footer-links" aria-label="Footer navigation">
+                <a href="{% url 'about' %}">About</a>
+                <a href="{% url 'contact' %}">Contact</a>
+                <a href="{% url 'privacy_policy' %}">Privacy Policy</a>
+            </div>
         </div>
     </footer>
 

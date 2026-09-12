@@ -14,7 +14,7 @@ from django.shortcuts import redirect, render
 from django.urls import reverse
 
 from .adaptive_engine import calculate_accuracy, get_skill_level
-from .forms import LoginForm, QuizSelectionForm, RegistrationForm
+from .forms import ContactForm, LoginForm, QuizSelectionForm, RegistrationForm
 from .gemini_service import generate_question
 from .learning_notes import LANGUAGE_DEFINITIONS, all_search_items, get_languages
 from .models import AnswerRecord, Question, QuizAttempt, TopicPerformance
@@ -113,6 +113,26 @@ def _bank_payload(item):
 
 def home(request):
     return render(request, "home.html")
+
+
+def about(request):
+    return render(request, "about.html")
+
+
+def contact(request):
+    if request.method == "POST":
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Your message has been received. Thank you for contacting AdaptiveQuiz.")
+            return redirect("contact")
+    else:
+        form = ContactForm()
+    return render(request, "contact.html", {"form": form})
+
+
+def privacy_policy(request):
+    return render(request, "privacy_policy.html")
 
 
 @login_required

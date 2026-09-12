@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | Privacy Policy{% endblock %}
+
+{% block content %}
+<section class="page-section">
+    <div class="container">
+        <div class="policy-content">
+            <p class="eyebrow">Privacy Policy</p>
+            <h1>How AdaptiveQuiz handles information</h1>
+            <p class="lead">This simple policy describes the information used by this student project and demo website. It should be reviewed and customized before any public production launch.</p>
+
+            <section><h2>Information We Collect</h2><p>AdaptiveQuiz may collect information you provide when creating an account, using quizzes and learning features, or submitting the Contact form.</p></section>
+            <section><h2>Account Information</h2><p>An account includes a username and email address, together with the password managed by Django's authentication system. Passwords are not stored as plain text.</p></section>
+            <section><h2>Quiz and Learning Activity</h2><p>For signed-in users, the site stores quiz attempts, answers, scores, accuracy, topic performance, and related learning progress so the platform can provide its dashboard, history, review, and adaptive practice features.</p></section>
+            <section><h2>How Information Is Used</h2><p>Information is used to provide authentication, quizzes, learning notes, performance views, adaptive practice, and responses to Contact submissions. This project does not describe or promise advertising or sale of user information.</p></section>
+            <section><h2>Data Storage</h2><p>Application data is stored in the PostgreSQL database configured for this installation. The actual hosting, retention period, backups, and deletion process must be documented by the administrator before production use.</p></section>
+            <section><h2>Cookies and Sessions</h2><p>Django uses cookies and server-side sessions for authentication, security, and temporary quiz state. Browser settings may affect these features.</p></section>
+            <section><h2>Third-Party Services</h2><p>The project includes an optional Google Gemini API integration for question generation when an administrator configures it. Any production deployment should review that provider's terms and privacy documentation and disclose what data, if any, is sent.</p></section>
+            <section><h2>Data Security</h2><p>The application uses Django's built-in authentication and CSRF protections. No website can guarantee absolute security; production administrators must configure secure secrets, HTTPS, database access, backups, and deployment settings.</p></section>
+            <section><h2>User Rights</h2><p>Users should contact the site administrator through the Contact page with questions about access, correction, or deletion of their information. A production policy should define the applicable rights, identity checks, and response times.</p></section>
+            <section><h2>Children's Privacy</h2><p>This student project is not intended to knowingly collect information from children without appropriate consent. A production deployment should establish an age-appropriate process and comply with applicable law.</p></section>
+            <section><h2>Changes to This Policy</h2><p>This page may be updated as the project changes. The administrator should add an effective date and notification process before public production use.</p></section>
+            <section><h2>Contact Information</h2><p>For privacy questions, use the <a href="{% url 'contact' %}">Contact page</a>. An official support email, legal entity, and physical address should be added here before public production use.</p></section>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,6 +1,13 @@
 from django.contrib import admin
 
-from .models import AnswerRecord, Question, QuizAttempt, TechnicalNote, TopicPerformance
+from .models import AnswerRecord, ContactSubmission, Question, QuizAttempt, TechnicalNote, TopicPerformance
+
+
+@admin.register(ContactSubmission)
+class ContactSubmissionAdmin(admin.ModelAdmin):
+    list_display = ("subject", "name", "email", "created_at")
+    search_fields = ("name", "email", "subject", "message")
+    readonly_fields = ("created_at",)
 
 
 @admin.register(TechnicalNote)

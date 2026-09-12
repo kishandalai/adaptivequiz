@@ -2,6 +2,8 @@ from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
+from .models import ContactSubmission
+
 
 class RegistrationForm(UserCreationForm):
     email = forms.EmailField(required=True)
@@ -36,3 +38,12 @@ class QuizSelectionForm(forms.Form):
 
     subject = forms.ChoiceField(choices=SUBJECT_CHOICES)
     topic = forms.CharField(max_length=100)
+
+
+class ContactForm(forms.ModelForm):
+    class Meta:
+        model = ContactSubmission
+        fields = ["name", "email", "subject", "message"]
+        widgets = {
+            "message": forms.Textarea(attrs={"rows": 7}),
+        }

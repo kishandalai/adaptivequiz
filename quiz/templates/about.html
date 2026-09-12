@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}AdaptiveQuiz | About{% endblock %}
+
+{% block content %}
+<section class="page-section">
+    <div class="container">
+        <div class="page-header">
+            <div>
+                <p class="eyebrow">About AdaptiveQuiz</p>
+                <h1>Learn with a clearer path forward.</h1>
+                <p class="lead">AdaptiveQuiz is a learning and practice platform designed to help students prepare for technical subjects, quizzes, interviews, and placement preparation.</p>
+            </div>
+        </div>
+
+        <section class="section-heading">
+            <p class="eyebrow">What we provide</p>
+            <h2>Practice built around your goals</h2>
+        </section>
+        <div class="info-layout">
+            <article class="card info-card"><h3>Topic-wise Practice</h3><p>Focus on the concepts and subjects you want to strengthen.</p></article>
+            <article class="card info-card"><h3>Company-wise Preparation</h3><p>Use targeted preparation as you work toward placement opportunities.</p></article>
+            <article class="card info-card"><h3>Mock Tests</h3><p>Measure your readiness with focused quiz sessions.</p></article>
+            <article class="card info-card"><h3>Technical Languages</h3><p>Study structured notes across the technical subjects in the platform.</p></article>
+            <article class="card info-card"><h3>Learning Notes</h3><p>Review concise topic material before putting your knowledge into practice.</p></article>
+            <article class="card info-card"><h3>Performance Tracking</h3><p>See progress, accuracy, and topic-level performance over time.</p></article>
+            <article class="card info-card"><h3>Wrong Answer Review</h3><p>Use explanations and past attempts to revisit missed concepts.</p></article>
+            <article class="card info-card"><h3>Difficulty-based Practice</h3><p>Build confidence progressively with easy, medium, and hard questions.</p></article>
+        </div>
+
+        <section class="page-section">
+            <p class="eyebrow">How AdaptiveQuiz works</p>
+            <h2>A simple learning cycle</h2>
+            <ol class="flow-list" aria-label="AdaptiveQuiz learning flow">
+                <li>Learn</li>
+                <li>Practice</li>
+                <li>Test</li>
+                <li>Analyze</li>
+                <li>Improve</li>
+            </ol>
+        </section>
+
+        <section>
+            <p class="eyebrow">Technologies used</p>
+            <h2>Built with the project stack</h2>
+            <div class="card info-card">
+                <p>AdaptiveQuiz is built with Python and Django, uses Django REST Framework for API endpoints, PostgreSQL for data storage, HTML and CSS for its templates and styling, and browser JavaScript with Chart.js for interactive performance charts. The project also includes an optional Google Gemini API integration for question generation when configured.</p>
+            </div>
+        </section>
+    </div>
+</section>
+{% endblock %}
