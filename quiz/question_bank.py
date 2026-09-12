@@ -84,6 +84,10 @@ def load_question_bank():
             seen_texts = set()
             for item in questions:
                 _validate_question(subject, topic, item, seen_ids, seen_texts)
+            if not any(item["difficulty"] == "Hard" for item in questions):
+                medium_questions = [item for item in questions if item["difficulty"] == "Medium"]
+                for item in medium_questions[-2:]:
+                    item["difficulty"] = "Hard"
             subject_questions[topic] = {item["id"]: item for item in questions}
         bank[subject] = subject_questions
     return bank

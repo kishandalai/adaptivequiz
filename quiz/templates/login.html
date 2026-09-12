@@ -4,15 +4,27 @@
 
 {% block content %}
 <section class="auth-page container">
-    <div class="form-box auth-card">
-        <p class="eyebrow">Welcome back</p>
-        <h2>Login to AdaptiveQuiz</h2>
-        <form method="post" class="auth-form">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="btn btn-primary full-width">Login</button>
-        </form>
-        <p class="auth-switch">Need an account? <a href="{% url 'register' %}">Register</a></p>
+    <div class="auth-layout">
+        <div class="auth-intro">
+            <span class="auth-intro-mark">A</span>
+            <p class="eyebrow">Welcome back</p>
+            <h1>Pick up where your progress left off.</h1>
+            <p>Return to focused practice, adaptive quizzes, and clearer insight into what to learn next.</p>
+            <div class="auth-pulse" aria-label="AdaptiveQuiz highlights">
+                <span><strong>08</strong> subjects</span>
+                <span><strong>24/7</strong> practice</span>
+            </div>
+        </div>
+        <div class="form-box auth-card">
+            <p class="eyebrow">Your learning space</p>
+            <h2>Login to AdaptiveQuiz</h2>
+            <form method="post" class="auth-form">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary full-width">Login</button>
+            </form>
+            <p class="auth-switch">Need an account? <a href="{% url 'register' %}">Register</a></p>
+        </div>
     </div>
 </section>
 {% endblock %}

@@ -1,4 +1,5 @@
 import json
+import random
 from datetime import timedelta
 
 from django.conf import settings
@@ -17,7 +18,7 @@ from .forms import LoginForm, QuizSelectionForm, RegistrationForm
 from .gemini_service import generate_question
 from .learning_notes import LANGUAGE_DEFINITIONS, all_search_items, get_languages
 from .models import AnswerRecord, Question, QuizAttempt, TopicPerformance
-from .question_bank import QuestionBankError, get_bank_question, load_question_bank, select_question_ids
+from .question_bank import QuestionBankError, get_bank_question, get_topic_questions
 from .utils import get_topics_for_subject, get_default_quiz_length, normalize_question_text
 
 
@@ -118,6 +119,7 @@ def home(request):
 def technical_languages(request):
     query = request.GET.get("q", "").strip()
     results = []
+    languages = get_languages()
     if query:
         query_lower = query.lower()
         results = [
@@ -125,7 +127,7 @@ def technical_languages(request):
             if query_lower in item["title"].lower() or query_lower in item["description"].lower() or query_lower in item.get("matching_section", "").lower()
         ]
     return render(request, "technical_languages.html", {
-        "languages": get_languages(),
+        "languages": list(languages.values()),
         "query": query,
         "results": results,
     })
@@ -281,8 +283,8 @@ def select_quiz(request):
             subject = form.cleaned_data["subject"]
             topic = form.cleaned_data["topic"]
             try:
-                selected_question_ids = select_question_ids(subject, topic, get_default_quiz_length())
-            except (QuestionBankError, KeyError):
+                get_bank_question(subject, topic, next(iter(get_topic_questions(subject, topic))))
+            except (QuestionBankError, KeyError, StopIteration):
                 messages.error(request, "This topic does not have a valid 13-question bank yet.")
                 return redirect("select_quiz")
             request.session["quiz_subject"] = subject
@@ -304,7 +306,7 @@ def select_quiz(request):
                 current_difficulty="Easy",
                 highest_difficulty="Easy",
                 status="in_progress",
-                selected_question_ids=selected_question_ids,
+                selected_question_ids=[],
             )
             request.session["quiz_attempt_id"] = attempt.id
             return redirect("quiz_page")
@@ -348,11 +350,26 @@ def quiz_page(request):
     if question_index >= quiz_length:
         return redirect("quiz_result")
 
-    question_id = attempt.selected_question_ids[question_index]
     try:
-        item = get_bank_question(subject, topic, question_id)
+        questions = get_topic_questions(subject, topic)
+        selected_ids = list(attempt.selected_question_ids or [])
+        if question_index < len(selected_ids):
+            item = questions.get(selected_ids[question_index])
+        else:
+            available_questions = [
+                item for question_id, item in questions.items()
+                if question_id not in selected_ids
+            ]
+            matching_questions = [
+                item for item in available_questions
+                if item["difficulty"] == current_difficulty
+            ]
+            item = random.choice(matching_questions or available_questions)
         if item is None:
             raise QuestionBankError("Selected question is missing from the question bank.")
+        if question_index >= len(selected_ids):
+            attempt.selected_question_ids = selected_ids + [item["id"]]
+            attempt.save(update_fields=["selected_question_ids"])
     except (QuestionBankError, KeyError, IndexError):
         messages.error(request, "The question bank is invalid for this quiz topic.")
         return redirect("select_quiz")
